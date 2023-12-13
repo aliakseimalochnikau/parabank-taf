@@ -1,6 +1,6 @@
 from src.base.base_element import BaseElement
 from src.config.links import Links
-from src.pages.common_page import CommonPage
+from src.pages.common_page.common_page import CommonPage
 
 
 class AccountsOverviewPage(CommonPage):
@@ -8,7 +8,7 @@ class AccountsOverviewPage(CommonPage):
         super().__init__(driver)
 
         self.greeting_text = BaseElement(
-            driver, "//*[text()=' John Smith']"
+            driver, "//div[@id='leftPanel']/p"
         )
 
     PAGE_URL = Links.ACCOUNTS_OVERVIEW_PAGE
