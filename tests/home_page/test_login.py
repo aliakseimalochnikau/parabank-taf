@@ -29,7 +29,7 @@ class TestLogin:
             current_url = overview_page.get_current_url()
             expected_message = f"Welcome {ActiveUser.FIRST_NAME} {ActiveUser.LAST_NAME}"
             current_message = overview_page.greeting_text.get_text()
-            assert expected_url in current_url, f"Expected '{expected_url}', but got '{current_url}'"
+            assert expected_url in current_url, f"Expected '{expected_url}' URL, but got '{current_url}'"
             assert expected_message in current_message, (f"Expected '{expected_message}' message, but got "
                                                          f"'{current_message}'.")
 

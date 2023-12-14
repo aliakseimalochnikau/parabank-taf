@@ -7,8 +7,6 @@ load_dotenv()
 
 @dataclass
 class ActiveUser:
-
-    # Existing user
     FIRST_NAME = os.getenv("FIRST_NAME")
     LAST_NAME = os.getenv("LAST_NAME")
     LOGIN = os.getenv("LOGIN")
@@ -30,4 +28,3 @@ class NewUser:
     username: str
     password: str
     email: str
-

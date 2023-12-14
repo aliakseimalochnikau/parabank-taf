@@ -22,7 +22,7 @@ class RegisterPage(HomePage):
         self.register_button = BaseElement(driver, "//*[@value='Register']")
 
         # Texts
-        self.welcome_username_text = BaseElement(driver, "//*[@class='title']")
+        self.welcome_username_text = BaseElement(driver, "//h1[contains(text(), 'Welcome')]")
 
         # Lists
         self.errors_list = BaseElement(driver, "//*[@class='error']")

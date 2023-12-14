@@ -37,7 +37,7 @@ class BaseElement:
         action = ActionChains(self.driver)
         action.move_to_element(element).perform()
 
-    def count_elements(self):
+    def count_elements(self) -> int:
         elements = self.assert_element(return_many=True)
         return len(elements)
 

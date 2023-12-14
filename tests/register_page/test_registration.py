@@ -7,7 +7,7 @@ from src.pages.home_page.register_page import RegisterPage
 
 
 @allure.feature("Registration")
-class TestRegisterPage:
+class TestRegistration:
     @pytest.mark.smoke
     @allure.title("User can successfully register by filling in all the fields.")
     def test_successful_registration(self, driver):
