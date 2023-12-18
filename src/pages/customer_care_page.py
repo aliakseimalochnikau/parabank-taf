@@ -1,9 +1,9 @@
 from src.base.base_element import BaseElement
+from src.base.base_page import BasePage
 from src.config.links import Links
-from src.pages.home_page.home_page import HomePage
 
 
-class CustomerCarePage(HomePage):
+class CustomerCarePage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
 

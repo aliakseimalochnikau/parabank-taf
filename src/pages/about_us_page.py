@@ -1,8 +1,8 @@
+from src.base.base_page import BasePage
 from src.config.links import Links
-from src.pages.home_page.home_page import HomePage
 
 
-class AboutUsPage(HomePage):
+class AboutUsPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
 

@@ -1,14 +1,14 @@
 import random
 import allure
 import pytest
-from src.utils.generator import generated_data
-from src.pages.home_page.home_page import HomePage
-from src.pages.home_page.register_page import RegisterPage
+from src.utils.data_generator import generated_data
+from src.pages.home_page import HomePage
+from src.pages.register_page import RegisterPage
 
 
 @allure.feature("Registration")
 class TestRegistration:
-    @pytest.mark.smoke
+    @pytest.mark.smoke 
     @allure.title("User can successfully register by filling in all the fields.")
     def test_successful_registration(self, driver):
         with allure.step("Navigate to Home page"):
@@ -19,30 +19,18 @@ class TestRegistration:
         with allure.step("Navigate to Register page"):
             home_page.register_link.click()
             register_page = RegisterPage(driver)
-            assert register_page.PAGE_URL in register_page.get_current_url()
+            register_page.is_opened()
 
         with allure.step("Fill in the fields"):
-            new_user = next(generated_data())
-            register_page.first_name_field.send_text(new_user.first_name)
-            register_page.last_name_field.send_text(new_user.last_name)
-            register_page.address_field.send_text(new_user.address)
-            register_page.city_field.send_text(new_user.city)
-            register_page.state_field.send_text(new_user.state)
-            register_page.zip_code_field.send_text(new_user.zip_code)
-            register_page.phone_number_field.send_text(new_user.phone_number)
-            register_page.ssn_field.send_text(new_user.ssn)
-            register_page.username_field.send_text(new_user.username)
-            register_page.password_field.send_text(new_user.password)
-            register_page.confirm_password_field.send_text(new_user.password)
+            new_user = register_page.new_registration()
 
-        with allure.step("Submit the form"):
+        with (allure.step("Submit the form")):
             register_page.register_button.click()
+            # Processing the case of existing username
+            checked_user = register_page.re_generate_username(new_user)
 
         with allure.step("Check registration is successful"):
-            expected_message = f"Welcome {new_user.username}"
-            current_message = register_page.welcome_username_text.get_text()
-            assert expected_message in current_message, (f"Expected '{expected_message}' message, but got "
-                                                         f"'{current_message}'.")
+            register_page.welcome_username_text.assert_text(f"Welcome {checked_user.username}")
 
     @allure.title("User can't successfully register by submitting an empty form.")
     def test_registration_with_empty_form(self, driver):
@@ -54,16 +42,13 @@ class TestRegistration:
         with allure.step("Navigate to Register page"):
             home_page.register_link.click()
             register_page = RegisterPage(driver)
-            assert register_page.PAGE_URL in register_page.get_current_url()
+            register_page.is_opened()
 
         with allure.step("Submit the form with empty fields"):
             register_page.register_button.click()
 
         with allure.step("Check error message is displayed for each field left empty"):
-            expected_error_count = 10
-            current_error_count = register_page.errors_list.count_elements()
-            assert expected_error_count == current_error_count, (f"Expected {expected_error_count} errors, but got "
-                                                                 f"{current_error_count}.")
+            register_page.errors_list.assert_error_count(10)
 
     @allure.title("User can't successfully register by leaving one of the fields empty.")
     def test_registration_with_empty_random_field(self, driver):
@@ -75,7 +60,7 @@ class TestRegistration:
         with allure.step("Navigate to Register page"):
             home_page.register_link.click()
             register_page = RegisterPage(driver)
-            assert register_page.PAGE_URL in register_page.get_current_url()
+            register_page.is_opened()
 
         with allure.step("Fill in all the required fields but one"):
             new_user = next(generated_data())
@@ -117,10 +102,7 @@ class TestRegistration:
                 }
 
                 error_locator, error_text = field_errors[no_fill_num]
-                expected_message = error_text
-                current_message = error_locator.get_text()
-                assert expected_message in current_message, (f"Expected '{expected_message}' message, but got "
-                                                             f"'{current_message}'.")
+                error_locator.assert_text(error_text)
 
     @allure.title("User can't successfully register by providing mismatched passwords")
     def test_registration_with_mismatched_passwords(self, driver):
@@ -132,28 +114,49 @@ class TestRegistration:
         with allure.step("Navigate to Register page"):
             home_page.register_link.click()
             register_page = RegisterPage(driver)
-            assert register_page.PAGE_URL in register_page.get_current_url()
+            register_page.is_opened()
 
-        with allure.step("Fill in the fields"):
-            new_user = next(generated_data())
-            register_page.first_name_field.send_text(new_user.first_name)
-            register_page.last_name_field.send_text(new_user.last_name)
-            register_page.address_field.send_text(new_user.address)
-            register_page.city_field.send_text(new_user.city)
-            register_page.state_field.send_text(new_user.state)
-            register_page.zip_code_field.send_text(new_user.zip_code)
-            register_page.phone_number_field.send_text(new_user.phone_number)
-            register_page.ssn_field.send_text(new_user.ssn)
-            register_page.username_field.send_text(new_user.username)
-            register_page.password_field.send_text(new_user.password)
-            register_page.confirm_password_field.send_text("somerandompassword_823!")
+        with allure.step("Fill in the fields with mismatched passwords"):
+            register_page.missmatch_pass_registration()
 
-        with allure.step("Submit the form with mismatched passwords"):
+        with allure.step("Submit the form"):
             register_page.register_button.click()
 
         with allure.step("Check error message is displayed"):
-            expected_message = f"Passwords did not match"
-            current_message = register_page.confirm_password_error.get_text()
-            assert expected_message in current_message, (f"Expected '{expected_message}' message, but got "
-                                                         f"'{current_message}'.")
+            register_page.confirm_password_error.assert_error("Passwords did not match.")
 
+    @allure.title("User can't successfully register with existing username.")
+    def test_registration_of_existing_user(self, driver):
+        with allure.step("Navigate to Home page"):
+            home_page = HomePage(driver)
+            home_page.open_page()
+            home_page.is_opened()
+
+        with allure.step("Navigate to Register page"):
+            home_page.register_link.click()
+            register_page = RegisterPage(driver)
+            register_page.is_opened()
+
+        with allure.step("Register a new user"):
+            new_user = register_page.new_registration()
+
+        with (allure.step("Submit the form")):
+            register_page.register_button.click()
+
+        with (allure.step("Log out")):
+            register_page.log_out_link.click()
+            home_page.is_opened()
+
+        with (allure.step("Navigate to Register page")):
+            home_page.register_link.is_visible()
+            home_page.register_link.click()
+            register_page.is_opened()
+
+        with allure.step("Register a user with the same username"):
+            register_page.repeat_registration(new_user)
+
+        with allure.step("Submit the form"):
+            register_page.register_button.click()
+
+        with allure.step("Check error message is displayed"):
+            register_page.username_error.assert_error("This username already exists.")

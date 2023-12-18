@@ -1,8 +1,8 @@
 import allure
 import pytest
-from src.pages.common_page.overview_page import AccountsOverviewPage
-from src.pages.home_page.home_page import HomePage
-from src.pages.home_page.login_page import LoginPage
+from src.pages.overview_page import AccountsOverviewPage
+from src.pages.home_page import HomePage
+from src.pages.login_page import LoginPage
 from src.config.data import ActiveUser
 
 
@@ -25,13 +25,8 @@ class TestLogin:
 
         with allure.step("Check user is logged in"):
             overview_page = AccountsOverviewPage(driver)
-            expected_url = overview_page.PAGE_URL
-            current_url = overview_page.get_current_url()
-            expected_message = f"Welcome {ActiveUser.FIRST_NAME} {ActiveUser.LAST_NAME}"
-            current_message = overview_page.greeting_text.get_text()
-            assert expected_url in current_url, f"Expected '{expected_url}' URL, but got '{current_url}'"
-            assert expected_message in current_message, (f"Expected '{expected_message}' message, but got "
-                                                         f"'{current_message}'.")
+            overview_page.is_opened()
+            overview_page.greeting_text.assert_text(f"Welcome {ActiveUser.FIRST_NAME} {ActiveUser.LAST_NAME}")
 
     @allure.title("User can't successfully log in with invalid password.")
     def test_login_with_invalid_password(self, driver):
@@ -49,13 +44,7 @@ class TestLogin:
 
         with allure.step("Check error message is displayed"):
             login_page = LoginPage(driver)
-            expected_error = "The username and password could not be verified."
-            server_error = "An internal error has occurred and has been logged."
-            current_error = login_page.error_text.get_text()
-            if server_error in current_error:
-                pytest.xfail(reason="Known server-side issue")
-            else:
-                assert expected_error in current_error, f"Expected '{expected_error}' error, but got '{current_error}'."
+            login_page.error_text.assert_error("The username and password could not be verified.")
 
     @allure.title("User can't successfully log in with invalid username.")
     def test_login_with_invalid_username(self, driver):
@@ -70,16 +59,10 @@ class TestLogin:
 
         with allure.step("Log in"):
             home_page.log_in_button.click()
-            login_page = LoginPage(driver)
 
         with allure.step("Check error message is displayed"):
-            expected_error = "The username and password could not be verified."
-            server_error = "An internal error has occurred and has been logged."
-            current_error = login_page.error_text.get_text()
-            if server_error in current_error:
-                pytest.xfail(reason="Known server-side issue")
-            else:
-                assert expected_error in current_error, f"Expected '{expected_error}' error, but got '{current_error}'."
+            login_page = LoginPage(driver)
+            login_page.error_text.assert_error("The username and password could not be verified.")
 
     @allure.title("User can't successfully log in with empty username.")
     def test_login_with_empty_username(self, driver):
@@ -96,9 +79,7 @@ class TestLogin:
 
         with allure.step("Check error message is displayed"):
             login_page = LoginPage(driver)
-            expected_error = "Please enter a username and password."
-            current_error = login_page.error_text.get_text()
-            assert expected_error in current_error, f"Expected '{expected_error}' error, but got '{current_error}'."
+            login_page.error_text.assert_error("Please enter a username and password.")
 
     @allure.title("User can't successfully log in with empty password.")
     def test_login_with_empty_password(self, driver):
@@ -115,6 +96,4 @@ class TestLogin:
 
         with allure.step("Check error message is displayed"):
             login_page = LoginPage(driver)
-            expected_error = "Please enter a username and password."
-            current_error = login_page.error_text.get_text()
-            assert expected_error in current_error, f"Expected '{expected_error}' error, but got '{current_error}'."
+            login_page.error_text.assert_error("Please enter a username and password.")

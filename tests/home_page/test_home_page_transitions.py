@@ -1,9 +1,9 @@
 import allure
-from src.pages.home_page.about_us_page import AboutUsPage
-from src.pages.home_page.customer_care_page import CustomerCarePage
-from src.pages.home_page.customer_lookup_page import CustomerLookupPage
-from src.pages.home_page.home_page import HomePage
-from src.pages.home_page.register_page import RegisterPage
+from src.pages.about_us_page import AboutUsPage
+from src.pages.customer_care_page import CustomerCarePage
+from src.pages.customer_lookup_page import CustomerLookupPage
+from src.pages.home_page import HomePage
+from src.pages.register_page import RegisterPage
 
 
 @allure.feature("Home page transitions")
@@ -20,9 +20,7 @@ class TestHomePageTransitions:
 
         with allure.step("Check user is redirected to Customer Lookup page"):
             customer_lookup_page = CustomerLookupPage(driver)
-            expected_url = customer_lookup_page.PAGE_URL
-            current_url = customer_lookup_page.get_current_url()
-            assert expected_url in current_url, f"Expected '{expected_url}' URL, but got '{current_url}'."
+            customer_lookup_page.is_opened()
 
     @allure.title("User can proceed from Home page to Register page")
     def test_transition_home_to_register(self, driver):
@@ -36,9 +34,7 @@ class TestHomePageTransitions:
 
         with allure.step("Check user is redirected to Register page"):
             register_page = RegisterPage(driver)
-            expected_url = register_page.PAGE_URL
-            current_url = register_page.get_current_url()
-            assert expected_url in current_url, f"Expected '{expected_url}' URL, but got '{current_url}'."
+            register_page.is_opened()
 
     @allure.title("User can proceed from Home page to Customer Care page")
     def test_transition_home_to_customer_care(self, driver):
@@ -52,9 +48,7 @@ class TestHomePageTransitions:
 
         with allure.step("Check user is redirected to Customer Care page"):
             customer_care_page = CustomerCarePage(driver)
-            expected_url = customer_care_page.PAGE_URL
-            current_url = customer_care_page.get_current_url()
-            assert expected_url in current_url, f"Expected '{expected_url}' URL, but got '{current_url}'."
+            customer_care_page.is_opened()
 
     @allure.title("User can proceed from Home page to About Us page")
     def test_transition_home_to_about_us(self, driver):
@@ -68,7 +62,5 @@ class TestHomePageTransitions:
 
         with allure.step("Check user is redirected to About Us page"):
             about_us_page = AboutUsPage(driver)
-            expected_url = about_us_page.PAGE_URL
-            current_url = about_us_page.get_current_url()
-            assert expected_url in current_url, f"Expected '{expected_url}' URL, but got '{current_url}'."
+            about_us_page.is_opened()
 
