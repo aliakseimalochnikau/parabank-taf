@@ -24,7 +24,7 @@ class TestRegistration:
         with allure.step("Fill in the fields"):
             new_user = register_page.new_registration()
 
-        with (allure.step("Submit the form")):
+        with allure.step("Submit the form"):
             register_page.register_button.click()
             # Processing the case of existing username
             checked_user = register_page.re_generate_username(new_user)
@@ -140,14 +140,14 @@ class TestRegistration:
         with allure.step("Register a new user"):
             new_user = register_page.new_registration()
 
-        with (allure.step("Submit the form")):
+        with allure.step("Submit the form"):
             register_page.register_button.click()
 
-        with (allure.step("Log out")):
+        with allure.step("Log out"):
             register_page.log_out_link.click()
             home_page.is_opened()
 
-        with (allure.step("Navigate to Register page")):
+        with allure.step("Navigate to Register page"):
             home_page.register_link.is_visible()
             home_page.register_link.click()
             register_page.is_opened()
