@@ -17,4 +17,13 @@ class CustomerLookupPage(BasePage):
         self.ssn_field = BaseElement(driver, "//*[@id='ssn']")
         self.find_my_login_info_button = BaseElement(driver, "//*[@value='Find My Login Info']")
 
+        # Errors
+        self.first_name_error = BaseElement(driver, "//*[@id='firstName.errors']")
+        self.last_name_error = BaseElement(driver, "//*[@id='lastName.errors']")
+        self.address_error = BaseElement(driver, "//*[@id='address.street.errors']")
+        self.city_error = BaseElement(driver, "//*[@id='address.city.errors']")
+        self.state_error = BaseElement(driver, "//*[@id='address.state.errors']")
+        self.zip_code_error = BaseElement(driver, "//*[@id='address.zipCode.errors']")
+        self.ssn_error = BaseElement(driver, "//*[@id='ssn.errors']")
+
     PAGE_URL = Links.CUSTOMER_LOOKUP_PAGE

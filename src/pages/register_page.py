@@ -26,7 +26,6 @@ class RegisterPage(BasePage):
         self.welcome_username_text = BaseElement(driver, "//h1[contains(text(), 'Welcome')]")
 
         # Lists
-        self.errors_list = BaseElement(driver, "//*[@class='error']")
         self.input_field_list = BaseElement(driver, "//table//*[@class='input']")
 
         # Errors

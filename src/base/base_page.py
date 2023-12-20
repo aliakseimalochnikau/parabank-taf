@@ -1,6 +1,4 @@
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
+import random
 from src.base.base_element import BaseElement
 
 
@@ -27,6 +25,9 @@ class BasePage:
         # Texts
         self.greeting_text = BaseElement(driver, "//div[@id='leftPanel']/p")
 
+        # Lists
+        self.errors_list = BaseElement(driver, "//*[@class='error']")
+
     def open_page(self) -> None:
         self.driver.get(self.PAGE_URL)
 
@@ -38,3 +39,13 @@ class BasePage:
         current_url = self.driver.current_url
         assert expected_url in current_url, (f"Expected '{expected_url}' URL, but got "
                                              f"'{current_url}'.")
+
+    def populate_fields_but_one(self, field_number: int, fields_dict: dict):
+        no_fill_num = random.randint(1, field_number)
+        for i in range(1, field_number + 1):
+            if i == no_fill_num:
+                continue
+            else:
+                field, value = fields_dict[i]
+                field.send_text(value)
+

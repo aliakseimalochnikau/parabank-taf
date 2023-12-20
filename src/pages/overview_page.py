@@ -1,4 +1,3 @@
-from src.base.base_element import BaseElement
 from src.base.base_page import BasePage
 from src.config.links import Links
 
