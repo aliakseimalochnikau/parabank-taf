@@ -7,6 +7,9 @@ class CustomerLookupPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
 
+        # Page URL
+        self.PAGE_URL = Links.CUSTOMER_LOOKUP_PAGE
+
         # Fields and buttons
         self.first_name_field = BaseElement(driver, "//*[@id='firstName']")
         self.last_name_field = BaseElement(driver, "//*[@id='lastName']")
@@ -25,5 +28,3 @@ class CustomerLookupPage(BasePage):
         self.state_error = BaseElement(driver, "//*[@id='address.state.errors']")
         self.zip_code_error = BaseElement(driver, "//*[@id='address.zipCode.errors']")
         self.ssn_error = BaseElement(driver, "//*[@id='ssn.errors']")
-
-    PAGE_URL = Links.CUSTOMER_LOOKUP_PAGE

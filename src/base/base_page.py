@@ -1,4 +1,3 @@
-import random
 from src.base.base_element import BaseElement
 
 
@@ -16,11 +15,13 @@ class BasePage:
                                                     "//*[@id='leftPanel']//a[text()='Update Contact Info']")
         self.request_loan_link = BaseElement(driver, "//*[@id='leftPanel']//a[text()='Request Loan']")
         self.log_out_link = BaseElement(driver, "//*[@id='leftPanel']//a[text()='Log Out']")
+        self.register_link = BaseElement(driver, "//*[@id='loginPanel']//*[contains (@href, 'register')]")
+        self.forgot_login_link = BaseElement(driver, "//*[@id='loginPanel']//*[contains (@href, 'lookup')]")
+
+        # Buttons
         self.contact_button = BaseElement(driver, "//*[@class='contact']")
         self.about_us_button = BaseElement(driver, "//*[@class='aboutus']")
         self.home_button = BaseElement(driver, "//*[@class='home']")
-        self.register_link = BaseElement(driver, "//*[@id='loginPanel']//*[contains (@href, 'register')]")
-        self.forgot_login_link = BaseElement(driver, "//*[@id='loginPanel']//*[contains (@href, 'lookup')]")
 
         # Texts
         self.greeting_text = BaseElement(driver, "//div[@id='leftPanel']/p")
@@ -39,13 +40,3 @@ class BasePage:
         current_url = self.driver.current_url
         assert expected_url in current_url, (f"Expected '{expected_url}' URL, but got "
                                              f"'{current_url}'.")
-
-    def populate_fields_but_one(self, field_number: int, fields_dict: dict):
-        no_fill_num = random.randint(1, field_number)
-        for i in range(1, field_number + 1):
-            if i == no_fill_num:
-                continue
-            else:
-                field, value = fields_dict[i]
-                field.send_text(value)
-

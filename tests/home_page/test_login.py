@@ -1,6 +1,6 @@
 import allure
 import pytest
-from src.pages.overview_page import AccountsOverviewPage
+from src.pages.accounts_overview_page import AccountsOverviewPage
 from src.pages.home_page import HomePage
 from src.pages.login_page import LoginPage
 from src.config.data import ActiveUser

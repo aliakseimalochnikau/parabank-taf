@@ -4,7 +4,6 @@ import pytest
 from src.pages.customer_lookup_page import CustomerLookupPage
 from src.pages.home_page import HomePage
 from src.pages.register_page import RegisterPage
-from src.utils.data_generator import generated_data
 
 
 @allure.feature("Customer Lookup")
@@ -60,34 +59,9 @@ class TestCustomerLookup:
 
     @allure.title("User can't successfully lookup for credentials by submitting an empty form.")
     def test_lookup_with_empty_form(self, driver):
-        with allure.step("Navigate to Home page"):
-            home_page = HomePage(driver)
-            home_page.open_page()
-            home_page.is_opened()
-
-        with allure.step("Navigate to Register page"):
-            home_page.register_link.click()
-            register_page = RegisterPage(driver)
-            register_page.is_opened()
-
-        with allure.step("Fill in the fields"):
-            new_user = register_page.new_registration()
-
-        with allure.step("Submit the form"):
-            register_page.register_button.click()
-            # Processing the case of existing username
-            checked_user = register_page.re_generate_username(new_user)
-
-        with allure.step("Check registration is successful"):
-            register_page.welcome_username_text.assert_text(f"Welcome {checked_user.username}")
-
-        with allure.step("Log out"):
-            register_page.log_out_link.click()
-            home_page.is_opened()
-
         with allure.step("Navigate to Customer Lookup page"):
-            home_page.forgot_login_link.click()
             customer_lookup_page = CustomerLookupPage(driver)
+            customer_lookup_page.open_page()
             customer_lookup_page.is_opened()
 
         with allure.step("Submit the form with empty fields"):

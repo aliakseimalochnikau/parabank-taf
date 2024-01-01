@@ -11,14 +11,9 @@ class TestRegistration:
     @pytest.mark.smoke 
     @allure.title("User can successfully register by filling in all the fields.")
     def test_successful_registration(self, driver):
-        with allure.step("Navigate to Home page"):
-            home_page = HomePage(driver)
-            home_page.open_page()
-            home_page.is_opened()
-
         with allure.step("Navigate to Register page"):
-            home_page.register_link.click()
             register_page = RegisterPage(driver)
+            register_page.open_page()
             register_page.is_opened()
 
         with allure.step("Fill in the fields"):
@@ -34,14 +29,9 @@ class TestRegistration:
 
     @allure.title("User can't successfully register by submitting an empty form.")
     def test_registration_with_empty_form(self, driver):
-        with allure.step("Navigate to Home page"):
-            home_page = HomePage(driver)
-            home_page.open_page()
-            home_page.is_opened()
-
         with allure.step("Navigate to Register page"):
-            home_page.register_link.click()
             register_page = RegisterPage(driver)
+            register_page.open_page()
             register_page.is_opened()
 
         with allure.step("Submit the form with empty fields"):
@@ -52,14 +42,9 @@ class TestRegistration:
 
     @allure.title("User can't successfully register by leaving one of the fields empty.")
     def test_registration_with_empty_random_field(self, driver):
-        with allure.step("Navigate to Home page"):
-            home_page = HomePage(driver)
-            home_page.open_page()
-            home_page.is_opened()
-
         with allure.step("Navigate to Register page"):
-            home_page.register_link.click()
             register_page = RegisterPage(driver)
+            register_page.open_page()
             register_page.is_opened()
 
         with allure.step("Fill in all the required fields but one"):
@@ -106,14 +91,9 @@ class TestRegistration:
 
     @allure.title("User can't successfully register by providing mismatched passwords")
     def test_registration_with_mismatched_passwords(self, driver):
-        with allure.step("Navigate to Home page"):
-            home_page = HomePage(driver)
-            home_page.open_page()
-            home_page.is_opened()
-
         with allure.step("Navigate to Register page"):
-            home_page.register_link.click()
             register_page = RegisterPage(driver)
+            register_page.open_page()
             register_page.is_opened()
 
         with allure.step("Fill in the fields with mismatched passwords"):
@@ -127,14 +107,9 @@ class TestRegistration:
 
     @allure.title("User can't successfully register with existing username.")
     def test_registration_of_existing_user(self, driver):
-        with allure.step("Navigate to Home page"):
-            home_page = HomePage(driver)
-            home_page.open_page()
-            home_page.is_opened()
-
         with allure.step("Navigate to Register page"):
-            home_page.register_link.click()
             register_page = RegisterPage(driver)
+            register_page.open_page()
             register_page.is_opened()
 
         with allure.step("Register a new user"):
@@ -145,6 +120,7 @@ class TestRegistration:
 
         with allure.step("Log out"):
             register_page.log_out_link.click()
+            home_page = HomePage(driver)
             home_page.is_opened()
 
         with allure.step("Navigate to Register page"):

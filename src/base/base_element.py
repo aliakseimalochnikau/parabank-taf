@@ -1,6 +1,9 @@
+import time
+
 import pytest
 from selenium.common import TimeoutException
 from selenium.webdriver import ActionChains
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -9,7 +12,7 @@ class BaseElement:
     def __init__(self, driver, xpath):
         self.driver = driver
         self.xpath = xpath
-        self.wait = WebDriverWait(self.driver, 15, 1)
+        self.wait = WebDriverWait(self.driver, 15)
 
     def assert_element(self, clickable=False, return_many=False):
         self.wait.until(EC.presence_of_element_located(("xpath", self.xpath)))
@@ -34,14 +37,23 @@ class BaseElement:
         element = self.assert_element()
         return element.text
 
+    def get_text_of_elements(self) -> list:
+        elements = self.assert_element(return_many=True)
+        return [element.text for element in elements]
+
     def hover_over(self) -> None:
         element = self.assert_element(clickable=True)
         action = ActionChains(self.driver)
         action.move_to_element(element).perform()
 
-    def count_elements(self) -> int:
+    def select_element_by_index(self, index):
+        element = Select(self.assert_element(clickable=True))
+        element.select_by_index(index)
+
+    def count_elements(self, correction=0) -> int:
+        # time.sleep(0.5)
         elements = self.assert_element(return_many=True)
-        return len(elements)
+        return len(elements) - correction
 
     def is_invisible(self):
         try:
@@ -67,7 +79,14 @@ class BaseElement:
             assert expected_error in current_error, f"Expected '{expected_error}' error, but got '{current_error}'."
 
     def assert_text(self, expected_text: str):
-        current_text = self.get_text()
+        # element = self.wait.until(EC.visibility_of_element_located(("xpath", self.xpath)))
+        # self.wait.until(lambda driver: element.text.strip() != '')
+        current_text = None
+        for _ in range(10):
+            current_text = self.get_text()
+            if current_text != '':
+                break
+            time.sleep(0.5)
         assert expected_text in current_text, (f"Expected '{expected_text}' message, but got "
                                                f"'{current_text}'.")
 
@@ -76,6 +95,7 @@ class BaseElement:
         assert expected_error_count == current_error_count, (f"Expected {expected_error_count} errors, but got "
                                                              f"{current_error_count}.")
 
-
-
-
+    def assert_element_count(self, expected_element_count: int, correction=0):
+        current_element_count = self.count_elements() - correction
+        assert expected_element_count == current_element_count, (f"Expected {expected_element_count} elements, but got "
+                                                                 f"{current_element_count}.")

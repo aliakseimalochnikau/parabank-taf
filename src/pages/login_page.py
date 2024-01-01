@@ -7,7 +7,8 @@ class LoginPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
 
+        # Page URL
+        self.PAGE_URL = Links.LOGIN_PAGE
+
         # Errors
         self.error_text = BaseElement(driver, "//*[@class='error']")
-
-    PAGE_URL = Links.LOGIN_PAGE
