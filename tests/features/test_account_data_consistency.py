@@ -1,8 +1,6 @@
 import time
-
 import allure
 import pytest
-
 from src.config.data import ActiveUser
 from src.pages.account_activity_page import AccountActivityPage
 from src.pages.accounts_overview_page import AccountsOverviewPage
@@ -32,9 +30,10 @@ class TestAccountDataConsistency:
             elements = accounts_overview_page.balance.get_text_of_elements()
             balances = [float(element.replace("$", "")) for element in elements]
             total = balances.pop(-1)
+            balances_sum = round(sum(balances), 2)
 
         with allure.step("Check sum of balances matches total"):
-            assert sum(balances) == total
+            assert balances_sum == total, f"{balances_sum} != {total}"
 
     @allure.title("Balance and amount are consistent across Accounts Overview and Account Details pages")
     def test_balance_and_amount_consistency_across_pages(self, driver):
