@@ -27,8 +27,9 @@ class TestAccountDataConsistency:
 
         with allure.step("Sum balances across opened accounts"):
             time.sleep(.5)
-            elements = accounts_overview_page.balance.get_text_of_elements()
-            balances = [float(element.replace("$", "")) for element in elements]
+            balances = accounts_overview_page.get_balances()
+            # elements = accounts_overview_page.balance.get_text_of_elements()
+            # balances = [float(element.replace("$", "")) for element in elements]
             total = balances.pop(-1)
             balances_sum = round(sum(balances), 2)
 

@@ -73,4 +73,4 @@ class TestEmailSupportRequest:
                 4: (contact_page.message_error, "Message is required."),
             }
             error_locator, error_text = field_errors[no_fill_num]
-            error_locator.assert_text(error_text)
+            error_locator.assert_error(error_text)

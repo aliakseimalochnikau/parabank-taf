@@ -87,7 +87,7 @@ class TestRegistration:
                 }
 
                 error_locator, error_text = field_errors[no_fill_num]
-                error_locator.assert_text(error_text)
+                error_locator.assert_error(error_text)
 
     @allure.title("User can't successfully register by providing mismatched passwords")
     def test_registration_with_mismatched_passwords(self, driver):

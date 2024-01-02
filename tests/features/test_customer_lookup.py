@@ -135,5 +135,5 @@ class TestCustomerLookup:
             }
 
             error_locator, error_text = field_errors[no_fill_num]
-            error_locator.assert_text(error_text)
+            error_locator.assert_error(error_text)
 

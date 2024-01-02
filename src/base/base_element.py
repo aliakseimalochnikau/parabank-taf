@@ -46,9 +46,13 @@ class BaseElement:
         action = ActionChains(self.driver)
         action.move_to_element(element).perform()
 
-    def select_element_by_index(self, index):
-        element = Select(self.assert_element(clickable=True))
-        element.select_by_index(index)
+    def select_by_index(self, index):
+        select = Select(self.driver.find_element("xpath", self.xpath))
+        select.select_by_index(index)
+
+    def select_by_value(self, value):
+        select = Select(self.assert_element())
+        select.select_by_value(value)
 
     def count_elements(self, correction=0) -> int:
         # time.sleep(0.5)

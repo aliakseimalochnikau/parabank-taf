@@ -110,7 +110,6 @@ class TestAccountsOverviewPageNavigation:
             accounts_overview_page.home_button.click()
 
         with allure.step("Check user is redirected to Home page"):
-            home_page = HomePage(driver)
             home_page.is_opened()
 
     # Account Services navigation
@@ -273,6 +272,5 @@ class TestAccountsOverviewPageNavigation:
             accounts_overview_page.log_out_link.click()
 
         with allure.step("Check user is redirected to Home page"):
-            home_page = HomePage(driver)
             home_page.is_opened()
             home_page.log_in_button.is_visible()
