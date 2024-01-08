@@ -1,8 +1,6 @@
 import time
-
 import pytest
 from selenium.common import TimeoutException
-from selenium.webdriver import ActionChains
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -20,6 +18,7 @@ class BaseElement:
         if clickable:
             self.wait.until(EC.element_to_be_clickable(("xpath", self.xpath)))
         if return_many:
+            self.wait.until(EC.visibility_of_all_elements_located(("xpath", self.xpath)))
             result = self.driver.find_elements("xpath", self.xpath)
         else:
             result = self.driver.find_element("xpath", self.xpath)
@@ -41,21 +40,11 @@ class BaseElement:
         elements = self.assert_element(return_many=True)
         return [element.text for element in elements]
 
-    def hover_over(self) -> None:
-        element = self.assert_element(clickable=True)
-        action = ActionChains(self.driver)
-        action.move_to_element(element).perform()
-
     def select_by_index(self, index):
         select = Select(self.driver.find_element("xpath", self.xpath))
         select.select_by_index(index)
 
-    def select_by_value(self, value):
-        select = Select(self.assert_element())
-        select.select_by_value(value)
-
     def count_elements(self, correction=0) -> int:
-        # time.sleep(0.5)
         elements = self.assert_element(return_many=True)
         return len(elements) - correction
 
@@ -83,8 +72,6 @@ class BaseElement:
             assert expected_error in current_error, f"Expected '{expected_error}' error, but got '{current_error}'."
 
     def assert_text(self, expected_text: str):
-        # element = self.wait.until(EC.visibility_of_element_located(("xpath", self.xpath)))
-        # self.wait.until(lambda driver: element.text.strip() != '')
         current_text = None
         for _ in range(10):
             current_text = self.get_text()
@@ -100,6 +87,6 @@ class BaseElement:
                                                              f"{current_error_count}.")
 
     def assert_element_count(self, expected_element_count: int, correction=0):
-        current_element_count = self.count_elements() - correction
+        current_element_count = self.count_elements(correction)
         assert expected_element_count == current_element_count, (f"Expected {expected_element_count} elements, but got "
                                                                  f"{current_element_count}.")

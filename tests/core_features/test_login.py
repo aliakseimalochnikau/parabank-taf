@@ -6,9 +6,11 @@ from src.pages.login_page import LoginPage
 from src.config.data import ActiveUser
 
 
-@allure.feature("Login")
+@allure.epic("PARA-15240: User registration and authentication")
+@allure.feature("PARA-15261: User login")
 class TestLogin:
     @pytest.mark.smoke
+    @allure.severity("Blocker")
     @allure.title("User can successfully log in with valid credentials.")
     def test_login_with_valid_credentials(self, driver):
         with allure.step("Navigate to Home page"):
@@ -28,6 +30,7 @@ class TestLogin:
             overview_page.is_opened()
             overview_page.greeting_text.assert_text(f"Welcome {ActiveUser.FIRST_NAME} {ActiveUser.LAST_NAME}")
 
+    @allure.severity("Minor")
     @allure.title("User can't successfully log in with invalid password.")
     def test_login_with_invalid_password(self, driver):
         with allure.step("Navigate to Home page"):
@@ -46,6 +49,7 @@ class TestLogin:
             login_page = LoginPage(driver)
             login_page.error_text.assert_error("The username and password could not be verified.")
 
+    @allure.severity("Minor")
     @allure.title("User can't successfully log in with invalid username.")
     def test_login_with_invalid_username(self, driver):
         with allure.step("Navigate to Home page"):
@@ -64,6 +68,7 @@ class TestLogin:
             login_page = LoginPage(driver)
             login_page.error_text.assert_error("The username and password could not be verified.")
 
+    @allure.severity("Minor")
     @allure.title("User can't successfully log in with empty username.")
     def test_login_with_empty_username(self, driver):
         with allure.step("Navigate to Home page"):
@@ -81,6 +86,7 @@ class TestLogin:
             login_page = LoginPage(driver)
             login_page.error_text.assert_error("Please enter a username and password.")
 
+    @allure.severity("Minor")
     @allure.title("User can't successfully log in with empty password.")
     def test_login_with_empty_password(self, driver):
         with allure.step("Navigate to Home page"):

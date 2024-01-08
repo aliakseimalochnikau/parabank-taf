@@ -1,13 +1,13 @@
-import random
 import allure
-import pytest
 from src.config.data import ActiveUser
 from src.pages.contact_page import ContactPage
+from src.utils.empty_field_picker import fill_form_with_empty_random_field
 
 
-@allure.feature("Email support request")
+@allure.epic("PARA-15243: User support")
+@allure.feature("PARA-15280: Email support request")
 class TestEmailSupportRequest:
-    @pytest.mark.smoke
+    @allure.severity("Normal")
     @allure.title("User can successfully send email support request.")
     def test_successful_email_support_request(self, driver):
         with allure.step("Navigate to Customer Care page"):
@@ -16,7 +16,7 @@ class TestEmailSupportRequest:
             contact_page.is_opened()
 
         with allure.step("Fill in request form"):
-            contact_page.name_field.send_text(ActiveUser.FIRST_NAME)
+            contact_page.name_field.send_text(f"{ActiveUser.FIRST_NAME} {ActiveUser.LAST_NAME}")
             contact_page.email_field.send_text(ActiveUser.EMAIL)
             contact_page.phone_field.send_text(ActiveUser.PHONE_NUMBER)
             contact_page.message_field.send_text("Please, reach out to me asap.")
@@ -27,6 +27,7 @@ class TestEmailSupportRequest:
         with allure.step("Check confirmation message is displayed"):
             contact_page.thank_you_text.assert_text(f"Thank you {ActiveUser.FIRST_NAME}")
 
+    @allure.severity("Minor")
     @allure.title("User can't successfully send email support request by submitting an empty form.")
     def test_email_support_request_with_empty_form(self, driver):
         with allure.step("Navigate to Customer Care page"):
@@ -40,6 +41,7 @@ class TestEmailSupportRequest:
         with allure.step("Check error message is displayed for each field left empty"):
             contact_page.errors_list.assert_error_count(4)
 
+    @allure.severity("Minor")
     @allure.title("User can't successfully send email support request by leaving one of the fields empty.")
     def test_email_support_request_with_empty_random_field(self, driver):
         with allure.step("Navigate to Customer Care page"):
@@ -54,13 +56,7 @@ class TestEmailSupportRequest:
                 3: (contact_page.phone_field, ActiveUser.PHONE_NUMBER),
                 4: (contact_page.message_field, "Please, reach out to me asap."),
             }
-            no_fill_num = random.randint(1, 4)
-            for i in range(1, 5):
-                if i == no_fill_num:
-                    continue
-                else:
-                    field, value = form_fields[i]
-                    field.send_text(value)
+            no_fill_num = fill_form_with_empty_random_field(form_fields, number_of_fields=4)
 
         with allure.step("Submit the form with one empty field"):
             contact_page.send_to_customer_care_button.click()

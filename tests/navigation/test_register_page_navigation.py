@@ -6,11 +6,13 @@ from src.pages.home_page import HomePage
 from src.pages.register_page import RegisterPage
 
 
-@allure.feature("Register page navigation")
+@allure.epic("PARA-15240: User registration and authentication")
+@allure.feature("PARA-15263: Register page navigation")
 class TestRegisterPageNavigation:
 
     # Basic navigation
     # =================================================================================
+    @allure.severity("Normal")
     @allure.title("User can proceed from Register page to Customer Lookup page")
     def test_navigation_register_to_customer_lookup(self, driver):
         with allure.step("Navigate to Register page"):
@@ -25,6 +27,7 @@ class TestRegisterPageNavigation:
             customer_lookup_page = CustomerLookupPage(driver)
             customer_lookup_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Register page to Contact page")
     def test_navigation_register_to_contact(self, driver):
         with allure.step("Navigate to Register page"):
@@ -39,6 +42,7 @@ class TestRegisterPageNavigation:
             contact_page = ContactPage(driver)
             contact_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Register page to About Us page")
     def test_navigation_register_to_about_us(self, driver):
         with allure.step("Navigate to Register page"):
@@ -53,6 +57,7 @@ class TestRegisterPageNavigation:
             about_us_page = AboutUsPage(driver)
             about_us_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Register page to Home page")
     def test_navigation_register_to_home(self, driver):
         with allure.step("Navigate to Register page"):

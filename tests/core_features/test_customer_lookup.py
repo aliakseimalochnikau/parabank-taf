@@ -1,14 +1,17 @@
-import random
 import allure
 import pytest
 from src.pages.customer_lookup_page import CustomerLookupPage
 from src.pages.home_page import HomePage
 from src.pages.register_page import RegisterPage
+from src.utils.block_checker import block_checker
+from src.utils.empty_field_picker import fill_form_with_empty_random_field
 
 
-@allure.feature("Customer Lookup")
+@allure.epic("PARA-15240: User registration and authentication")
+@allure.feature("PARA-15262: Customer lookup")
 class TestCustomerLookup:
     @pytest.mark.smoke
+    @allure.severity("Normal")
     @allure.title("User can successfully lookup for credentials by providing valid data")
     def test_lookup_with_valid_data(self, driver):
         with allure.step("Navigate to Home page"):
@@ -26,8 +29,10 @@ class TestCustomerLookup:
 
         with allure.step("Submit the form"):
             register_page.register_button.click()
+            block_checker(driver)
             # Processing the case of existing username
             checked_user = register_page.re_generate_username(new_user)
+            block_checker(driver)
 
         with allure.step("Check registration is successful"):
             register_page.welcome_username_text.assert_text(f"Welcome {checked_user.username}")
@@ -57,6 +62,7 @@ class TestCustomerLookup:
             customer_lookup_page.greeting_text.assert_text(f"Welcome {checked_user.first_name} "
                                                            f"{checked_user.last_name}")
 
+    @allure.severity("Minor")
     @allure.title("User can't successfully lookup for credentials by submitting an empty form.")
     def test_lookup_with_empty_form(self, driver):
         with allure.step("Navigate to Customer Lookup page"):
@@ -70,6 +76,7 @@ class TestCustomerLookup:
         with allure.step("Check error message is displayed for each field left empty"):
             customer_lookup_page.errors_list.assert_error_count(7)
 
+    @allure.severity("Minor")
     @allure.title("User can't successfully lookup for credentials by leaving one of the fields empty.")
     def test_lookup_with_empty_random_field(self, driver):
         with allure.step("Navigate to Home page"):
@@ -87,8 +94,10 @@ class TestCustomerLookup:
 
         with allure.step("Submit the form"):
             register_page.register_button.click()
+            block_checker(driver)
             # Processing the case of existing username
             checked_user = register_page.re_generate_username(new_user)
+            block_checker(driver)
 
         with allure.step("Check registration is successful"):
             register_page.welcome_username_text.assert_text(f"Welcome {checked_user.username}")
@@ -112,13 +121,7 @@ class TestCustomerLookup:
                 6: (customer_lookup_page.zip_code_field, new_user.zip_code),
                 7: (customer_lookup_page.ssn_field, new_user.ssn)
             }
-            no_fill_num = random.randint(1, 7)
-            for i in range(1, 8):
-                if i == no_fill_num:
-                    continue
-                else:
-                    field, value = form_fields[i]
-                    field.send_text(value)
+            no_fill_num = fill_form_with_empty_random_field(form_fields, number_of_fields=7)
 
         with allure.step("Submit the form with one empty field"):
             customer_lookup_page.find_my_login_info_button.click()

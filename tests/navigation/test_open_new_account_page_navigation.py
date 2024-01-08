@@ -1,5 +1,4 @@
 import allure
-
 from src.config.data import ActiveUser
 from src.pages.about_us_page import AboutUsPage
 from src.pages.accounts_overview_page import AccountsOverviewPage
@@ -13,11 +12,13 @@ from src.pages.transfer_funds_page import TransferFundsPage
 from src.pages.update_profile_page import UpdateProfilePage
 
 
-@allure.feature("Open New Account page navigation")
+@allure.epic("PARA-15241: Account operations")
+@allure.feature("PARA-15254: Open New Account page navigation")
 class TestOpenNewAccountPageNavigation:
 
     # Basic navigation
     # =================================================================================
+    @allure.severity("Normal")
     @allure.title("User can proceed from Open New Account page to Contact page")
     def test_navigation_open_new_account_to_contact(self, driver):
         with allure.step("Navigate to Home page"):
@@ -46,6 +47,7 @@ class TestOpenNewAccountPageNavigation:
             contact_page = ContactPage(driver)
             contact_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Open New Account page to About Us page")
     def test_navigation_open_new_account_to_about_us(self, driver):
         with allure.step("Navigate to Home page"):
@@ -74,6 +76,7 @@ class TestOpenNewAccountPageNavigation:
             about_us_page = AboutUsPage(driver)
             about_us_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Open New Account page to Home page")
     def test_navigation_open_new_account_to_home(self, driver):
         with allure.step("Navigate to Home page"):
@@ -103,6 +106,7 @@ class TestOpenNewAccountPageNavigation:
 
     # Account Services navigation
     # =================================================================================
+    @allure.severity("Normal")
     @allure.title("User can proceed from Open New Account page to Accounts Overview page")
     def test_navigation_open_new_account_to_accounts_overview(self, driver):
         with allure.step("Navigate to Home page"):
@@ -131,6 +135,7 @@ class TestOpenNewAccountPageNavigation:
             accounts_overview_page = AccountsOverviewPage(driver)
             accounts_overview_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Open New Account page to Transfer Funds page")
     def test_navigation_open_new_account_to_transfer_funds(self, driver):
         with allure.step("Navigate to Home page"):
@@ -159,6 +164,7 @@ class TestOpenNewAccountPageNavigation:
             transfer_funds_page = TransferFundsPage(driver)
             transfer_funds_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Open New Account page to Bill Pay page")
     def test_navigation_open_new_account_to_bill_pay(self, driver):
         with allure.step("Navigate to Home page"):
@@ -187,6 +193,7 @@ class TestOpenNewAccountPageNavigation:
             bill_pay_page = BillPayPage(driver)
             bill_pay_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Open New Account page to Find Transactions page")
     def test_navigation_open_new_account_to_find_transactions(self, driver):
         with allure.step("Navigate to Home page"):
@@ -215,6 +222,7 @@ class TestOpenNewAccountPageNavigation:
             find_transactions_page = FindTransactionsPage(driver)
             find_transactions_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Open New Account page to Update Profile page")
     def test_navigation_open_new_account_to_update_profile(self, driver):
         with allure.step("Navigate to Home page"):
@@ -243,6 +251,7 @@ class TestOpenNewAccountPageNavigation:
             update_profile_page = UpdateProfilePage(driver)
             update_profile_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Open New Account page to Request Loan page")
     def test_navigation_open_new_account_to_request_loan(self, driver):
         with allure.step("Navigate to Home page"):
@@ -271,6 +280,7 @@ class TestOpenNewAccountPageNavigation:
             request_loan_page = RequestLoanPage(driver)
             request_loan_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can log out from Open New Account page")
     def test_logout_from_open_new_account(self, driver):
         with allure.step("Navigate to Home page"):

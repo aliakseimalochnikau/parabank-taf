@@ -6,11 +6,14 @@ from src.pages.accounts_overview_page import AccountsOverviewPage
 from src.pages.home_page import HomePage
 from src.pages.open_new_account_page import OpenNewAccountPage
 from src.pages.register_page import RegisterPage
+from src.utils.block_checker import block_checker
 
 
-@allure.feature("Account display in Accounts Overview table")
+@allure.epic("PARA-15241: Account operations")
+@allure.feature("PARA-15251: Account display in Accounts Overview table")
 class TestAccountDisplay:
     @pytest.mark.smoke
+    @allure.severity("Critical")
     @allure.title("Default account is displayed in the table for a new user")
     def test_default_account_display(self, driver):
         with allure.step("Navigate to Register page"):
@@ -23,8 +26,10 @@ class TestAccountDisplay:
 
         with allure.step("Submit the form"):
             register_page.register_button.click()
+            block_checker(driver)
             # Processing the case of existing username
             checked_user = register_page.re_generate_username(new_user)
+            block_checker(driver)
 
         with allure.step("Check registration is successful"):
             register_page.welcome_username_text.assert_text(f"Welcome {checked_user.username}")
@@ -39,6 +44,7 @@ class TestAccountDisplay:
             expected_account_count = 1
             accounts_overview_page.account_id.assert_element_count(expected_account_count, correction=1)
 
+    @allure.severity("Critical")
     @allure.title("Newly created account is displayed in the table")
     def test_new_account_display(self, driver):
         with allure.step("Navigate to Home page"):
@@ -65,15 +71,16 @@ class TestAccountDisplay:
             open_new_account_page.is_opened()
 
         with allure.step("Open new account"):
-            open_new_account_page.account_type_dropdown.select_element_by_index(1)
-            open_new_account_page.from_account_dropdown.select_element_by_index(0)
+            open_new_account_page.account_type_dropdown.select_by_index(1)
+            open_new_account_page.from_account_dropdown.select_by_index(0)
+            time.sleep(.5)
             open_new_account_page.open_account_button.click()
 
         with allure.step("Navigate to Accounts Overview page"):
             open_new_account_page.accounts_overview_link.click()
             accounts_overview_page.is_opened()
 
-        with allure.step("Check newly created account is displayed in the table"):
-            time.sleep(.5)
+        with (allure.step("Check newly created account is displayed in the table")):
             expected_account_count = initial_account_count + 1
+            time.sleep(.5)
             accounts_overview_page.account_id.assert_element_count(expected_account_count, correction=1)

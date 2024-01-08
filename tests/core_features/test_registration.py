@@ -1,15 +1,18 @@
-import random
 import allure
 import pytest
+from src.utils.block_checker import block_checker
 from src.utils.data_generator import generated_data
 from src.pages.home_page import HomePage
 from src.pages.register_page import RegisterPage
+from src.utils.empty_field_picker import fill_form_with_empty_random_field
 
 
-@allure.feature("Registration")
+@allure.epic("PARA-15240: User registration and authentication")
+@allure.feature("PARA-15260: User registration")
 class TestRegistration:
-    @pytest.mark.smoke 
-    @allure.title("User can successfully register by filling in all the fields.")
+    @pytest.mark.smoke
+    @allure.severity("Blocker")
+    @allure.title("User can successfully register by filling in all the fields")
     def test_successful_registration(self, driver):
         with allure.step("Navigate to Register page"):
             register_page = RegisterPage(driver)
@@ -21,13 +24,16 @@ class TestRegistration:
 
         with allure.step("Submit the form"):
             register_page.register_button.click()
+            block_checker(driver)
             # Processing the case of existing username
             checked_user = register_page.re_generate_username(new_user)
+            block_checker(driver)
 
         with allure.step("Check registration is successful"):
             register_page.welcome_username_text.assert_text(f"Welcome {checked_user.username}")
 
-    @allure.title("User can't successfully register by submitting an empty form.")
+    @allure.severity("Minor")
+    @allure.title("User can't successfully register by submitting an empty form")
     def test_registration_with_empty_form(self, driver):
         with allure.step("Navigate to Register page"):
             register_page = RegisterPage(driver)
@@ -36,11 +42,13 @@ class TestRegistration:
 
         with allure.step("Submit the form with empty fields"):
             register_page.register_button.click()
+            block_checker(driver)
 
         with allure.step("Check error message is displayed for each field left empty"):
             register_page.errors_list.assert_error_count(10)
 
-    @allure.title("User can't successfully register by leaving one of the fields empty.")
+    @allure.severity("Minor")
+    @allure.title("User can't successfully register by leaving one of the fields empty")
     def test_registration_with_empty_random_field(self, driver):
         with allure.step("Navigate to Register page"):
             register_page = RegisterPage(driver)
@@ -61,16 +69,11 @@ class TestRegistration:
                 9: (register_page.password_field, new_user.password),
                 10: (register_page.confirm_password_field, new_user.password)
             }
-            no_fill_num = random.randint(1, 10)
-            for i in range(1, 11):
-                if i == no_fill_num:
-                    continue
-                else:
-                    field, value = form_fields[i]
-                    field.send_text(value)
+            no_fill_num = fill_form_with_empty_random_field(form_fields, number_of_fields=10)
 
             with allure.step("Submit the form with one empty field"):
                 register_page.register_button.click()
+                block_checker(driver)
 
             with allure.step("Check error message is displayed"):
                 field_errors = {
@@ -89,6 +92,7 @@ class TestRegistration:
                 error_locator, error_text = field_errors[no_fill_num]
                 error_locator.assert_error(error_text)
 
+    @allure.severity("Minor")
     @allure.title("User can't successfully register by providing mismatched passwords")
     def test_registration_with_mismatched_passwords(self, driver):
         with allure.step("Navigate to Register page"):
@@ -101,10 +105,12 @@ class TestRegistration:
 
         with allure.step("Submit the form"):
             register_page.register_button.click()
+            block_checker(driver)
 
         with allure.step("Check error message is displayed"):
             register_page.confirm_password_error.assert_error("Passwords did not match.")
 
+    @allure.severity("Minor")
     @allure.title("User can't successfully register with existing username.")
     def test_registration_of_existing_user(self, driver):
         with allure.step("Navigate to Register page"):
@@ -117,6 +123,10 @@ class TestRegistration:
 
         with allure.step("Submit the form"):
             register_page.register_button.click()
+            block_checker(driver)
+            # Processing the case of existing username
+            checked_user = register_page.re_generate_username(new_user)
+            block_checker(driver)
 
         with allure.step("Log out"):
             register_page.log_out_link.click()
@@ -129,10 +139,11 @@ class TestRegistration:
             register_page.is_opened()
 
         with allure.step("Register a user with the same username"):
-            register_page.repeat_registration(new_user)
+            register_page.repeat_registration(checked_user)
 
         with allure.step("Submit the form"):
             register_page.register_button.click()
+            block_checker(driver)
 
         with allure.step("Check error message is displayed"):
             register_page.username_error.assert_error("This username already exists.")

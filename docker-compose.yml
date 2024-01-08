@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  ui-tests:
+    image: python:3.11.7-alpine3.18
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/usr/workspace
+    command: /bin/sh -c "pytest"
+    working_dir: /usr/workspace
+    environment:
+      - FIRST_NAME=${FIRST_NAME}
+      - LAST_NAME=${LAST_NAME}
+      - LOGIN=${LOGIN}
+      - PASSWORD=${PASSWORD}
+      - EMAIL=${EMAIL}
+      - PHONE_NUMBER=${PHONE_NUMBER}

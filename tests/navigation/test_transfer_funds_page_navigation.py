@@ -12,11 +12,13 @@ from src.pages.transfer_funds_page import TransferFundsPage
 from src.pages.update_profile_page import UpdateProfilePage
 
 
-@allure.feature("Transfer Funds page navigation")
+@allure.epic("PARA-15242: Funds operations")
+@allure.feature("PARA-15271: Transfer Funds page navigation")
 class TestTransferFundsPageNavigation:
 
     # Basic navigation
     # =================================================================================
+    @allure.severity("Normal")
     @allure.title("User can proceed from Transfer Funds page to Contact page")
     def test_navigation_transfer_funds_to_contact(self, driver):
         with allure.step("Navigate to Home page"):
@@ -45,6 +47,7 @@ class TestTransferFundsPageNavigation:
             contact_page = ContactPage(driver)
             contact_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Transfer Funds page to About Us page")
     def test_navigation_transfer_funds_to_about_us(self, driver):
         with allure.step("Navigate to Home page"):
@@ -73,6 +76,7 @@ class TestTransferFundsPageNavigation:
             about_us_page = AboutUsPage(driver)
             about_us_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Transfer Funds page to Home page")
     def test_navigation_transfer_funds_to_home(self, driver):
         with allure.step("Navigate to Home page"):
@@ -102,6 +106,7 @@ class TestTransferFundsPageNavigation:
 
     # Account Services navigation
     # =================================================================================
+    @allure.severity("Normal")
     @allure.title("User can proceed from Transfer Funds page to Open New Account page")
     def test_navigation_transfer_funds_to_open_new_account(self, driver):
         with allure.step("Navigate to Home page"):
@@ -130,6 +135,7 @@ class TestTransferFundsPageNavigation:
             open_new_account_page = OpenNewAccountPage(driver)
             open_new_account_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Transfer Funds page to Bill Pay page")
     def test_navigation_transfer_funds_to_bill_pay(self, driver):
         with allure.step("Navigate to Home page"):
@@ -158,6 +164,7 @@ class TestTransferFundsPageNavigation:
             bill_pay_page = BillPayPage(driver)
             bill_pay_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Transfer Funds page to Find Transactions page")
     def test_navigation_transfer_funds_to_find_transactions(self, driver):
         with allure.step("Navigate to Home page"):
@@ -186,6 +193,7 @@ class TestTransferFundsPageNavigation:
             find_transactions_page = FindTransactionsPage(driver)
             find_transactions_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Transfer Funds page to Update Profile page")
     def test_navigation_transfer_funds_to_update_profile(self, driver):
         with allure.step("Navigate to Home page"):
@@ -214,6 +222,7 @@ class TestTransferFundsPageNavigation:
             update_profile_page = UpdateProfilePage(driver)
             update_profile_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Transfer Funds page to Request Loan page")
     def test_navigation_transfer_funds_to_request_loan(self, driver):
         with allure.step("Navigate to Home page"):
@@ -242,6 +251,7 @@ class TestTransferFundsPageNavigation:
             request_loan_page = RequestLoanPage(driver)
             request_loan_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can log out from Transfer Funds page")
     def test_logout_from_transfer_funds(self, driver):
         with allure.step("Navigate to Home page"):

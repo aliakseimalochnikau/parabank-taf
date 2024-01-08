@@ -1,5 +1,6 @@
 import allure
 import pytest
+import time
 from src.config.data import ActiveUser
 from src.pages.account_activity_page import AccountActivityPage
 from src.pages.accounts_overview_page import AccountsOverviewPage
@@ -7,9 +8,11 @@ from src.pages.home_page import HomePage
 from src.pages.open_new_account_page import OpenNewAccountPage
 
 
-@allure.feature("New account opening")
+@allure.epic("PARA-15241: Account operations")
+@allure.feature("PARA-15252: New account opening")
 class TestNewAccountOpening:
     @pytest.mark.smoke
+    @allure.severity("Critical")
     @allure.title("User can successfully open a new account of 'Checking' type.")
     def test_new_checking_account_opening(self, driver):
         with allure.step("Navigate to Home page"):
@@ -32,12 +35,13 @@ class TestNewAccountOpening:
             open_new_account_page.is_opened()
 
         with allure.step("Select account of 'Checking' type"):
-            open_new_account_page.account_type_dropdown.select_element_by_index(0)
+            open_new_account_page.account_type_dropdown.select_by_index(0)
 
         with allure.step("Select source account"):
-            open_new_account_page.from_account_dropdown.select_element_by_index(0)
+            open_new_account_page.from_account_dropdown.select_by_index(0)
 
         with allure.step("Open new account"):
+            time.sleep(.5)
             open_new_account_page.open_account_button.click()
             new_account_id = open_new_account_page.new_account_id_link.get_text()
             open_new_account_page.new_account_id_link.click()
@@ -51,6 +55,7 @@ class TestNewAccountOpening:
             account_activity_page.account_type_text.assert_text("CHECKING")
 
     @pytest.mark.smoke
+    @allure.severity("Critical")
     @allure.title("User can successfully open a new account of 'Savings' type.")
     def test_new_savings_account_opening(self, driver):
         with allure.step("Navigate to Home page"):
@@ -73,12 +78,13 @@ class TestNewAccountOpening:
             open_new_account_page.is_opened()
 
         with allure.step("Select account of 'Savings' type"):
-            open_new_account_page.account_type_dropdown.select_element_by_index(1)
+            open_new_account_page.account_type_dropdown.select_by_index(1)
 
         with allure.step("Select source account"):
-            open_new_account_page.from_account_dropdown.select_element_by_index(0)
+            open_new_account_page.from_account_dropdown.select_by_index(0)
 
         with allure.step("Open new account"):
+            time.sleep(.5)
             open_new_account_page.open_account_button.click()
             new_account_id = open_new_account_page.new_account_id_link.get_text()
             open_new_account_page.new_account_id_link.click()

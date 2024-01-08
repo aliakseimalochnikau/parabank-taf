@@ -6,11 +6,13 @@ from src.pages.home_page import HomePage
 from src.pages.register_page import RegisterPage
 
 
-@allure.feature("Customer Lookup page navigation")
+@allure.epic("PARA-15240: User registration and authentication")
+@allure.feature("PARA-15265: Customer Lookup page navigation")
 class TestCustomerLookupPageNavigation:
 
     # Basic navigation
     # =================================================================================
+    @allure.severity("Normal")
     @allure.title("User can proceed from Customer Lookup page to Register page")
     def test_navigation_customer_lookup_to_register(self, driver):
         with allure.step("Open Customer Lookup page"):
@@ -25,6 +27,7 @@ class TestCustomerLookupPageNavigation:
             register_page = RegisterPage(driver)
             register_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Customer Lookup page to Contact page")
     def test_navigation_customer_lookup_to_contact(self, driver):
         with allure.step("Open Customer Lookup page"):
@@ -39,6 +42,7 @@ class TestCustomerLookupPageNavigation:
             contact_page = ContactPage(driver)
             contact_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Customer Lookup page to About Us page")
     def test_navigation_customer_lookup_to_about_us(self, driver):
         with allure.step("Open Customer Lookup page"):
@@ -53,6 +57,7 @@ class TestCustomerLookupPageNavigation:
             about_us_page = AboutUsPage(driver)
             about_us_page.is_opened()
 
+    @allure.severity("Normal")
     @allure.title("User can proceed from Customer Lookup page to Home page")
     def test_navigation_customer_lookup_to_home(self, driver):
         with allure.step("Open Customer Lookup page"):

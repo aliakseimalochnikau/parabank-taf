@@ -7,8 +7,11 @@ from src.pages.accounts_overview_page import AccountsOverviewPage
 from src.pages.home_page import HomePage
 
 
+@allure.epic("PARA-15241: Account operations")
+@allure.feature("PARA-15250: Account data consistency")
 class TestAccountDataConsistency:
     @pytest.mark.smoke
+    @allure.severity("Critical")
     @allure.title("Sum of accounts' balances match total")
     def test_accounts_balances_sum_matches_total(self, driver):
         with allure.step("Navigate to Home page"):
@@ -26,7 +29,7 @@ class TestAccountDataConsistency:
             accounts_overview_page.is_opened()
 
         with allure.step("Sum balances across opened accounts"):
-            time.sleep(.5)
+            # time.sleep(.5)
             balances = accounts_overview_page.get_balances()
             total = balances.pop(-1)
             balances_sum = round(sum(balances), 2)
@@ -34,6 +37,7 @@ class TestAccountDataConsistency:
         with allure.step("Check sum of balances matches total"):
             assert balances_sum == total, f"{balances_sum} != {total}"
 
+    @allure.severity("Critical")
     @allure.title("Balance and amount are consistent across Accounts Overview and Account Details pages")
     def test_balance_and_amount_consistency_across_pages(self, driver):
         with allure.step("Navigate to Home page"):
