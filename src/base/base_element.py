@@ -18,6 +18,7 @@ class BaseElement:
         if clickable:
             self.wait.until(EC.element_to_be_clickable(("xpath", self.xpath)))
         if return_many:
+            self.wait.until(EC.presence_of_all_elements_located(("xpath", self.xpath)))
             self.wait.until(EC.visibility_of_all_elements_located(("xpath", self.xpath)))
             result = self.driver.find_elements("xpath", self.xpath)
         else:
