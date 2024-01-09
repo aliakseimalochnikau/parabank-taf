@@ -119,7 +119,7 @@ To run tests in GitHub, follow the steps below:
     Variables stored in **.env** file should be added to GitHub secrets the same way as **CI_TOKEN** secret was added.
 
 
-4. **Create *gh-pages* branch in your repository**
+4. **Create *gh-pages* branch in your repository**:
 
 
 5. **Push changes to your repository**
@@ -127,7 +127,7 @@ To run tests in GitHub, follow the steps below:
    Make sure you push to **main**, not **gh-pages**.
 
 
-6. **Run tests**
+6. **Run tests**:
 
     In GitHub, navigate to *Actions -> ui-tests* and click on **Run workflow**.
 
