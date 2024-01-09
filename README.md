@@ -1,8 +1,6 @@
 # Parasoft ParaBank: Test Automation Framework
 ## ParaBank web application:
 
-***
-
 ParaBank is a demo web application used for demonstration of Parasoft software solutions.
 It is used solely for simulating a realistic online banking website.
 
@@ -10,8 +8,6 @@ For more information about Parasoft solutions please visit www.parasoft.com
 
 
 ## Test Automation Framework:
-
-***
 
 This a Python-based test automation framework utilizing Pytest and Selenium libraries.
 It was created according to POM pattern to test [ParaBank web application.](https://parabank.parasoft.com/parabank/index.htm)
@@ -48,8 +44,6 @@ markers =
 
 ## Running tests:
 
-***
-
 To run tests, follow the steps below:
 
 **1. Clone this repository to your machine:**
@@ -74,8 +68,6 @@ pytest
 
 ## Allure report generation:
 
-***
-
 Once test run is complete, you can generate Allure report using the following command:
 ```
 allure serve results
@@ -86,8 +78,6 @@ To be able to use Allure report generation, make sure to install Allure and all 
 For more information follow [Allure Report installation](https://allurereport.org/docs/gettingstarted-installation/). 
 
 ## Running tests via docker-compose:
-
-***
 
 Instead of running tests locally, containerization approach can be utilized. Running tests in a container contributes to significant decrease in test execution time.
 However, tests can be run only in headless mode (without UI).
@@ -110,8 +100,6 @@ docker-compose up
 ```
 
 ## Running tests via GitHub Actions:
-
-***
 
 To run tests in GitHub, follow the steps below:
 
