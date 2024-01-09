@@ -1,6 +1,6 @@
 name: ui-tests
 
-on: [push]
+on: workflow_dispatch
 
 jobs:
   ui-tests:
@@ -8,6 +8,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: Copy gh-pages repository to GitHub runner
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: ./.github/gh-pages
 
       - name: Run UI tests via docker-compose
         env:
@@ -19,6 +25,11 @@ jobs:
           PHONE_NUMBER: ${{ secrets.PHONE_NUMBER }}
         run: |
           docker-compose up --exit-code-from ui-tests || true
+
+      - name: Copy history from gh-pages to allure-results
+        run: |
+          sudo mkdir -p allure-results/history
+          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
 
       - name: Generate Allure report
         run: |
