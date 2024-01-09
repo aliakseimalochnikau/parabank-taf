@@ -122,7 +122,7 @@ To run tests in GitHub, follow the steps below:
 4. **Create *gh-pages* branch in your repository**:
 
 
-5. **Push changes to your repository**
+5. **Push changes to your repository**:
 
    Make sure you push to **main**, not **gh-pages**.
 
