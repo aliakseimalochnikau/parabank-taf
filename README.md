@@ -119,7 +119,7 @@ To run tests in GitHub, follow the steps below:
     Variables stored in **.env** file should be added to GitHub secrets the same way as **CI_TOKEN** secret was added.
 
 
-4. **Create *gh-pages* branch in your repository**:
+4. **Create *gh-pages* branch in your repository**
 
 
 5. **Push changes to your repository**:
