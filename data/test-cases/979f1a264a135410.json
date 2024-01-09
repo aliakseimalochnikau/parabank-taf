@@ -1,0 +1,226 @@
+{
+  "uid" : "979f1a264a135410",
+  "name" : "User can transfer funds between accounts",
+  "fullName" : "tests.core_features.test_funds_transfer.TestFundsTransfer#test_successful_funds_transfer",
+  "historyId" : "9de203c446da32242737303068260b58",
+  "time" : {
+    "start" : 1704789324653,
+    "stop" : 1704789326327,
+    "duration" : 1674
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL reason: Execution blocked by Cloudflare\n\n_pytest.outcomes.XFailed: Execution blocked by Cloudflare",
+  "statusTrace" : "tests/core_features/test_funds_transfer.py:26: in test_successful_funds_transfer\n    block_checker(driver)\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b12f70ddbd615824bd077a929f0ca05c\")>\n        new_user   = NewUser(first_name='Gail', last_name='Davis', address='5802 Mcgee Island Suite 932\\nBrownhaven, MS 17153', city='East ...9.647.4680x9828', ssn='241-36-6015', username='jamesthomas', password='TWv0MuTnL^', email='gonzalezbriana@example.org')\n        register_page = <src.pages.register_page.RegisterPage object at 0x7f56d84d5410>\n        self       = <test_funds_transfer.TestFundsTransfer object at 0x7f56d9c058d0>\nsrc/utils/block_checker.py:8: in block_checker\n    pytest.xfail(reason=\"Execution blocked by Cloudflare\")\nE   _pytest.outcomes.XFailed: Execution blocked by Cloudflare\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b12f70ddbd615824bd077a929f0ca05c\")>",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1704789269751,
+      "stop" : 1704789270182,
+      "duration" : 431
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1704789323814,
+      "stop" : 1704789324652,
+      "duration" : 838
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1704789269730,
+      "stop" : 1704789269751,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL reason: Execution blocked by Cloudflare\n\n_pytest.outcomes.XFailed: Execution blocked by Cloudflare",
+    "statusTrace" : "tests/core_features/test_funds_transfer.py:26: in test_successful_funds_transfer\n    block_checker(driver)\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b12f70ddbd615824bd077a929f0ca05c\")>\n        new_user   = NewUser(first_name='Gail', last_name='Davis', address='5802 Mcgee Island Suite 932\\nBrownhaven, MS 17153', city='East ...9.647.4680x9828', ssn='241-36-6015', username='jamesthomas', password='TWv0MuTnL^', email='gonzalezbriana@example.org')\n        register_page = <src.pages.register_page.RegisterPage object at 0x7f56d84d5410>\n        self       = <test_funds_transfer.TestFundsTransfer object at 0x7f56d9c058d0>\nsrc/utils/block_checker.py:8: in block_checker\n    pytest.xfail(reason=\"Execution blocked by Cloudflare\")\nE   _pytest.outcomes.XFailed: Execution blocked by Cloudflare\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b12f70ddbd615824bd077a929f0ca05c\")>",
+    "steps" : [ {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1704789324653,
+        "stop" : 1704789325166,
+        "duration" : 513
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Register a new user",
+      "time" : {
+        "start" : 1704789325166,
+        "stop" : 1704789326326,
+        "duration" : 1160
+      },
+      "status" : "failed",
+      "statusMessage" : "_pytest.outcomes.XFailed: Execution blocked by Cloudflare\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/core_features/test_funds_transfer.py\", line 26, in test_successful_funds_transfer\n    block_checker(driver)\n  File \"/usr/workspace/src/utils/block_checker.py\", line 8, in block_checker\n    pytest.xfail(reason=\"Execution blocked by Cloudflare\")\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/outcomes.py\", line 256, in xfail\n    raise XFailed(reason)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1704789326330,
+      "stop" : 1704789326389,
+      "duration" : 59
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1704789326330,
+        "stop" : 1704789326389,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15242: Funds operations"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15270: Funds transfer"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_funds_transfer"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFundsTransfer"
+  }, {
+    "name" : "host",
+    "value" : "ec1791713046"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_funds_transfer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "5cfc7254c52394bc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+      "time" : {
+        "start" : 1704789321556,
+        "stop" : 1704789323679,
+        "duration" : 2123
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "aa45d9569d232db2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759014192,
+          "stop" : 1704759020373,
+          "duration" : 6181
+        }
+      }, {
+        "uid" : "47a1e1015056825f",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Execution blocked by Cloudflare\n\n_pytest.outcomes.XFailed: Execution blocked by Cloudflare",
+        "time" : {
+          "start" : 1704756556606,
+          "stop" : 1704756559235,
+          "duration" : 2629
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "979f1a264a135410.json",
+  "parameterValues" : [ ]
+}
