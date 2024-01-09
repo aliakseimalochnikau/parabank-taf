@@ -5,14 +5,14 @@
     "children" : [ {
       "name" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
       "children" : [ {
-        "name" : "User can't transfer funds leaving amount field empty",
-        "uid" : "8d53e8b31d6fe83f",
+        "name" : "User can successfully open a new account of 'Checking' type.",
+        "uid" : "212f754996594779",
         "parentUid" : "c9bd2c86616bf6e53da31745e71fbb53",
         "status" : "broken",
         "time" : {
-          "start" : 1704789353115,
-          "stop" : 1704789355175,
-          "duration" : 2060
+          "start" : 1704839559752,
+          "stop" : 1704839561102,
+          "duration" : 1350
         },
         "flaky" : false,
         "newFailed" : false,
