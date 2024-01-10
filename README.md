@@ -19,7 +19,7 @@ To mitigate those impediments, supporting functions and additional validations w
 
 ### .env file
 
-This framework was built to run tests in a container via GitHub actions. Thus, environment variables were placed in .env file, which was not meant to be pushed to repository.
+This framework was built to run tests in a container via GitHub actions. Thus, environment variables were placed in **.env** file, which was not meant to be pushed to repository.
 Instead, GitHub variables and secrets were supposed to be used. But **.env** is required to run tests locally, so it is there.
 
 If you want to follow the same approach, add **.env** to **.gitignore** and remove it from your repo in GitHub.
@@ -48,7 +48,7 @@ To run tests, follow the steps below:
 
 **1. Clone this repository to your machine:**
 ```
-git clone https://github.com/aliakseimalochnikau/taf-pet-project.git
+git clone https://github.com/aliakseimalochnikau/parabank-taf
 ```
 
 **2. Create a virtual environment:**
@@ -70,7 +70,7 @@ pytest
 
 Once test run is complete, you can generate Allure report using the following command:
 ```
-allure serve results
+allure serve allure-results
 ```
 It will consolidate test results into a visual report which will be hosted locally until terminated.
 
@@ -119,17 +119,17 @@ To run tests in GitHub, follow the steps below:
     Variables stored in **.env** file should be added to GitHub secrets the same way as **CI_TOKEN** secret was added.
 
 
-4. **Create *gh-pages* branch in your repository**
+4. **Create *gh-pages* branch in your repository**.
 
 
 5. **Push changes to your repository**:
 
-   Make sure you push to **main**, not **gh-pages**.
+   Make sure you push to *main*, not *gh-pages*.
 
 
 6. **Run tests**:
 
     In GitHub, navigate to *Actions -> ui-tests* and click on **Run workflow**.
 
-Once test run is complete, Allure report will be generated and hosted on **gh-pages**.
+Once test run is complete, Allure report will be generated and hosted on *gh-pages*.
 It can be accessed via **pages-build-development** workflow next to **ui-tests**.

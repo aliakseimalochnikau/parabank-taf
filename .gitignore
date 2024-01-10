@@ -1,6 +1,5 @@
 .idea
 .pytest_cache
-.env
 report
 allure-results
 __pycache__
