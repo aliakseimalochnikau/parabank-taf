@@ -1,0 +1,238 @@
+{
+  "uid" : "362683e6ecb85a06",
+  "name" : "User can proceed from Customer Lookup page to Register page",
+  "fullName" : "tests.navigation.test_lookup_page_navigation.TestCustomerLookupPageNavigation#test_navigation_customer_lookup_to_register",
+  "historyId" : "1c8d0a76a894565ef18c8de9f2f0b1e9",
+  "time" : {
+    "start" : 1704875089965,
+    "stop" : 1704875090880,
+    "duration" : 915
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1704875089132,
+      "stop" : 1704875089965,
+      "duration" : 833
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1704874896573,
+      "stop" : 1704874896593,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1704874896594,
+      "stop" : 1704874897229,
+      "duration" : 635
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open Customer Lookup page",
+      "time" : {
+        "start" : 1704875089966,
+        "stop" : 1704875090644,
+        "duration" : 678
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Register page via link",
+      "time" : {
+        "start" : 1704875090644,
+        "stop" : 1704875090877,
+        "duration" : 233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check user is redirected to Register page",
+      "time" : {
+        "start" : 1704875090877,
+        "stop" : 1704875090880,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1704875090881,
+      "stop" : 1704875090937,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1704875090881,
+        "stop" : 1704875090937,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15240: User registration and authentication"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15265: Customer Lookup page navigation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.navigation"
+  }, {
+    "name" : "suite",
+    "value" : "test_lookup_page_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCustomerLookupPageNavigation"
+  }, {
+    "name" : "host",
+    "value" : "ad3f487d2607"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.navigation.test_lookup_page_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "23cdd9d121eab347",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839678427,
+          "stop" : 1704839679202,
+          "duration" : 775
+        }
+      }, {
+        "uid" : "f2863582536a1329",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789466116,
+          "stop" : 1704789467003,
+          "duration" : 887
+        }
+      }, {
+        "uid" : "ce7d010af8a56638",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759115943,
+          "stop" : 1704759116357,
+          "duration" : 414
+        }
+      }, {
+        "uid" : "a09652f62d0bc787",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756689956,
+          "stop" : 1704756690826,
+          "duration" : 870
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "362683e6ecb85a06.json",
+  "parameterValues" : [ ]
+}
