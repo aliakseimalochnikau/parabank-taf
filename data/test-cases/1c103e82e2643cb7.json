@@ -1,0 +1,316 @@
+{
+  "uid" : "1c103e82e2643cb7",
+  "name" : "User can't transfer funds leaving amount field empty",
+  "fullName" : "tests.core_features.test_funds_transfer.TestFundsTransfer#test_funds_transfer_with_empty_amount",
+  "historyId" : "5d72f60001d4c80e4581c8fae63d198e",
+  "time" : {
+    "start" : 1704912999971,
+    "stop" : 1704913004539,
+    "duration" : 4568
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1704912999137,
+      "stop" : 1704912999970,
+      "duration" : 833
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1704912932040,
+      "stop" : 1704912932061,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1704912932061,
+      "stop" : 1704912932272,
+      "duration" : 211
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1704912999971,
+        "stop" : 1704913000179,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Register a new user",
+      "time" : {
+        "start" : 1704913000179,
+        "stop" : 1704913001348,
+        "duration" : 1169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check registration is successful",
+      "time" : {
+        "start" : 1704913001348,
+        "stop" : 1704913001383,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Proceed to Open New Account page",
+      "time" : {
+        "start" : 1704913001383,
+        "stop" : 1704913001523,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Open new account",
+      "time" : {
+        "start" : 1704913001523,
+        "stop" : 1704913002710,
+        "duration" : 1187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Proceed to Transfer Funds page",
+      "time" : {
+        "start" : 1704913002710,
+        "stop" : 1704913002837,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Try transfer funds leaving 'Amount' field empty",
+      "time" : {
+        "start" : 1704913002837,
+        "stop" : 1704913004539,
+        "duration" : 1702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1704913004539,
+      "stop" : 1704913004597,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1704913004539,
+        "stop" : 1704913004597,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "PARA-15270: Funds transfer"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15242: Funds operations"
+  }, {
+    "name" : "severity",
+    "value" : "Minor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_funds_transfer"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFundsTransfer"
+  }, {
+    "name" : "host",
+    "value" : "eb65c548bdd0"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_funds_transfer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 1,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "38cf0b32c6a7a8e1",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682718,
+          "stop" : 1704908682718,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2be7a4e3452ef000",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874961761,
+          "stop" : 1704874967148,
+          "duration" : 5387
+        }
+      }, {
+        "uid" : "22c7579b3adc13f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839519492,
+          "stop" : 1704839541356,
+          "duration" : 21864
+        }
+      }, {
+        "uid" : "8d53e8b31d6fe83f",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+        "time" : {
+          "start" : 1704789353115,
+          "stop" : 1704789355175,
+          "duration" : 2060
+        }
+      }, {
+        "uid" : "90268d5bbc49fc93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759021274,
+          "stop" : 1704759025947,
+          "duration" : 4673
+        }
+      }, {
+        "uid" : "117c3fb2cbcbf3db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756560139,
+          "stop" : 1704756565432,
+          "duration" : 5293
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1c103e82e2643cb7.json",
+  "parameterValues" : [ ]
+}

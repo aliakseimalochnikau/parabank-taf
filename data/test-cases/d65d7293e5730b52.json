@@ -1,0 +1,331 @@
+{
+  "uid" : "d65d7293e5730b52",
+  "name" : "Newly created account is displayed in the table",
+  "fullName" : "tests.core_features.test_account_display.TestAccountDisplay#test_new_account_display",
+  "historyId" : "63bec0651d7837f23a81ac9022330693",
+  "time" : {
+    "start" : 1704912959604,
+    "stop" : 1704912962434,
+    "duration" : 2830
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1704912932040,
+      "stop" : 1704912932061,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1704912958772,
+      "stop" : 1704912959603,
+      "duration" : 831
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1704912932061,
+      "stop" : 1704912932272,
+      "duration" : 211
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1704912959604,
+        "stop" : 1704912959876,
+        "duration" : 272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in valid username and password",
+      "time" : {
+        "start" : 1704912959876,
+        "stop" : 1704912960036,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Log in",
+      "time" : {
+        "start" : 1704912960036,
+        "stop" : 1704912960371,
+        "duration" : 335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check number of accounts displayed in the table",
+      "time" : {
+        "start" : 1704912960371,
+        "stop" : 1704912960923,
+        "duration" : 552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Open New Account page",
+      "time" : {
+        "start" : 1704912960923,
+        "stop" : 1704912961059,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Open new account",
+      "time" : {
+        "start" : 1704912961059,
+        "stop" : 1704912961744,
+        "duration" : 685
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Accounts Overview page",
+      "time" : {
+        "start" : 1704912961744,
+        "stop" : 1704912961881,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check newly created account is displayed in the table",
+      "time" : {
+        "start" : 1704912961881,
+        "stop" : 1704912962434,
+        "duration" : 553
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1704912962434,
+      "stop" : 1704912962490,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1704912962434,
+        "stop" : 1704912962490,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15251: Account display in Accounts Overview table"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15241: Account operations"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_account_display"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAccountDisplay"
+  }, {
+    "name" : "host",
+    "value" : "eb65c548bdd0"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_account_display"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 1,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "edba5e4295264388",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682681,
+          "stop" : 1704908682681,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4702b8bb7a12d4ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874910534,
+          "stop" : 1704874914279,
+          "duration" : 3745
+        }
+      }, {
+        "uid" : "71069ba692ccd2f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839473835,
+          "stop" : 1704839477952,
+          "duration" : 4117
+        }
+      }, {
+        "uid" : "fd71f686a0e79e30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789282221,
+          "stop" : 1704789285426,
+          "duration" : 3205
+        }
+      }, {
+        "uid" : "49cf0e1ba9e3a695",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704758981286,
+          "stop" : 1704758984580,
+          "duration" : 3294
+        }
+      }, {
+        "uid" : "d863d1a8a935cf1f",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+        "time" : {
+          "start" : 1704756515781,
+          "stop" : 1704756518138,
+          "duration" : 2357
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d65d7293e5730b52.json",
+  "parameterValues" : [ ]
+}

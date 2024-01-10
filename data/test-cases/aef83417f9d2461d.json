@@ -1,0 +1,330 @@
+{
+  "uid" : "aef83417f9d2461d",
+  "name" : "User can't successfully register with existing username.",
+  "fullName" : "tests.core_features.test_registration.TestRegistration#test_registration_of_existing_user",
+  "historyId" : "4196a8b7d52ea24b9727b4114c22a3f6",
+  "time" : {
+    "start" : 1704913028837,
+    "stop" : 1704913031594,
+    "duration" : 2757
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1704913027996,
+      "stop" : 1704913028836,
+      "duration" : 840
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1704912932040,
+      "stop" : 1704912932061,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1704912932061,
+      "stop" : 1704912932272,
+      "duration" : 211
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1704913028837,
+        "stop" : 1704913029060,
+        "duration" : 223
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Register a new user",
+      "time" : {
+        "start" : 1704913029060,
+        "stop" : 1704913030055,
+        "duration" : 995
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Submit the form",
+      "time" : {
+        "start" : 1704913030055,
+        "stop" : 1704913030228,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Log out",
+      "time" : {
+        "start" : 1704913030228,
+        "stop" : 1704913030396,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1704913030397,
+        "stop" : 1704913030526,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Register a user with the same username",
+      "time" : {
+        "start" : 1704913030526,
+        "stop" : 1704913031420,
+        "duration" : 894
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Submit the form",
+      "time" : {
+        "start" : 1704913031420,
+        "stop" : 1704913031553,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check error message is displayed",
+      "time" : {
+        "start" : 1704913031553,
+        "stop" : 1704913031594,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1704913031594,
+      "stop" : 1704913031650,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1704913031594,
+        "stop" : 1704913031650,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PARA-15240: User registration and authentication"
+  }, {
+    "name" : "severity",
+    "value" : "Minor"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15260: User registration"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegistration"
+  }, {
+    "name" : "host",
+    "value" : "eb65c548bdd0"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "593c00fa2d24194e",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682751,
+          "stop" : 1704908682751,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "912c7b14158a4c96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704875000853,
+          "stop" : 1704875004504,
+          "duration" : 3651
+        }
+      }, {
+        "uid" : "693e8b78af09cbd7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839576005,
+          "stop" : 1704839596119,
+          "duration" : 20114
+        }
+      }, {
+        "uid" : "47011805cb228dee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789383440,
+          "stop" : 1704789386789,
+          "duration" : 3349
+        }
+      }, {
+        "uid" : "5b5fac6b0cb58419",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759050064,
+          "stop" : 1704759052966,
+          "duration" : 2902
+        }
+      }, {
+        "uid" : "36cc22c79b29b904",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756599126,
+          "stop" : 1704756602775,
+          "duration" : 3649
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "aef83417f9d2461d.json",
+  "parameterValues" : [ ]
+}
