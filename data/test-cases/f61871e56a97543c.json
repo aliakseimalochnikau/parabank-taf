@@ -1,0 +1,150 @@
+{
+  "uid" : "f61871e56a97543c",
+  "name" : "User can proceed from Open New Account page to About Us page",
+  "fullName" : "tests.navigation.test_open_new_account_page_navigation.TestOpenNewAccountPageNavigation#test_navigation_open_new_account_to_about_us",
+  "historyId" : "fac92b3a44301b0c8459ee249fed17b7",
+  "time" : {
+    "start" : 1704908682865,
+    "stop" : 1704908682865,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+  "statusTrace" : "conftest.py:32: in health_check\n    pytest.xfail(reason=f\"Health check failed with status code {response.status_code}\")\nE   _pytest.outcomes.XFailed: Health check failed with status code 502\n        response   = <Response [502]>\n        url        = 'https://parabank.parasoft.com/parabank'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1704908682351,
+      "stop" : 1704908682639,
+      "duration" : 288
+    },
+    "status" : "failed",
+    "statusMessage" : "_pytest.outcomes.XFailed: Health check failed with status code 502\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.11/site-packages/pluggy/_callers.py\", line 77, in _multicall\n    res = hook_impl.function(*args)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/fixtures.py\", line 1123, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/fixtures.py\", line 902, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n                     ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/workspace/conftest.py\", line 32, in health_check\n    pytest.xfail(reason=f\"Health check failed with status code {response.status_code}\")\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/outcomes.py\", line 256, in xfail\n    raise XFailed(reason)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1704908682330,
+      "stop" : 1704908682350,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15241: Account operations"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15254: Open New Account page navigation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.navigation"
+  }, {
+    "name" : "suite",
+    "value" : "test_open_new_account_page_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOpenNewAccountPageNavigation"
+  }, {
+    "name" : "host",
+    "value" : "457bd63967c0"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.navigation.test_open_new_account_page_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "652463de8eef4d63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704875100076,
+          "stop" : 1704875101661,
+          "duration" : 1585
+        }
+      }, {
+        "uid" : "3acab18b552da3df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839687851,
+          "stop" : 1704839689530,
+          "duration" : 1679
+        }
+      }, {
+        "uid" : "b1d2bff7e0eadebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789475332,
+          "stop" : 1704789476720,
+          "duration" : 1388
+        }
+      }, {
+        "uid" : "d37e5f62e2fd18a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759123196,
+          "stop" : 1704759124199,
+          "duration" : 1003
+        }
+      }, {
+        "uid" : "e9b9fa6f0634563f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756699868,
+          "stop" : 1704756701523,
+          "duration" : 1655
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f61871e56a97543c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,150 @@
+{
+  "uid" : "cacfba8508b802e6",
+  "name" : "Logged in user can log out from Contact page",
+  "fullName" : "tests.navigation.test_contact_page_navigation.TestContactPageNavigation#test_logout_from_contact",
+  "historyId" : "7ae31ed9eb3af295a4bbc99a5e70aaf7",
+  "time" : {
+    "start" : 1704908682814,
+    "stop" : 1704908682814,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+  "statusTrace" : "conftest.py:32: in health_check\n    pytest.xfail(reason=f\"Health check failed with status code {response.status_code}\")\nE   _pytest.outcomes.XFailed: Health check failed with status code 502\n        response   = <Response [502]>\n        url        = 'https://parabank.parasoft.com/parabank'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1704908682351,
+      "stop" : 1704908682639,
+      "duration" : 288
+    },
+    "status" : "failed",
+    "statusMessage" : "_pytest.outcomes.XFailed: Health check failed with status code 502\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.11/site-packages/pluggy/_callers.py\", line 77, in _multicall\n    res = hook_impl.function(*args)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/fixtures.py\", line 1123, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/fixtures.py\", line 902, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n                     ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/workspace/conftest.py\", line 32, in health_check\n    pytest.xfail(reason=f\"Health check failed with status code {response.status_code}\")\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/outcomes.py\", line 256, in xfail\n    raise XFailed(reason)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1704908682330,
+      "stop" : 1704908682350,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15243: User support"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15281: Contact page navigation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.navigation"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact_page_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContactPageNavigation"
+  }, {
+    "name" : "host",
+    "value" : "457bd63967c0"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.navigation.test_contact_page_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "cce5ffc276902d80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704875058913,
+          "stop" : 1704875060632,
+          "duration" : 1719
+        }
+      }, {
+        "uid" : "a46c76a585aff3dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839649521,
+          "stop" : 1704839651152,
+          "duration" : 1631
+        }
+      }, {
+        "uid" : "7e178ffbee783775",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789437964,
+          "stop" : 1704789439691,
+          "duration" : 1727
+        }
+      }, {
+        "uid" : "b617cb88d031dcf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759093055,
+          "stop" : 1704759094104,
+          "duration" : 1049
+        }
+      }, {
+        "uid" : "8ced40942dd55c5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756658551,
+          "stop" : 1704756660355,
+          "duration" : 1804
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cacfba8508b802e6.json",
+  "parameterValues" : [ ]
+}

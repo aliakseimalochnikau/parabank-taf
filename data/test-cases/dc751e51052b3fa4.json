@@ -1,0 +1,150 @@
+{
+  "uid" : "dc751e51052b3fa4",
+  "name" : "User can't make a payment by leaving one of the payee info fields empty",
+  "fullName" : "tests.core_features.test_bill_payment.TestBillPayment#test_bill_payment_with_empty_random_payee_info_field",
+  "historyId" : "58186b3be95b9fcb90f78e94b3d256fa",
+  "time" : {
+    "start" : 1704908682691,
+    "stop" : 1704908682691,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+  "statusTrace" : "conftest.py:32: in health_check\n    pytest.xfail(reason=f\"Health check failed with status code {response.status_code}\")\nE   _pytest.outcomes.XFailed: Health check failed with status code 502\n        response   = <Response [502]>\n        url        = 'https://parabank.parasoft.com/parabank'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1704908682351,
+      "stop" : 1704908682639,
+      "duration" : 288
+    },
+    "status" : "failed",
+    "statusMessage" : "_pytest.outcomes.XFailed: Health check failed with status code 502\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.11/site-packages/pluggy/_callers.py\", line 77, in _multicall\n    res = hook_impl.function(*args)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/fixtures.py\", line 1123, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/fixtures.py\", line 902, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n                     ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/workspace/conftest.py\", line 32, in health_check\n    pytest.xfail(reason=f\"Health check failed with status code {response.status_code}\")\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/outcomes.py\", line 256, in xfail\n    raise XFailed(reason)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1704908682330,
+      "stop" : 1704908682350,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "PARA-15290: Bill payment"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15244: Payment operations"
+  }, {
+    "name" : "severity",
+    "value" : "Minor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_bill_payment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBillPayment"
+  }, {
+    "name" : "host",
+    "value" : "457bd63967c0"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_bill_payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "5f832c2c25294664",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874926494,
+          "stop" : 1704874929058,
+          "duration" : 2564
+        }
+      }, {
+        "uid" : "e46181391f63e36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839488503,
+          "stop" : 1704839490629,
+          "duration" : 2126
+        }
+      }, {
+        "uid" : "f35c5bab25bf929b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789296122,
+          "stop" : 1704789298184,
+          "duration" : 2062
+        }
+      }, {
+        "uid" : "32c3665d6c452d7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704758992872,
+          "stop" : 1704758994638,
+          "duration" : 1766
+        }
+      }, {
+        "uid" : "3eaf47c82f07d42c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756527977,
+          "stop" : 1704756530376,
+          "duration" : 2399
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dc751e51052b3fa4.json",
+  "parameterValues" : [ ]
+}
