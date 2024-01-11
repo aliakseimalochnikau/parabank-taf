@@ -1,0 +1,323 @@
+{
+  "uid" : "665823c0180fe82b",
+  "name" : "User can't make a payment by providing mismatched accounts",
+  "fullName" : "tests.core_features.test_bill_payment.TestBillPayment#test_bill_payment_with_mismatched_accounts",
+  "historyId" : "38d4fb78b0bd1f39122cc64bea542e46",
+  "time" : {
+    "start" : 1705016443182,
+    "stop" : 1705016445653,
+    "duration" : 2471
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705016395533,
+      "stop" : 1705016395554,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705016442347,
+      "stop" : 1705016443181,
+      "duration" : 834
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705016395554,
+      "stop" : 1705016396123,
+      "duration" : 569
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705016443182,
+        "stop" : 1705016443909,
+        "duration" : 727
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in valid username and password",
+      "time" : {
+        "start" : 1705016443909,
+        "stop" : 1705016444066,
+        "duration" : 157
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Login",
+      "time" : {
+        "start" : 1705016444066,
+        "stop" : 1705016444522,
+        "duration" : 456
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Bill Pay page",
+      "time" : {
+        "start" : 1705016444522,
+        "stop" : 1705016444788,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter payee information with mismatched accounts",
+      "time" : {
+        "start" : 1705016444788,
+        "stop" : 1705016445462,
+        "duration" : 674
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter amount and send payment",
+      "time" : {
+        "start" : 1705016445462,
+        "stop" : 1705016445611,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check error message is displayed",
+      "time" : {
+        "start" : 1705016445612,
+        "stop" : 1705016445653,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705016445654,
+      "stop" : 1705016445712,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705016445654,
+        "stop" : 1705016445712,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "PARA-15290: Bill payment"
+  }, {
+    "name" : "severity",
+    "value" : "Minor"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15244: Payment operations"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_bill_payment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBillPayment"
+  }, {
+    "name" : "host",
+    "value" : "c18f53ecc522"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_bill_payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "a1c87f25ab7ee8e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704912973586,
+          "stop" : 1704912975410,
+          "duration" : 1824
+        }
+      }, {
+        "uid" : "e8e4e2e1e2031ef9",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682693,
+          "stop" : 1704908682693,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6e0112c6eefd9176",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874929945,
+          "stop" : 1704874932583,
+          "duration" : 2638
+        }
+      }, {
+        "uid" : "7ce21e3f5b39d541",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839491524,
+          "stop" : 1704839493767,
+          "duration" : 2243
+        }
+      }, {
+        "uid" : "3b8c33a8a5fbf16f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789299084,
+          "stop" : 1704789301273,
+          "duration" : 2189
+        }
+      }, {
+        "uid" : "fde0c86ddf02a47a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704758995535,
+          "stop" : 1704758997328,
+          "duration" : 1793
+        }
+      }, {
+        "uid" : "bab3ebfd2e4d1f21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756531280,
+          "stop" : 1704756533729,
+          "duration" : 2449
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "665823c0180fe82b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,293 @@
+{
+  "uid" : "f59072fe1cc2456c",
+  "name" : "User can proceed from Accounts Overview page to Transfer Funds page",
+  "fullName" : "tests.navigation.test_accounts_overview_page_navigation.TestAccountsOverviewPageNavigation#test_navigation_accounts_overview_to_transfer_funds",
+  "historyId" : "167e334c29c84c64f7deef758e28ff1a",
+  "time" : {
+    "start" : 1705016525311,
+    "stop" : 1705016526763,
+    "duration" : 1452
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705016395533,
+      "stop" : 1705016395554,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705016524480,
+      "stop" : 1705016525311,
+      "duration" : 831
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705016395554,
+      "stop" : 1705016396123,
+      "duration" : 569
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705016525311,
+        "stop" : 1705016525967,
+        "duration" : 656
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in valid username and password",
+      "time" : {
+        "start" : 1705016525967,
+        "stop" : 1705016526121,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Log in",
+      "time" : {
+        "start" : 1705016526121,
+        "stop" : 1705016526553,
+        "duration" : 432
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Proceed to Transfer Funds page via link",
+      "time" : {
+        "start" : 1705016526553,
+        "stop" : 1705016526758,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check user is redirected to Transfer Funds page",
+      "time" : {
+        "start" : 1705016526758,
+        "stop" : 1705016526763,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705016526763,
+      "stop" : 1705016526820,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705016526763,
+        "stop" : 1705016526820,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15241: Account operations"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15253: Accounts Overview page navigation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.navigation"
+  }, {
+    "name" : "suite",
+    "value" : "test_accounts_overview_page_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAccountsOverviewPageNavigation"
+  }, {
+    "name" : "host",
+    "value" : "c18f53ecc522"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.navigation.test_accounts_overview_page_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "d7985d4aa51db051",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913041919,
+          "stop" : 1704913042768,
+          "duration" : 849
+        }
+      }, {
+        "uid" : "2518d2fdfdcbe0cc",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682768,
+          "stop" : 1704908682768,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1d8fa91ca68c07f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704875018232,
+          "stop" : 1704875020056,
+          "duration" : 1824
+        }
+      }, {
+        "uid" : "e806603acdf83a70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839610832,
+          "stop" : 1704839612490,
+          "duration" : 1658
+        }
+      }, {
+        "uid" : "24f8c249d7892cfe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789400126,
+          "stop" : 1704789401331,
+          "duration" : 1205
+        }
+      }, {
+        "uid" : "d17359dd72c6ec5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759063374,
+          "stop" : 1704759064251,
+          "duration" : 877
+        }
+      }, {
+        "uid" : "f8f5daeacba720e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756617871,
+          "stop" : 1704756619486,
+          "duration" : 1615
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f59072fe1cc2456c.json",
+  "parameterValues" : [ ]
+}
