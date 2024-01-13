@@ -1,0 +1,271 @@
+{
+  "uid" : "dce30ae910cd0239",
+  "name" : "User can't successfully register by submitting an empty form",
+  "fullName" : "tests.core_features.test_registration.TestRegistration#test_registration_with_empty_form",
+  "historyId" : "3e042bbe3b9e6dcb86ade494e65ceebe",
+  "time" : {
+    "start" : 1705147759297,
+    "stop" : 1705147760316,
+    "duration" : 1019
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705147517847,
+      "stop" : 1705147518594,
+      "duration" : 747
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705147758459,
+      "stop" : 1705147759297,
+      "duration" : 838
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705147517826,
+      "stop" : 1705147517847,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1705147759297,
+        "stop" : 1705147759942,
+        "duration" : 645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Submit the form with empty fields",
+      "time" : {
+        "start" : 1705147759942,
+        "stop" : 1705147760208,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check error message is displayed for each field left empty",
+      "time" : {
+        "start" : 1705147760208,
+        "stop" : 1705147760316,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705147760317,
+      "stop" : 1705147760373,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705147760317,
+        "stop" : 1705147760373,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "PARA-15260: User registration"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15240: User registration and authentication"
+  }, {
+    "name" : "severity",
+    "value" : "Minor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegistration"
+  }, {
+    "name" : "host",
+    "value" : "fdd3900bcbbf"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "530e11c51e5ee29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016500276,
+          "stop" : 1705016501286,
+          "duration" : 1010
+        }
+      }, {
+        "uid" : "f19d24e7faa93ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913022848,
+          "stop" : 1704913023380,
+          "duration" : 532
+        }
+      }, {
+        "uid" : "164d77c7ca77e2b4",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682743,
+          "stop" : 1704908682743,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "11b3ae99379cfca9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874993193,
+          "stop" : 1704874994246,
+          "duration" : 1053
+        }
+      }, {
+        "uid" : "fcd138bbc37b8e86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839568990,
+          "stop" : 1704839569840,
+          "duration" : 850
+        }
+      }, {
+        "uid" : "d51bd6f72ea7dddf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789376733,
+          "stop" : 1704789377591,
+          "duration" : 858
+        }
+      }, {
+        "uid" : "9ce239cbcbe33da7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759044092,
+          "stop" : 1704759044631,
+          "duration" : 539
+        }
+      }, {
+        "uid" : "28bd8ce75cb9ed83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756591614,
+          "stop" : 1704756592653,
+          "duration" : 1039
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dce30ae910cd0239.json",
+  "parameterValues" : [ ]
+}

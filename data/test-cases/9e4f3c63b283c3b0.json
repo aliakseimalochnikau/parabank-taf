@@ -1,0 +1,316 @@
+{
+  "uid" : "9e4f3c63b283c3b0",
+  "name" : "Logged in user can log out from Home page",
+  "fullName" : "tests.navigation.test_home_page_navigation.TestHomePageNavigation#test_logout_from_home",
+  "historyId" : "ef13163082f476d6867baa10f24c0cba",
+  "time" : {
+    "start" : 1705147886142,
+    "stop" : 1705147888828,
+    "duration" : 2686
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705147517847,
+      "stop" : 1705147518594,
+      "duration" : 747
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705147885299,
+      "stop" : 1705147886142,
+      "duration" : 843
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705147517826,
+      "stop" : 1705147517847,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705147886143,
+        "stop" : 1705147887189,
+        "duration" : 1046
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in valid username and password",
+      "time" : {
+        "start" : 1705147887189,
+        "stop" : 1705147887345,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Log in",
+      "time" : {
+        "start" : 1705147887345,
+        "stop" : 1705147888208,
+        "duration" : 863
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705147888208,
+        "stop" : 1705147888518,
+        "duration" : 310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Log out",
+      "time" : {
+        "start" : 1705147888518,
+        "stop" : 1705147888814,
+        "duration" : 296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check user is logged out",
+      "time" : {
+        "start" : 1705147888814,
+        "stop" : 1705147888828,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705147888828,
+      "stop" : 1705147888885,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705147888829,
+        "stop" : 1705147888885,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15240: User registration and authentication"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15264: Home page navigation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.navigation"
+  }, {
+    "name" : "suite",
+    "value" : "test_home_page_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomePageNavigation"
+  }, {
+    "name" : "host",
+    "value" : "fdd3900bcbbf"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.navigation.test_home_page_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "f7bc8b724aa0cc2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016593117,
+          "stop" : 1705016594782,
+          "duration" : 1665
+        }
+      }, {
+        "uid" : "81d012265d114594",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913091453,
+          "stop" : 1704913092471,
+          "duration" : 1018
+        }
+      }, {
+        "uid" : "5f93c5e08c536b24",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682848,
+          "stop" : 1704908682848,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f2c5b6a67962b6d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704875087171,
+          "stop" : 1704875089073,
+          "duration" : 1902
+        }
+      }, {
+        "uid" : "5b9fb101cd76244f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839675954,
+          "stop" : 1704839677530,
+          "duration" : 1576
+        }
+      }, {
+        "uid" : "8be2973fa237dfb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789463700,
+          "stop" : 1704789465219,
+          "duration" : 1519
+        }
+      }, {
+        "uid" : "ce40eeeee5174649",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759113992,
+          "stop" : 1704759115034,
+          "duration" : 1042
+        }
+      }, {
+        "uid" : "9306d45ec1c03f2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756687192,
+          "stop" : 1704756689057,
+          "duration" : 1865
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9e4f3c63b283c3b0.json",
+  "parameterValues" : [ ]
+}

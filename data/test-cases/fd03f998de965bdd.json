@@ -1,0 +1,322 @@
+{
+  "uid" : "fd03f998de965bdd",
+  "name" : "User can make payment to a certain payee",
+  "fullName" : "tests.core_features.test_bill_payment.TestBillPayment#test_successful_bill_payment",
+  "historyId" : "1b889808ff50e993bda8f74186c6518b",
+  "time" : {
+    "start" : 1705147539107,
+    "stop" : 1705147545069,
+    "duration" : 5962
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 5000.0 doesn't match 5000.0 - 50\nassert 5000.0 == (5000.0 - 50.0)\n +  where 50.0 = float('50')",
+  "statusTrace" : "tests/core_features/test_bill_payment.py:68: in test_successful_bill_payment\n    assert final_balance == initial_balance - float(payment_amount), (f\"{final_balance} doesn't match \"\nE   AssertionError: 5000.0 doesn't match 5000.0 - 50\nE   assert 5000.0 == (5000.0 - 50.0)\nE    +  where 50.0 = float('50')\n        accounts_overview_page = <src.pages.accounts_overview_page.AccountsOverviewPage object at 0x7fdbd553a450>\n        balances   = [5000.0, 5000.0]\n        bill_pay_page = <src.pages.bill_pay_page.BillPayPage object at 0x7fdbd6c2b650>\n        checked_user = NewUser(first_name='Evan', last_name='Lewis', address='55413 Gonzalez Course Suite 813\\nStevenmouth, WA 80534', city='..._number='(753)973-2941x0714', ssn='720-58-3738', username='ihaas', password='oK71E2Tux$', email='joseph09@example.com')\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"fe1a7cc1f2d19052a8edfc97123bbac9\")>\n        final_balance = 5000.0\n        initial_balance = 5000.0\n        new_user   = NewUser(first_name='Evan', last_name='Lewis', address='55413 Gonzalez Course Suite 813\\nStevenmouth, WA 80534', city='..._number='(753)973-2941x0714', ssn='720-58-3738', username='ihaas', password='oK71E2Tux$', email='joseph09@example.com')\n        payment_amount = '50'\n        register_page = <src.pages.register_page.RegisterPage object at 0x7fdbd6c6e150>\n        self       = <test_bill_payment.TestBillPayment object at 0x7fdbd681e510>",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705147517847,
+      "stop" : 1705147518594,
+      "duration" : 747
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705147538267,
+      "stop" : 1705147539107,
+      "duration" : 840
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705147517826,
+      "stop" : 1705147517847,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 5000.0 doesn't match 5000.0 - 50\nassert 5000.0 == (5000.0 - 50.0)\n +  where 50.0 = float('50')",
+    "statusTrace" : "tests/core_features/test_bill_payment.py:68: in test_successful_bill_payment\n    assert final_balance == initial_balance - float(payment_amount), (f\"{final_balance} doesn't match \"\nE   AssertionError: 5000.0 doesn't match 5000.0 - 50\nE   assert 5000.0 == (5000.0 - 50.0)\nE    +  where 50.0 = float('50')\n        accounts_overview_page = <src.pages.accounts_overview_page.AccountsOverviewPage object at 0x7fdbd553a450>\n        balances   = [5000.0, 5000.0]\n        bill_pay_page = <src.pages.bill_pay_page.BillPayPage object at 0x7fdbd6c2b650>\n        checked_user = NewUser(first_name='Evan', last_name='Lewis', address='55413 Gonzalez Course Suite 813\\nStevenmouth, WA 80534', city='..._number='(753)973-2941x0714', ssn='720-58-3738', username='ihaas', password='oK71E2Tux$', email='joseph09@example.com')\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"fe1a7cc1f2d19052a8edfc97123bbac9\")>\n        final_balance = 5000.0\n        initial_balance = 5000.0\n        new_user   = NewUser(first_name='Evan', last_name='Lewis', address='55413 Gonzalez Course Suite 813\\nStevenmouth, WA 80534', city='..._number='(753)973-2941x0714', ssn='720-58-3738', username='ihaas', password='oK71E2Tux$', email='joseph09@example.com')\n        payment_amount = '50'\n        register_page = <src.pages.register_page.RegisterPage object at 0x7fdbd6c6e150>\n        self       = <test_bill_payment.TestBillPayment object at 0x7fdbd681e510>",
+    "steps" : [ {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1705147539107,
+        "stop" : 1705147540092,
+        "duration" : 985
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Register a new user",
+      "time" : {
+        "start" : 1705147540092,
+        "stop" : 1705147541418,
+        "duration" : 1326
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check registration is successful",
+      "time" : {
+        "start" : 1705147541418,
+        "stop" : 1705147541454,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Accounts Overview page",
+      "time" : {
+        "start" : 1705147541454,
+        "stop" : 1705147541880,
+        "duration" : 426
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get account initial balance",
+      "time" : {
+        "start" : 1705147541880,
+        "stop" : 1705147542445,
+        "duration" : 565
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Bill Pay page",
+      "time" : {
+        "start" : 1705147542445,
+        "stop" : 1705147542705,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter payee information and payment amount",
+      "time" : {
+        "start" : 1705147542705,
+        "stop" : 1705147543456,
+        "duration" : 751
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Send payment",
+      "time" : {
+        "start" : 1705147543456,
+        "stop" : 1705147543532,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check payment is complete",
+      "time" : {
+        "start" : 1705147543532,
+        "stop" : 1705147544077,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Return to Accounts Overview page",
+      "time" : {
+        "start" : 1705147544078,
+        "stop" : 1705147544508,
+        "duration" : 430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check payment amount was deducted from the account",
+      "time" : {
+        "start" : 1705147544508,
+        "stop" : 1705147545068,
+        "duration" : 560
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: 5000.0 doesn't match 5000.0 - 50\nassert 5000.0 == (5000.0 - 50.0)\n +  where 50.0 = float('50')\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/core_features/test_bill_payment.py\", line 68, in test_successful_bill_payment\n    assert final_balance == initial_balance - float(payment_amount), (f\"{final_balance} doesn't match \"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705147545107,
+      "stop" : 1705147545163,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705147545107,
+        "stop" : 1705147545163,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15290: Bill payment"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15244: Payment operations"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_bill_payment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBillPayment"
+  }, {
+    "name" : "host",
+    "value" : "fdd3900bcbbf"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_bill_payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "fd03f998de965bdd.json",
+  "parameterValues" : [ ]
+}

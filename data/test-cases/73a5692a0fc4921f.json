@@ -1,0 +1,331 @@
+{
+  "uid" : "73a5692a0fc4921f",
+  "name" : "User can't make a payment with empty amount",
+  "fullName" : "tests.core_features.test_bill_payment.TestBillPayment#test_bill_payment_with_empty_amount",
+  "historyId" : "d76a4f32d2620d8635583d368bcdde57",
+  "time" : {
+    "start" : 1705147560966,
+    "stop" : 1705147563942,
+    "duration" : 2976
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705147517847,
+      "stop" : 1705147518594,
+      "duration" : 747
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705147560126,
+      "stop" : 1705147560966,
+      "duration" : 840
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705147517826,
+      "stop" : 1705147517847,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705147560966,
+        "stop" : 1705147561708,
+        "duration" : 742
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in valid username and password",
+      "time" : {
+        "start" : 1705147561709,
+        "stop" : 1705147561866,
+        "duration" : 157
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Login",
+      "time" : {
+        "start" : 1705147561866,
+        "stop" : 1705147562760,
+        "duration" : 894
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Bill Pay page",
+      "time" : {
+        "start" : 1705147562760,
+        "stop" : 1705147563151,
+        "duration" : 391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter payee information",
+      "time" : {
+        "start" : 1705147563151,
+        "stop" : 1705147563828,
+        "duration" : 677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Send payment with empty amount",
+      "time" : {
+        "start" : 1705147563828,
+        "stop" : 1705147563903,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check error message is displayed",
+      "time" : {
+        "start" : 1705147563903,
+        "stop" : 1705147563942,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705147563942,
+      "stop" : 1705147563999,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705147563942,
+        "stop" : 1705147563999,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "PARA-15290: Bill payment"
+  }, {
+    "name" : "severity",
+    "value" : "Minor"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15244: Payment operations"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_bill_payment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBillPayment"
+  }, {
+    "name" : "host",
+    "value" : "fdd3900bcbbf"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_bill_payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "2af414a7eb0561a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016446554,
+          "stop" : 1705016448834,
+          "duration" : 2280
+        }
+      }, {
+        "uid" : "19a90d511291d93c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704912976314,
+          "stop" : 1704912977952,
+          "duration" : 1638
+        }
+      }, {
+        "uid" : "98c0536fa45fcc34",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682696,
+          "stop" : 1704908682696,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "264843f0f029cff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874933476,
+          "stop" : 1704874936156,
+          "duration" : 2680
+        }
+      }, {
+        "uid" : "8165aab671e60012",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839494664,
+          "stop" : 1704839496864,
+          "duration" : 2200
+        }
+      }, {
+        "uid" : "6a9f3b6e09932021",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789302175,
+          "stop" : 1704789304255,
+          "duration" : 2080
+        }
+      }, {
+        "uid" : "6a1ab53f8052b0dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704758998231,
+          "stop" : 1704759000015,
+          "duration" : 1784
+        }
+      }, {
+        "uid" : "11d94b80cf45cbaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756534637,
+          "stop" : 1704756537074,
+          "duration" : 2437
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "73a5692a0fc4921f.json",
+  "parameterValues" : [ ]
+}
