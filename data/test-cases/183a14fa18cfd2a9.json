@@ -1,0 +1,287 @@
+{
+  "uid" : "183a14fa18cfd2a9",
+  "name" : "User can proceed from Register page to About Us page",
+  "fullName" : "tests.navigation.test_register_page_navigation.TestRegisterPageNavigation#test_navigation_register_to_about_us",
+  "historyId" : "0db8256ff6627ec27d940117dfaae687",
+  "time" : {
+    "start" : 1705440727219,
+    "stop" : 1705440728191,
+    "duration" : 972
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705440461493,
+      "stop" : 1705440461514,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705440726383,
+      "stop" : 1705440727219,
+      "duration" : 836
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705440461514,
+      "stop" : 1705440462068,
+      "duration" : 554
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1705440727220,
+        "stop" : 1705440727935,
+        "duration" : 715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Proceed to About Us page via button",
+      "time" : {
+        "start" : 1705440727935,
+        "stop" : 1705440728188,
+        "duration" : 253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check user is redirected to About Us page",
+      "time" : {
+        "start" : 1705440728188,
+        "stop" : 1705440728191,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705440728191,
+      "stop" : 1705440728247,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705440728191,
+        "stop" : 1705440728247,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "PARA-15263: Register page navigation"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15240: User registration and authentication"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.navigation"
+  }, {
+    "name" : "suite",
+    "value" : "test_register_page_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegisterPageNavigation"
+  }, {
+    "name" : "host",
+    "value" : "6b3bd99b48e4"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.navigation.test_register_page_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "81fa9bd806db16c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392904582,
+          "stop" : 1705392905752,
+          "duration" : 1170
+        }
+      }, {
+        "uid" : "9d7239c4c25cc328",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147934413,
+          "stop" : 1705147935379,
+          "duration" : 966
+        }
+      }, {
+        "uid" : "22b09539581a4a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016632382,
+          "stop" : 1705016633622,
+          "duration" : 1240
+        }
+      }, {
+        "uid" : "cd685d0930dcbdbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913120077,
+          "stop" : 1704913120470,
+          "duration" : 393
+        }
+      }, {
+        "uid" : "71bc05e6b0a907ca",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682895,
+          "stop" : 1704908682895,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "84fd508c6e50b686",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704875126876,
+          "stop" : 1704875127817,
+          "duration" : 941
+        }
+      }, {
+        "uid" : "4d114e13a51adb1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839713967,
+          "stop" : 1704839714806,
+          "duration" : 839
+        }
+      }, {
+        "uid" : "86438ef8ed3c781e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789500283,
+          "stop" : 1704789500989,
+          "duration" : 706
+        }
+      }, {
+        "uid" : "4b0a3bb01541a799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759143368,
+          "stop" : 1704759143818,
+          "duration" : 450
+        }
+      }, {
+        "uid" : "9825f0b227707d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756727210,
+          "stop" : 1704756728087,
+          "duration" : 877
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "183a14fa18cfd2a9.json",
+  "parameterValues" : [ ]
+}

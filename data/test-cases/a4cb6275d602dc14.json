@@ -1,0 +1,392 @@
+{
+  "uid" : "a4cb6275d602dc14",
+  "name" : "User can't successfully lookup for credentials by leaving one of the fields empty.",
+  "fullName" : "tests.core_features.test_customer_lookup.TestCustomerLookup#test_lookup_with_empty_random_field",
+  "historyId" : "de436f3da0b84eb4dc25e1384c4fa25f",
+  "time" : {
+    "start" : 1705440506358,
+    "stop" : 1705440526755,
+    "duration" : 20397
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705440505521,
+      "stop" : 1705440506357,
+      "duration" : 836
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705440461493,
+      "stop" : 1705440461514,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705440461514,
+      "stop" : 1705440462068,
+      "duration" : 554
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705440506358,
+        "stop" : 1705440506982,
+        "duration" : 624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1705440506982,
+        "stop" : 1705440507456,
+        "duration" : 474
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in the fields",
+      "time" : {
+        "start" : 1705440507456,
+        "stop" : 1705440508447,
+        "duration" : 991
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Submit the form",
+      "time" : {
+        "start" : 1705440508447,
+        "stop" : 1705440525445,
+        "duration" : 16998
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check registration is successful",
+      "time" : {
+        "start" : 1705440525445,
+        "stop" : 1705440525481,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Log out",
+      "time" : {
+        "start" : 1705440525481,
+        "stop" : 1705440525742,
+        "duration" : 261
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Customer Lookup page",
+      "time" : {
+        "start" : 1705440525742,
+        "stop" : 1705440525928,
+        "duration" : 186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in all the required fields but one",
+      "time" : {
+        "start" : 1705440525928,
+        "stop" : 1705440526528,
+        "duration" : 600
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Submit the form with one empty field",
+      "time" : {
+        "start" : 1705440526528,
+        "stop" : 1705440526716,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check error message is displayed",
+      "time" : {
+        "start" : 1705440526716,
+        "stop" : 1705440526755,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705440526755,
+      "stop" : 1705440526815,
+      "duration" : 60
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705440526755,
+        "stop" : 1705440526815,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Minor"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15262: Customer lookup"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15240: User registration and authentication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_customer_lookup"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCustomerLookup"
+  }, {
+    "name" : "host",
+    "value" : "6b3bd99b48e4"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_customer_lookup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "66256d24fd3ca7a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392725786,
+          "stop" : 1705392729244,
+          "duration" : 3458
+        }
+      }, {
+        "uid" : "d72c6f0dc56faa6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147571541,
+          "stop" : 1705147575023,
+          "duration" : 3482
+        }
+      }, {
+        "uid" : "e497db4b73810180",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016456597,
+          "stop" : 1705016460100,
+          "duration" : 3503
+        }
+      }, {
+        "uid" : "49715a4cdce019e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704912984374,
+          "stop" : 1704912987330,
+          "duration" : 2956
+        }
+      }, {
+        "uid" : "12d98cf9c50b8642",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682705,
+          "stop" : 1704908682705,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2304ad466dd3e41f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874943307,
+          "stop" : 1704874946979,
+          "duration" : 3672
+        }
+      }, {
+        "uid" : "d1dc6d132d9e625c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839503925,
+          "stop" : 1704839507140,
+          "duration" : 3215
+        }
+      }, {
+        "uid" : "994eee28e3c1d69f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789311470,
+          "stop" : 1704789314642,
+          "duration" : 3172
+        }
+      }, {
+        "uid" : "fa5a4be9d7a2f29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759005864,
+          "stop" : 1704759008489,
+          "duration" : 2625
+        }
+      }, {
+        "uid" : "cd78e121afa9c930",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756545779,
+          "stop" : 1704756549290,
+          "duration" : 3511
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a4cb6275d602dc14.json",
+  "parameterValues" : [ ]
+}
