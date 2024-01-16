@@ -1,911 +1,911 @@
 [ {
-  "uid" : "31d29b2db73d4f84",
-  "name" : "User can proceed from Transfer Funds page to Contact page",
-  "time" : {
-    "start" : 1705147938154,
-    "stop" : 1705147940524,
-    "duration" : 2370
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "badf75a8548910b6",
-  "name" : "User can proceed from Home page to About Us page",
-  "time" : {
-    "start" : 1705147861695,
-    "stop" : 1705147862590,
-    "duration" : 895
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5b750d60e58df22",
-  "name" : "User can proceed from Open New Account page to Bill Pay page",
-  "time" : {
-    "start" : 1705147913741,
-    "stop" : 1705147916407,
-    "duration" : 2666
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7125b9c713f45b4d",
-  "name" : "User can proceed from Accounts Overview page to Account Activity page",
-  "time" : {
-    "start" : 1705147788648,
-    "stop" : 1705147791793,
-    "duration" : 3145
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "19de7b465c6704dd",
-  "name" : "Logged in user can proceed from Contact page to Update Profile page",
-  "time" : {
-    "start" : 1705147846617,
-    "stop" : 1705147848924,
-    "duration" : 2307
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b5d686cf58f26575",
-  "name" : "User can proceed from Home page to Customer Lookup page",
-  "time" : {
-    "start" : 1705147856241,
-    "stop" : 1705147857194,
-    "duration" : 953
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "726d974e0ff66fb5",
-  "name" : "User can transfer funds between accounts",
-  "time" : {
-    "start" : 1705147582134,
-    "stop" : 1705147589447,
-    "duration" : 7313
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "16b9d8f8e38783dc",
-  "name" : "User can proceed from Home page to Contact page",
-  "time" : {
-    "start" : 1705147859897,
-    "stop" : 1705147860794,
-    "duration" : 897
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "44305c023f9216ab",
-  "name" : "User can proceed from Open New Account page to Find Transactions page",
-  "time" : {
-    "start" : 1705147917309,
-    "stop" : 1705147919657,
-    "duration" : 2348
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9e4f3c63b283c3b0",
-  "name" : "Logged in user can log out from Home page",
-  "time" : {
-    "start" : 1705147886142,
-    "stop" : 1705147888828,
-    "duration" : 2686
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "109231b74a09069a",
-  "name" : "User can proceed from Open New Account page to Accounts Overview page",
-  "time" : {
-    "start" : 1705147906955,
-    "stop" : 1705147909571,
-    "duration" : 2616
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2feb87139bf33fec",
-  "name" : "User can't successfully register with existing username.",
-  "time" : {
-    "start" : 1705147767128,
-    "stop" : 1705147787747,
-    "duration" : 20619
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "78e4b4af57123a84",
-  "name" : "User can proceed from Register page to Customer Lookup page",
-  "time" : {
-    "start" : 1705147930723,
-    "stop" : 1705147931702,
-    "duration" : 979
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a9b791232cb25064",
-  "name" : "User can log out from Open New Account page",
-  "time" : {
-    "start" : 1705147927253,
-    "stop" : 1705147929819,
-    "duration" : 2566
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d9a889a3124d6b1",
-  "name" : "Logged in user can proceed from Home page to Bill Pay page",
-  "time" : {
-    "start" : 1705147873112,
-    "stop" : 1705147875498,
-    "duration" : 2386
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "af849ae5edd2d51d",
-  "name" : "User can proceed from Accounts Overview page to Contact page",
-  "time" : {
-    "start" : 1705147792688,
-    "stop" : 1705147794743,
-    "duration" : 2055
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8120d274253eec47",
-  "name" : "Newly created account is displayed in the table",
-  "time" : {
-    "start" : 1705147533744,
-    "stop" : 1705147538206,
-    "duration" : 4462
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "8ae17acb7fce3879",
-  "name" : "Logged in user can proceed from Contact page to Accounts Overview page",
-  "time" : {
-    "start" : 1705147833763,
-    "stop" : 1705147836279,
-    "duration" : 2516
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "46cb3c8ed7581b80",
-  "name" : "Logged in user can log out from Contact page",
-  "time" : {
-    "start" : 1705147852977,
-    "stop" : 1705147855337,
-    "duration" : 2360
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d3c16bc671269e89",
+  "uid" : "2a9399f741b631ac",
   "name" : "User can proceed from Open New Account page to About Us page",
   "time" : {
-    "start" : 1705147900474,
-    "stop" : 1705147902803,
-    "duration" : 2329
+    "start" : 1705392877915,
+    "stop" : 1705392879564,
+    "duration" : 1649
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "39d3e27a03ae9d88",
-  "name" : "User can proceed from Accounts Overview page to Transfer Funds page",
+  "uid" : "d9f55287d2a48b79",
+  "name" : "Logged in user can proceed from Home page to Transfer Funds page",
   "time" : {
-    "start" : 1705147804466,
-    "stop" : 1705147806559,
-    "duration" : 2093
+    "start" : 1705392852904,
+    "stop" : 1705392854528,
+    "duration" : 1624
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "73a5692a0fc4921f",
-  "name" : "User can't make a payment with empty amount",
+  "uid" : "f9c1b833686b86bd",
+  "name" : "Logged in user can proceed from Contact page to Open New Account page",
   "time" : {
-    "start" : 1705147560966,
-    "stop" : 1705147563942,
-    "duration" : 2976
+    "start" : 1705392819984,
+    "stop" : 1705392821583,
+    "duration" : 1599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a05f792db766286",
+  "name" : "Logged in user can proceed from Contact page to Bill Pay page",
+  "time" : {
+    "start" : 1705392827683,
+    "stop" : 1705392829371,
+    "duration" : 1688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "509fbd4be8e02b21",
+  "name" : "User can proceed from Open New Account page to Accounts Overview page",
+  "time" : {
+    "start" : 1705392883006,
+    "stop" : 1705392884605,
+    "duration" : 1599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51eb16dce8b998a0",
+  "name" : "User can successfully send email support request.",
+  "time" : {
+    "start" : 1705392730140,
+    "stop" : 1705392731444,
+    "duration" : 1304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ba6d2c5ad8dbd51",
+  "name" : "User can proceed from Open New Account page to Request Loan page",
+  "time" : {
+    "start" : 1705392895713,
+    "stop" : 1705392897299,
+    "duration" : 1586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d451a26e9420769d",
+  "name" : "Logged in user can log out from Home page",
+  "time" : {
+    "start" : 1705392865569,
+    "stop" : 1705392867282,
+    "duration" : 1713
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9881f08e036b52c",
+  "name" : "Balance and amount are consistent across Accounts Overview and Account Details pages",
+  "time" : {
+    "start" : 1705392687866,
+    "stop" : 1705392690795,
+    "duration" : 2929
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "89604a459ccdd7e0",
+  "name" : "User can proceed from Home page to Customer Lookup page",
+  "time" : {
+    "start" : 1705392840528,
+    "stop" : 1705392841687,
+    "duration" : 1159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fed484b793a5a490",
+  "name" : "User can't successfully log in with empty password.",
+  "time" : {
+    "start" : 1705392759768,
+    "stop" : 1705392760817,
+    "duration" : 1049
   },
   "status" : "passed",
   "severity" : "minor"
 }, {
-  "uid" : "dc86e78f0d1540b7",
-  "name" : "User can proceed from Transfer Funds page to Home page",
+  "uid" : "df6110530fff1f6a",
+  "name" : "User can't make a payment by leaving one of the payee info fields empty",
   "time" : {
-    "start" : 1705147944655,
-    "stop" : 1705147947099,
-    "duration" : 2444
+    "start" : 1705392709733,
+    "stop" : 1705392711940,
+    "duration" : 2207
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "17edef0ea1756693",
+  "name" : "Logged in user can proceed from Contact page to Transfer Funds page",
+  "time" : {
+    "start" : 1705392825117,
+    "stop" : 1705392826784,
+    "duration" : 1667
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9d7239c4c25cc328",
-  "name" : "User can proceed from Register page to About Us page",
+  "uid" : "234c8ef5d31ac8b4",
+  "name" : "User can proceed from Transfer Funds page to Open New Account page",
   "time" : {
-    "start" : 1705147934413,
-    "stop" : 1705147935379,
+    "start" : 1705392916155,
+    "stop" : 1705392917775,
+    "duration" : 1620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "932a8f35803ecef7",
+  "name" : "User can proceed from Transfer Funds page to Bill Pay page",
+  "time" : {
+    "start" : 1705392918677,
+    "stop" : 1705392921212,
+    "duration" : 2535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d22570e3eacef471",
+  "name" : "Logged in user can log out from Contact page",
+  "time" : {
+    "start" : 1705392837868,
+    "stop" : 1705392839631,
+    "duration" : 1763
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1c0de8dfc2e1b4",
+  "name" : "User can proceed from Accounts Overview page to About Us page",
+  "time" : {
+    "start" : 1705392791517,
+    "stop" : 1705392792990,
+    "duration" : 1473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9514b1ab4db19cab",
+  "name" : "User can proceed from Contact page to Register page",
+  "time" : {
+    "start" : 1705392814557,
+    "stop" : 1705392815412,
+    "duration" : 855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fa206b4e4c2112f",
+  "name" : "User can proceed from Transfer Funds page to About Us page",
+  "time" : {
+    "start" : 1705392911187,
+    "stop" : 1705392912777,
+    "duration" : 1590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe3eea8152843216",
+  "name" : "User can proceed from Register page to Home page",
+  "time" : {
+    "start" : 1705392906672,
+    "stop" : 1705392907638,
     "duration" : 966
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c7b813374ee861ae",
-  "name" : "User can proceed from Transfer Funds page to Update Profile page",
+  "uid" : "52b864cba2cbf538",
+  "name" : "User can successfully open a new account of 'Savings' type.",
   "time" : {
-    "start" : 1705147957932,
-    "stop" : 1705147960429,
-    "duration" : 2497
+    "start" : 1705392766069,
+    "stop" : 1705392769505,
+    "duration" : 3436
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "92a885b4cc8bc801",
+  "name" : "User can proceed from Register page to Contact page",
+  "time" : {
+    "start" : 1705392902758,
+    "stop" : 1705392903684,
+    "duration" : 926
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "22ef529114b05473",
-  "name" : "User can proceed from Transfer Funds page to Find Transactions page",
+  "uid" : "cb327191d88f4bab",
+  "name" : "User can proceed from Open New Account page to Transfer Funds page",
   "time" : {
-    "start" : 1705147954528,
-    "stop" : 1705147957030,
-    "duration" : 2502
+    "start" : 1705392885506,
+    "stop" : 1705392887145,
+    "duration" : 1639
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3ce429d465febae0",
+  "uid" : "5e730b9d047d0c2",
+  "name" : "User can proceed from Transfer Funds page to Request Loan page",
+  "time" : {
+    "start" : 1705392927227,
+    "stop" : 1705392928953,
+    "duration" : 1726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a42270a0af4c067",
+  "name" : "User can proceed from Contact page to About Us page",
+  "time" : {
+    "start" : 1705392816305,
+    "stop" : 1705392817252,
+    "duration" : 947
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c190ee18368818f3",
+  "name" : "User can proceed from Accounts Overview page to Request Loan page",
+  "time" : {
+    "start" : 1705392807939,
+    "stop" : 1705392809371,
+    "duration" : 1432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fec81d7b94cc8b5c",
+  "name" : "Logged in user can proceed from Home page to Update Profile page",
+  "time" : {
+    "start" : 1705392860508,
+    "stop" : 1705392862087,
+    "duration" : 1579
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "126270e65b899402",
+  "name" : "Logged in user can proceed from Home page to Request Loan page",
+  "time" : {
+    "start" : 1705392862984,
+    "stop" : 1705392864674,
+    "duration" : 1690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fa34f6627359fa6",
+  "name" : "Default account is displayed in the table for a new user",
+  "time" : {
+    "start" : 1705392691697,
+    "stop" : 1705392694775,
+    "duration" : 3078
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7b128a375830a99b",
+  "name" : "User can proceed from Open New Account page to Find Transactions page",
+  "time" : {
+    "start" : 1705392890694,
+    "stop" : 1705392892336,
+    "duration" : 1642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b84e70e4ea1595b",
+  "name" : "Logged in user can proceed from Contact page to Update Profile page",
+  "time" : {
+    "start" : 1705392832793,
+    "stop" : 1705392834410,
+    "duration" : 1617
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81fa9bd806db16c7",
+  "name" : "User can proceed from Register page to About Us page",
+  "time" : {
+    "start" : 1705392904582,
+    "stop" : 1705392905752,
+    "duration" : 1170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "825bae67c0955a30",
+  "name" : "User can proceed from Customer Lookup page to Contact page",
+  "time" : {
+    "start" : 1705392869985,
+    "stop" : 1705392870910,
+    "duration" : 925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4dd1918d6bd8875",
+  "name" : "Logged in user can proceed from Contact page to Request Loan page",
+  "time" : {
+    "start" : 1705392835305,
+    "stop" : 1705392836971,
+    "duration" : 1666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fe7bde502a9aaa9",
+  "name" : "Logged in user can proceed from Home page to Open New Account page",
+  "time" : {
+    "start" : 1705392847966,
+    "stop" : 1705392849544,
+    "duration" : 1578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce6debe76488006d",
+  "name" : "User can proceed from Accounts Overview page to Update Profile page",
+  "time" : {
+    "start" : 1705392805625,
+    "stop" : 1705392807037,
+    "duration" : 1412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8ea225315f86c7f",
+  "name" : "User can proceed from Home page to Register page",
+  "time" : {
+    "start" : 1705392842578,
+    "stop" : 1705392843512,
+    "duration" : 934
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b87cf295e6bc84b",
+  "name" : "User can log out from Transfer Funds page",
+  "time" : {
+    "start" : 1705392929851,
+    "stop" : 1705392931631,
+    "duration" : 1780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31e4f5efb20563ac",
+  "name" : "Logged in user can proceed from Contact page to Accounts Overview page",
+  "time" : {
+    "start" : 1705392822479,
+    "stop" : 1705392824216,
+    "duration" : 1737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22e7e8495e6e316b",
+  "name" : "User can proceed from Accounts Overview page to Transfer Funds page",
+  "time" : {
+    "start" : 1705392798529,
+    "stop" : 1705392799950,
+    "duration" : 1421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e38e2313725342c",
+  "name" : "User can proceed from Customer Lookup page to Register page",
+  "time" : {
+    "start" : 1705392868175,
+    "stop" : 1705392869088,
+    "duration" : 913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5220a2c1b0cc69ce",
+  "name" : "User can log out from Open New Account page",
+  "time" : {
+    "start" : 1705392898195,
+    "stop" : 1705392900010,
+    "duration" : 1815
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca98e666e92d3522",
+  "name" : "User can't make a payment by providing mismatched accounts",
+  "time" : {
+    "start" : 1705392712839,
+    "stop" : 1705392715371,
+    "duration" : 2532
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "1d237b35c5e44a02",
+  "name" : "User can proceed from Home page to About Us page",
+  "time" : {
+    "start" : 1705392846203,
+    "stop" : 1705392847067,
+    "duration" : 864
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb5f430eac9b2aad",
+  "name" : "Logged in user can proceed from Contact page to Find Transactions page",
+  "time" : {
+    "start" : 1705392830266,
+    "stop" : 1705392831892,
+    "duration" : 1626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f83d04c6b769b97a",
+  "name" : "User can't successfully log in with invalid password.",
+  "time" : {
+    "start" : 1705392752889,
+    "stop" : 1705392754079,
+    "duration" : 1190
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "25564b95ecb93c57",
+  "name" : "User can't make a payment by submitting an empty payee info form",
+  "time" : {
+    "start" : 1705392706936,
+    "stop" : 1705392708835,
+    "duration" : 1899
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d0c5180b46d869c0",
+  "name" : "User can't successfully log in with empty username.",
+  "time" : {
+    "start" : 1705392757829,
+    "stop" : 1705392758871,
+    "duration" : 1042
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "2ce432c856f14e33",
+  "name" : "User can't successfully register by leaving one of the fields empty",
+  "time" : {
+    "start" : 1705392776066,
+    "stop" : 1705392777831,
+    "duration" : 1765
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "b91bcdf09449af14",
+  "name" : "User can proceed from Open New Account page to Update Profile page",
+  "time" : {
+    "start" : 1705392893235,
+    "stop" : 1705392894817,
+    "duration" : 1582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2967d33ff1c97085",
+  "name" : "User can proceed from Customer Lookup page to About Us page",
+  "time" : {
+    "start" : 1705392871809,
+    "stop" : 1705392872669,
+    "duration" : 860
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "435fa119267b0a33",
+  "name" : "User can proceed from Contact page to Customer Lookup page",
+  "time" : {
+    "start" : 1705392812807,
+    "stop" : 1705392813661,
+    "duration" : 854
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b0b99baa02521be",
+  "name" : "Sum of accounts' balances match total",
+  "time" : {
+    "start" : 1705392684589,
+    "stop" : 1705392686963,
+    "duration" : 2374
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "237ce3e725309d23",
+  "name" : "User can successfully lookup for credentials by providing valid data",
+  "time" : {
+    "start" : 1705392719417,
+    "stop" : 1705392723034,
+    "duration" : 3617
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efba10349534afda",
+  "name" : "User can proceed from Open New Account page to Home page",
+  "time" : {
+    "start" : 1705392880458,
+    "stop" : 1705392882108,
+    "duration" : 1650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1c7915d2d8ad1ef",
+  "name" : "User can proceed from Transfer Funds page to Contact page",
+  "time" : {
+    "start" : 1705392908536,
+    "stop" : 1705392910282,
+    "duration" : 1746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd2fce99680c4f49",
+  "name" : "User can proceed from Register page to Customer Lookup page",
+  "time" : {
+    "start" : 1705392900910,
+    "stop" : 1705392901855,
+    "duration" : 945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9f932efc35a09a4",
   "name" : "User can proceed from Accounts Overview page to Home page",
   "time" : {
-    "start" : 1705147798425,
-    "stop" : 1705147800547,
-    "duration" : 2122
+    "start" : 1705392793886,
+    "stop" : 1705392795286,
+    "duration" : 1400
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "54931f3e8748ceb8",
+  "uid" : "2961975103846f93",
+  "name" : "User can proceed from Accounts Overview page to Bill Pay page",
+  "time" : {
+    "start" : 1705392800847,
+    "stop" : 1705392802411,
+    "duration" : 1564
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c65e2ca0205c889",
+  "name" : "User can proceed from Accounts Overview page to Open New Account page",
+  "time" : {
+    "start" : 1705392796198,
+    "stop" : 1705392797629,
+    "duration" : 1431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57f20d3fbed07d15",
+  "name" : "Logged in user can proceed from Home page to Find Transactions page",
+  "time" : {
+    "start" : 1705392857962,
+    "stop" : 1705392859611,
+    "duration" : 1649
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d827559e2a5cdf",
+  "name" : "User can't successfully send email support request by submitting an empty form.",
+  "time" : {
+    "start" : 1705392732336,
+    "stop" : 1705392733387,
+    "duration" : 1051
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "66256d24fd3ca7a6",
+  "name" : "User can't successfully lookup for credentials by leaving one of the fields empty.",
+  "time" : {
+    "start" : 1705392725786,
+    "stop" : 1705392729244,
+    "duration" : 3458
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "cdbf4aaf2b3c59a8",
+  "name" : "User can't transfer funds leaving amount field empty",
+  "time" : {
+    "start" : 1705392744591,
+    "stop" : 1705392749810,
+    "duration" : 5219
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "90c47852bb7a6d04",
+  "name" : "User can proceed from Transfer Funds page to Find Transactions page",
+  "time" : {
+    "start" : 1705392922113,
+    "stop" : 1705392923816,
+    "duration" : 1703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e2307327fede53d",
+  "name" : "User can proceed from Open New Account page to Contact page",
+  "time" : {
+    "start" : 1705392875332,
+    "stop" : 1705392877021,
+    "duration" : 1689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18d82b97c3755f87",
+  "name" : "User can't successfully register with existing username.",
+  "time" : {
+    "start" : 1705392781655,
+    "stop" : 1705392785173,
+    "duration" : 3518
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "53d2400b519ca106",
+  "name" : "User can successfully open a new account of 'Checking' type.",
+  "time" : {
+    "start" : 1705392761709,
+    "stop" : 1705392765155,
+    "duration" : 3446
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "57306a297aa6aa4e",
+  "name" : "User can't successfully register by providing mismatched passwords",
+  "time" : {
+    "start" : 1705392778729,
+    "stop" : 1705392780759,
+    "duration" : 2030
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d5add9212de3c929",
   "name" : "User can successfully register by filling in all the fields",
   "time" : {
-    "start" : 1705147756414,
-    "stop" : 1705147758401,
-    "duration" : 1987
+    "start" : 1705392770406,
+    "stop" : 1705392773305,
+    "duration" : 2899
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "e443c01c901aea69",
-  "name" : "User can't successfully register by providing mismatched passwords",
+  "uid" : "19cf5fb273141510",
+  "name" : "User can't successfully lookup for credentials by submitting an empty form.",
   "time" : {
-    "start" : 1705147764245,
-    "stop" : 1705147766232,
-    "duration" : 1987
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "d8c80aa6896265c3",
-  "name" : "User can't successfully register by leaving one of the fields empty",
-  "time" : {
-    "start" : 1705147761216,
-    "stop" : 1705147763340,
-    "duration" : 2124
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "f6715966f7dd99ae",
-  "name" : "Logged in user can proceed from Contact page to Request Loan page",
-  "time" : {
-    "start" : 1705147849825,
-    "stop" : 1705147852077,
-    "duration" : 2252
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4b539758bf155ed5",
-  "name" : "User can't successfully log in with empty username.",
-  "time" : {
-    "start" : 1705147740136,
-    "stop" : 1705147741583,
-    "duration" : 1447
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "b5c530428613e5a6",
-  "name" : "User can't successfully log in with empty password.",
-  "time" : {
-    "start" : 1705147742492,
-    "stop" : 1705147743497,
-    "duration" : 1005
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "3e05817700b585bc",
-  "name" : "User can proceed from Home page to Register page",
-  "time" : {
-    "start" : 1705147858090,
-    "stop" : 1705147858994,
-    "duration" : 904
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "10e09d706402f1fd",
-  "name" : "User can proceed from Contact page to About Us page",
-  "time" : {
-    "start" : 1705147826992,
-    "stop" : 1705147827891,
-    "duration" : 899
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dbc954b1ce01ae76",
-  "name" : "User can proceed from Customer Lookup page to Register page",
-  "time" : {
-    "start" : 1705147889725,
-    "stop" : 1705147890685,
+    "start" : 1705392723934,
+    "stop" : 1705392724894,
     "duration" : 960
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d2a9a1a177f7256",
-  "name" : "User can't make a payment by leaving one of the payee info fields empty",
-  "time" : {
-    "start" : 1705147553001,
-    "stop" : 1705147556095,
-    "duration" : 3094
-  },
-  "status" : "passed",
   "severity" : "minor"
 }, {
-  "uid" : "f88fe203d80e3c42",
-  "name" : "Logged in user can proceed from Home page to Update Profile page",
+  "uid" : "d798742411b0b0b3",
+  "name" : "User can proceed from Contact page to Home page",
   "time" : {
-    "start" : 1705147879637,
-    "stop" : 1705147881872,
-    "duration" : 2235
+    "start" : 1705392818146,
+    "stop" : 1705392819086,
+    "duration" : 940
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d72c6f0dc56faa6f",
-  "name" : "User can't successfully lookup for credentials by leaving one of the fields empty.",
+  "uid" : "f075de77afa1b47c",
+  "name" : "Logged in user can proceed from Home page to Accounts Overview page",
   "time" : {
-    "start" : 1705147571541,
-    "stop" : 1705147575023,
-    "duration" : 3482
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "b817dee6c6081a5b",
-  "name" : "Logged in user can proceed from Contact page to Transfer Funds page",
-  "time" : {
-    "start" : 1705147837176,
-    "stop" : 1705147839352,
-    "duration" : 2176
+    "start" : 1705392850440,
+    "stop" : 1705392852012,
+    "duration" : 1572
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "605b66a37b83c927",
-  "name" : "User can make payment to a certain payee",
-  "time" : {
-    "start" : 1705147546003,
-    "stop" : 1705147548764,
-    "duration" : 2761
-  },
-  "status" : "skipped",
-  "severity" : "critical"
-}, {
-  "uid" : "b3c17f8970579887",
-  "name" : "User can proceed from Customer Lookup page to Home page",
-  "time" : {
-    "start" : 1705147895244,
-    "stop" : 1705147896144,
-    "duration" : 900
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "38faba497babac61",
-  "name" : "User can proceed from Customer Lookup page to Contact page",
-  "time" : {
-    "start" : 1705147891589,
-    "stop" : 1705147892553,
-    "duration" : 964
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "96eaf8676a465f30",
-  "name" : "User can proceed from Accounts Overview page to Update Profile page",
-  "time" : {
-    "start" : 1705147813885,
-    "stop" : 1705147816105,
-    "duration" : 2220
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8fac04b861d465a0",
-  "name" : "Logged in user can proceed from Home page to Request Loan page",
-  "time" : {
-    "start" : 1705147882783,
-    "stop" : 1705147885240,
-    "duration" : 2457
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fd728379b382938e",
-  "name" : "User can proceed from Transfer Funds page to Request Loan page",
-  "time" : {
-    "start" : 1705147961331,
-    "stop" : 1705147963641,
-    "duration" : 2310
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f9d39531bc8ebc9c",
-  "name" : "User can proceed from Transfer Funds page to Bill Pay page",
-  "time" : {
-    "start" : 1705147951226,
-    "stop" : 1705147953632,
-    "duration" : 2406
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dce30ae910cd0239",
-  "name" : "User can't successfully register by submitting an empty form",
-  "time" : {
-    "start" : 1705147759297,
-    "stop" : 1705147760316,
-    "duration" : 1019
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "5dcbcad186494b10",
-  "name" : "User can log out from Transfer Funds page",
-  "time" : {
-    "start" : 1705147964539,
-    "stop" : 1705147967117,
-    "duration" : 2578
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b6e53623b6cf843",
-  "name" : "Default account is displayed in the table for a new user",
-  "time" : {
-    "start" : 1705147528455,
-    "stop" : 1705147532848,
-    "duration" : 4393
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "59f89872534485e4",
-  "name" : "User can't make a payment by submitting an empty payee info form",
-  "time" : {
-    "start" : 1705147549668,
-    "stop" : 1705147552096,
-    "duration" : 2428
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "7c70d9b66f5e3b29",
-  "name" : "User can proceed from Open New Account page to Update Profile page",
-  "time" : {
-    "start" : 1705147920550,
-    "stop" : 1705147923031,
-    "duration" : 2481
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc4557a533298e2e",
-  "name" : "User can proceed from Open New Account page to Home page",
-  "time" : {
-    "start" : 1705147903705,
-    "stop" : 1705147906058,
-    "duration" : 2353
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "73e6a763288d20ee",
-  "name" : "User can proceed from Open New Account page to Transfer Funds page",
-  "time" : {
-    "start" : 1705147910471,
-    "stop" : 1705147912814,
-    "duration" : 2343
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a00d03b30921a60",
-  "name" : "User can proceed from Accounts Overview page to About Us page",
-  "time" : {
-    "start" : 1705147795645,
-    "stop" : 1705147797528,
-    "duration" : 1883
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "467f12feb5f8b2eb",
-  "name" : "User can log out from Accounts Overview page",
-  "time" : {
-    "start" : 1705147820093,
-    "stop" : 1705147822351,
-    "duration" : 2258
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "677f3b5a9bb294cb",
-  "name" : "Logged in user can proceed from Home page to Open New Account page",
-  "time" : {
-    "start" : 1705147863489,
-    "stop" : 1705147865779,
-    "duration" : 2290
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e8d91bef583d1085",
-  "name" : "Logged in user can proceed from Home page to Transfer Funds page",
-  "time" : {
-    "start" : 1705147869975,
-    "stop" : 1705147872214,
-    "duration" : 2239
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "22c16ff29c2a9fe1",
+  "uid" : "f4b2bf002f6434e5",
   "name" : "User can successfully log in with valid credentials.",
   "time" : {
-    "start" : 1705147593108,
-    "stop" : 1705147594920,
-    "duration" : 1812
+    "start" : 1705392750707,
+    "stop" : 1705392751995,
+    "duration" : 1288
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "ca0047e14f763df4",
-  "name" : "User can proceed from Transfer Funds page to About Us page",
-  "time" : {
-    "start" : 1705147941428,
-    "stop" : 1705147943756,
-    "duration" : 2328
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c0a8b180dd022d4",
-  "name" : "User can successfully send email support request.",
-  "time" : {
-    "start" : 1705147575923,
-    "stop" : 1705147577203,
-    "duration" : 1280
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f5d35f7f1a63e29",
-  "name" : "User can proceed from Transfer Funds page to Open New Account page",
-  "time" : {
-    "start" : 1705147947997,
-    "stop" : 1705147950325,
-    "duration" : 2328
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8c3605b86b91597b",
-  "name" : "Logged in user can proceed from Contact page to Bill Pay page",
-  "time" : {
-    "start" : 1705147840254,
-    "stop" : 1705147842542,
-    "duration" : 2288
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "35a88342bb1b9641",
-  "name" : "User can proceed from Contact page to Customer Lookup page",
-  "time" : {
-    "start" : 1705147823253,
-    "stop" : 1705147824223,
-    "duration" : 970
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a51049b650925b73",
-  "name" : "User can proceed from Customer Lookup page to About Us page",
-  "time" : {
-    "start" : 1705147893456,
-    "stop" : 1705147894348,
-    "duration" : 892
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eda552c7209cfca",
-  "name" : "User can proceed from Accounts Overview page to Open New Account page",
-  "time" : {
-    "start" : 1705147801448,
-    "stop" : 1705147803567,
-    "duration" : 2119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de4b2acc8ad178e0",
-  "name" : "User can proceed from Accounts Overview page to Request Loan page",
-  "time" : {
-    "start" : 1705147817027,
-    "stop" : 1705147819187,
-    "duration" : 2160
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2bd88be458491d49",
-  "name" : "User can successfully open a new account of 'Checking' type.",
-  "time" : {
-    "start" : 1705147744399,
-    "stop" : 1705147749185,
-    "duration" : 4786
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "46915d9139cdbd9",
-  "name" : "User can't make a payment by providing mismatched accounts",
-  "time" : {
-    "start" : 1705147556992,
-    "stop" : 1705147560065,
-    "duration" : 3073
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "d9c05a99e65f00ec",
-  "name" : "User can't successfully lookup for credentials by submitting an empty form.",
-  "time" : {
-    "start" : 1705147569407,
-    "stop" : 1705147570639,
-    "duration" : 1232
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "62e207fd38cae8bd",
-  "name" : "Sum of accounts' balances match total",
-  "time" : {
-    "start" : 1705147519511,
-    "stop" : 1705147522835,
-    "duration" : 3324
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "5827fb16cd4fd616",
-  "name" : "User can proceed from Contact page to Register page",
-  "time" : {
-    "start" : 1705147825124,
-    "stop" : 1705147826089,
-    "duration" : 965
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f112a86e48f5a304",
+  "uid" : "bc33de8f9dfa2785",
   "name" : "User can't successfully log in with invalid username.",
   "time" : {
-    "start" : 1705147722132,
-    "stop" : 1705147739232,
-    "duration" : 17100
-  },
-  "status" : "broken",
-  "severity" : "minor"
-}, {
-  "uid" : "10437f4d87a95539",
-  "name" : "User can't successfully send email support request by submitting an empty form.",
-  "time" : {
-    "start" : 1705147578107,
-    "stop" : 1705147579075,
-    "duration" : 968
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "b937bc1ce3571fef",
-  "name" : "User can proceed from Accounts Overview page to Bill Pay page",
-  "time" : {
-    "start" : 1705147807462,
-    "stop" : 1705147809960,
-    "duration" : 2498
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ea1ea071019bbdb",
-  "name" : "User can proceed from Contact page to Home page",
-  "time" : {
-    "start" : 1705147828796,
-    "stop" : 1705147829714,
-    "duration" : 918
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "29da87e3f1c3d897",
-  "name" : "User can't successfully send email support request by leaving one of the fields empty.",
-  "time" : {
-    "start" : 1705147579973,
-    "stop" : 1705147581234,
-    "duration" : 1261
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "10c0b405c22cda69",
-  "name" : "Logged in user can proceed from Contact page to Find Transactions page",
-  "time" : {
-    "start" : 1705147843444,
-    "stop" : 1705147845713,
-    "duration" : 2269
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f8ceac5316ae1f64",
-  "name" : "User can't transfer funds leaving amount field empty",
-  "time" : {
-    "start" : 1705147590341,
-    "stop" : 1705147592208,
-    "duration" : 1867
+    "start" : 1705392755010,
+    "stop" : 1705392756929,
+    "duration" : 1919
   },
   "status" : "skipped",
   "severity" : "minor"
 }, {
-  "uid" : "8cee97fda65a6bf",
-  "name" : "Logged in user can proceed from Contact page to Open New Account page",
+  "uid" : "eee6fe3280500034",
+  "name" : "User can transfer funds between accounts",
   "time" : {
-    "start" : 1705147830610,
-    "stop" : 1705147832860,
-    "duration" : 2250
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1bdfe1a3fe6c8bdb",
-  "name" : "User can proceed from Accounts Overview page to Find Transactions page",
-  "time" : {
-    "start" : 1705147810859,
-    "stop" : 1705147812982,
-    "duration" : 2123
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7698b4950142790c",
-  "name" : "Balance and amount are consistent across Accounts Overview and Account Details pages",
-  "time" : {
-    "start" : 1705147523734,
-    "stop" : 1705147527555,
-    "duration" : 3821
+    "start" : 1705392736551,
+    "stop" : 1705392743691,
+    "duration" : 7140
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "a90352ca0e59c51f",
-  "name" : "User can proceed from Open New Account page to Request Loan page",
+  "uid" : "996c7d1673a39cd0",
+  "name" : "User can't successfully register by submitting an empty form",
   "time" : {
-    "start" : 1705147923925,
-    "stop" : 1705147926353,
-    "duration" : 2428
+    "start" : 1705392774199,
+    "stop" : 1705392775166,
+    "duration" : 967
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f05eea642164b5d9",
-  "name" : "User can successfully open a new account of 'Savings' type.",
-  "time" : {
-    "start" : 1705147750079,
-    "stop" : 1705147755512,
-    "duration" : 5433
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "746ca92f51200bad",
-  "name" : "Logged in user can proceed from Home page to Accounts Overview page",
-  "time" : {
-    "start" : 1705147866676,
-    "stop" : 1705147869078,
-    "duration" : 2402
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e7dcbff4cf558ab",
-  "name" : "User can't successfully log in with invalid password.",
-  "time" : {
-    "start" : 1705147649692,
-    "stop" : 1705147666962,
-    "duration" : 17270
-  },
-  "status" : "broken",
   "severity" : "minor"
 }, {
-  "uid" : "167d5d16f04a5ff9",
-  "name" : "User can proceed from Open New Account page to Contact page",
+  "uid" : "19b6b5744bffa288",
+  "name" : "Newly created account is displayed in the table",
   "time" : {
-    "start" : 1705147897044,
-    "stop" : 1705147899577,
-    "duration" : 2533
+    "start" : 1705392695677,
+    "stop" : 1705392700034,
+    "duration" : 4357
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "187c363b05351fc1",
+  "name" : "User can make payment to a certain payee",
+  "time" : {
+    "start" : 1705392700940,
+    "stop" : 1705392706035,
+    "duration" : 5095
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5ae1aeda988a53b6",
+  "name" : "User can proceed from Open New Account page to Bill Pay page",
+  "time" : {
+    "start" : 1705392888041,
+    "stop" : 1705392889800,
+    "duration" : 1759
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c66e2407feb06275",
-  "name" : "Logged in user can proceed from Home page to Find Transactions page",
+  "uid" : "98f08569bc73a692",
+  "name" : "User can't successfully send email support request by leaving one of the fields empty.",
   "time" : {
-    "start" : 1705147876401,
-    "stop" : 1705147878729,
-    "duration" : 2328
+    "start" : 1705392734282,
+    "stop" : 1705392735654,
+    "duration" : 1372
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a6accfbc866f37e4",
+  "name" : "Logged in user can proceed from Home page to Bill Pay page",
+  "time" : {
+    "start" : 1705392855430,
+    "stop" : 1705392857061,
+    "duration" : 1631
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "994c37d6c9dee686",
-  "name" : "User can successfully lookup for credentials by providing valid data",
+  "uid" : "c1b1ebdea6a60539",
+  "name" : "User can proceed from Accounts Overview page to Contact page",
   "time" : {
-    "start" : 1705147564840,
-    "stop" : 1705147568507,
-    "duration" : 3667
+    "start" : 1705392789001,
+    "stop" : 1705392790621,
+    "duration" : 1620
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6f40c1e25fd02758",
-  "name" : "User can proceed from Register page to Home page",
+  "uid" : "12f2d8362fc79c86",
+  "name" : "User can proceed from Transfer Funds page to Update Profile page",
   "time" : {
-    "start" : 1705147936275,
-    "stop" : 1705147937252,
-    "duration" : 977
+    "start" : 1705392924714,
+    "stop" : 1705392926331,
+    "duration" : 1617
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "925e3766a95b3036",
-  "name" : "User can proceed from Register page to Contact page",
+  "uid" : "12f67555cfc9ba93",
+  "name" : "User can proceed from Accounts Overview page to Find Transactions page",
   "time" : {
-    "start" : 1705147932621,
-    "stop" : 1705147933511,
-    "duration" : 890
+    "start" : 1705392803311,
+    "stop" : 1705392804726,
+    "duration" : 1415
   },
   "status" : "passed",
   "severity" : "normal"
+}, {
+  "uid" : "5d72991cf0cc945d",
+  "name" : "User can proceed from Customer Lookup page to Home page",
+  "time" : {
+    "start" : 1705392873575,
+    "stop" : 1705392874433,
+    "duration" : 858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16a0a07eb46e3060",
+  "name" : "User can proceed from Accounts Overview page to Account Activity page",
+  "time" : {
+    "start" : 1705392786091,
+    "stop" : 1705392788098,
+    "duration" : 2007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbbec44253198c76",
+  "name" : "User can log out from Accounts Overview page",
+  "time" : {
+    "start" : 1705392810271,
+    "stop" : 1705392811913,
+    "duration" : 1642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48e9855f9736bbaa",
+  "name" : "User can proceed from Home page to Contact page",
+  "time" : {
+    "start" : 1705392844427,
+    "stop" : 1705392845300,
+    "duration" : 873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b25a15236d2c7235",
+  "name" : "User can proceed from Transfer Funds page to Home page",
+  "time" : {
+    "start" : 1705392913674,
+    "stop" : 1705392915257,
+    "duration" : 1583
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77afc24a769832ac",
+  "name" : "User can't make a payment with empty amount",
+  "time" : {
+    "start" : 1705392716265,
+    "stop" : 1705392718519,
+    "duration" : 2254
+  },
+  "status" : "passed",
+  "severity" : "minor"
 } ]
