@@ -1,0 +1,247 @@
+{
+  "uid" : "553c5abc782b3067",
+  "name" : "User can successfully open a new account of 'Savings' type.",
+  "fullName" : "tests.core_features.test_new_account_opening.TestNewAccountOpening#test_new_savings_account_opening",
+  "historyId" : "2a4cfc5b7c6c65ba774cc128fb6c0fb8",
+  "time" : {
+    "start" : 1705747082363,
+    "stop" : 1705747083947,
+    "duration" : 1584
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+  "statusTrace" : "tests/core_features/test_new_account_opening.py:84: in test_new_savings_account_opening\n    open_new_account_page.from_account_dropdown.select_by_index(0)\n        accounts_overview_page = <src.pages.accounts_overview_page.AccountsOverviewPage object at 0x7f47008bba50>\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7232bcacd1eb3fa0d56ff4759291069d\")>\n        home_page  = <src.pages.home_page.HomePage object at 0x7f46ff168c50>\n        open_new_account_page = <src.pages.open_new_account_page.OpenNewAccountPage object at 0x7f47008b8790>\n        self       = <test_new_account_opening.TestNewAccountOpening object at 0x7f470090fc90>\nsrc/base/base_element.py:46: in select_by_index\n    select.select_by_index(index)\n        index      = 0\n        select     = <selenium.webdriver.support.select.Select object at 0x7f46ff0aca50>\n        self       = <src.base.base_element.BaseElement object at 0x7f46ff0ad490>\n../local/lib/python3.11/site-packages/selenium/webdriver/support/select.py:97: in select_by_index\n    if opt.get_attribute(\"index\") == match:\n        index      = 0\n        match      = '0'\n        opt        = <selenium.webdriver.remote.webelement.WebElement (session=\"7232bcacd1eb3fa0d56ff4759291069d\", element=\"DDE705414D3CB05120FBF53AE42BA32A_element_108\")>\n        self       = <selenium.webdriver.support.select.Select object at 0x7f46ff0aca50>\n../local/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py:177: in get_attribute\n    attribute_value = self.parent.execute_script(\n        name       = 'index'\n        self       = <selenium.webdriver.remote.webelement.WebElement (session=\"7232bcacd1eb3fa0d56ff4759291069d\", element=\"DDE705414D3CB05120FBF53AE42BA32A_element_108\")>\n../local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py:407: in execute_script\n    return self.execute(command, {\"script\": script, \"args\": converted_args})[\"value\"]\n        args       = (<selenium.webdriver.remote.webelement.WebElement (session=\"7232bcacd1eb3fa0d56ff4759291069d\", element=\"DDE705414D3CB05120FBF53AE42BA32A_element_108\")>, 'index')\n        command    = 'w3cExecuteScript'\n        converted_args = [<selenium.webdriver.remote.webelement.WebElement (session=\"7232bcacd1eb3fa0d56ff4759291069d\", element=\"DDE705414D3CB05120FBF53AE42BA32A_element_108\")>, 'index']\n        script     = '/* getAttribute */return (function(){return (function(){var h=this||self;function aa(a){return\"string\"==typeof a}func...ow.navigator:null,document:typeof window!=\\'undefined\\'?window.document:null}, arguments);}\\n).apply(null, arguments);'\n        self       = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7232bcacd1eb3fa0d56ff4759291069d\")>\n../local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py:347: in execute\n    self.error_handler.check_response(response)\n        driver_command = 'w3cExecuteScript'\n        params     = {'args': [{'element-6066-11e4-a52e-4f735466cecf': 'DDE705414D3CB05120FBF53AE42BA32A_element_108'}, 'index'], 'script':...w.navigator:null,document:typeof window!=\\'undefined\\'?window.document:null}, arguments);}\\n).apply(null, arguments);'}\n        response   = {'status': 404, 'value': '{\"value\":{\"error\":\"stale element reference\",\"message\":\"stale element reference: stale element not found\\\\n  (Session info: headless chrome=119.0.6045.159)\",\"stacktrace\":\"\"}}'}\n        self       = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7232bcacd1eb3fa0d56ff4759291069d\")>\n../local/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py:229: in check_response\n    raise exception_class(message, screen, stacktrace)\nE   selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\nE     (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\n        e          = <selenium.webdriver.remote.errorhandler.ErrorCode object at 0x7f47008bb990>\n        error_code = 'STALE_ELEMENT_REFERENCE'\n        error_codes = ['ELEMENT_CLICK_INTERCEPTED', 'ELEMENT_IS_NOT_SELECTABLE', 'ELEMENT_NOT_INTERACTABLE', 'ELEMENT_NOT_VISIBLE', 'IME_ENGINE_ACTIVATION_FAILED', 'IME_NOT_AVAILABLE', ...]\n        error_info = [10, 'stale element reference']\n        exception_class = <class 'selenium.common.exceptions.StaleElementReferenceException'>\n        json       = <module 'json' from '/usr/local/lib/python3.11/json/__init__.py'>\n        message    = 'stale element reference: stale element not found\\n  (Session info: headless chrome=119.0.6045.159)'\n        response   = {'status': 404, 'value': '{\"value\":{\"error\":\"stale element reference\",\"message\":\"stale element reference: stale element not found\\\\n  (Session info: headless chrome=119.0.6045.159)\",\"stacktrace\":\"\"}}'}\n        screen     = None\n        self       = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f46fd738190>\n        st_value   = ''\n        stacktrace = None\n        status     = 'stale element reference'\n        value      = {'error': 'stale element reference', 'message': 'stale element reference: stale element not found\\n  (Session info: headless chrome=119.0.6045.159)', 'stacktrace': ''}\n        value_json = '{\"value\":{\"error\":\"stale element reference\",\"message\":\"stale element reference: stale element not found\\\\n  (Session info: headless chrome=119.0.6045.159)\",\"stacktrace\":\"\"}}'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705746993376,
+      "stop" : 1705746994076,
+      "duration" : 700
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705747081526,
+      "stop" : 1705747082363,
+      "duration" : 837
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705746993355,
+      "stop" : 1705746993376,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+    "statusTrace" : "tests/core_features/test_new_account_opening.py:84: in test_new_savings_account_opening\n    open_new_account_page.from_account_dropdown.select_by_index(0)\n        accounts_overview_page = <src.pages.accounts_overview_page.AccountsOverviewPage object at 0x7f47008bba50>\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7232bcacd1eb3fa0d56ff4759291069d\")>\n        home_page  = <src.pages.home_page.HomePage object at 0x7f46ff168c50>\n        open_new_account_page = <src.pages.open_new_account_page.OpenNewAccountPage object at 0x7f47008b8790>\n        self       = <test_new_account_opening.TestNewAccountOpening object at 0x7f470090fc90>\nsrc/base/base_element.py:46: in select_by_index\n    select.select_by_index(index)\n        index      = 0\n        select     = <selenium.webdriver.support.select.Select object at 0x7f46ff0aca50>\n        self       = <src.base.base_element.BaseElement object at 0x7f46ff0ad490>\n../local/lib/python3.11/site-packages/selenium/webdriver/support/select.py:97: in select_by_index\n    if opt.get_attribute(\"index\") == match:\n        index      = 0\n        match      = '0'\n        opt        = <selenium.webdriver.remote.webelement.WebElement (session=\"7232bcacd1eb3fa0d56ff4759291069d\", element=\"DDE705414D3CB05120FBF53AE42BA32A_element_108\")>\n        self       = <selenium.webdriver.support.select.Select object at 0x7f46ff0aca50>\n../local/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py:177: in get_attribute\n    attribute_value = self.parent.execute_script(\n        name       = 'index'\n        self       = <selenium.webdriver.remote.webelement.WebElement (session=\"7232bcacd1eb3fa0d56ff4759291069d\", element=\"DDE705414D3CB05120FBF53AE42BA32A_element_108\")>\n../local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py:407: in execute_script\n    return self.execute(command, {\"script\": script, \"args\": converted_args})[\"value\"]\n        args       = (<selenium.webdriver.remote.webelement.WebElement (session=\"7232bcacd1eb3fa0d56ff4759291069d\", element=\"DDE705414D3CB05120FBF53AE42BA32A_element_108\")>, 'index')\n        command    = 'w3cExecuteScript'\n        converted_args = [<selenium.webdriver.remote.webelement.WebElement (session=\"7232bcacd1eb3fa0d56ff4759291069d\", element=\"DDE705414D3CB05120FBF53AE42BA32A_element_108\")>, 'index']\n        script     = '/* getAttribute */return (function(){return (function(){var h=this||self;function aa(a){return\"string\"==typeof a}func...ow.navigator:null,document:typeof window!=\\'undefined\\'?window.document:null}, arguments);}\\n).apply(null, arguments);'\n        self       = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7232bcacd1eb3fa0d56ff4759291069d\")>\n../local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py:347: in execute\n    self.error_handler.check_response(response)\n        driver_command = 'w3cExecuteScript'\n        params     = {'args': [{'element-6066-11e4-a52e-4f735466cecf': 'DDE705414D3CB05120FBF53AE42BA32A_element_108'}, 'index'], 'script':...w.navigator:null,document:typeof window!=\\'undefined\\'?window.document:null}, arguments);}\\n).apply(null, arguments);'}\n        response   = {'status': 404, 'value': '{\"value\":{\"error\":\"stale element reference\",\"message\":\"stale element reference: stale element not found\\\\n  (Session info: headless chrome=119.0.6045.159)\",\"stacktrace\":\"\"}}'}\n        self       = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7232bcacd1eb3fa0d56ff4759291069d\")>\n../local/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py:229: in check_response\n    raise exception_class(message, screen, stacktrace)\nE   selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\nE     (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\n        e          = <selenium.webdriver.remote.errorhandler.ErrorCode object at 0x7f47008bb990>\n        error_code = 'STALE_ELEMENT_REFERENCE'\n        error_codes = ['ELEMENT_CLICK_INTERCEPTED', 'ELEMENT_IS_NOT_SELECTABLE', 'ELEMENT_NOT_INTERACTABLE', 'ELEMENT_NOT_VISIBLE', 'IME_ENGINE_ACTIVATION_FAILED', 'IME_NOT_AVAILABLE', ...]\n        error_info = [10, 'stale element reference']\n        exception_class = <class 'selenium.common.exceptions.StaleElementReferenceException'>\n        json       = <module 'json' from '/usr/local/lib/python3.11/json/__init__.py'>\n        message    = 'stale element reference: stale element not found\\n  (Session info: headless chrome=119.0.6045.159)'\n        response   = {'status': 404, 'value': '{\"value\":{\"error\":\"stale element reference\",\"message\":\"stale element reference: stale element not found\\\\n  (Session info: headless chrome=119.0.6045.159)\",\"stacktrace\":\"\"}}'}\n        screen     = None\n        self       = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f46fd738190>\n        st_value   = ''\n        stacktrace = None\n        status     = 'stale element reference'\n        value      = {'error': 'stale element reference', 'message': 'stale element reference: stale element not found\\n  (Session info: headless chrome=119.0.6045.159)', 'stacktrace': ''}\n        value_json = '{\"value\":{\"error\":\"stale element reference\",\"message\":\"stale element reference: stale element not found\\\\n  (Session info: headless chrome=119.0.6045.159)\",\"stacktrace\":\"\"}}'",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705747082363,
+        "stop" : 1705747083030,
+        "duration" : 667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Fill in valid username and password",
+      "time" : {
+        "start" : 1705747083030,
+        "stop" : 1705747083184,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Log in",
+      "time" : {
+        "start" : 1705747083184,
+        "stop" : 1705747083644,
+        "duration" : 460
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Navigate to Open New Account page",
+      "time" : {
+        "start" : 1705747083644,
+        "stop" : 1705747083845,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Select account of 'Savings' type",
+      "time" : {
+        "start" : 1705747083845,
+        "stop" : 1705747083918,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Select source account",
+      "time" : {
+        "start" : 1705747083918,
+        "stop" : 1705747083946,
+        "duration" : 28
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\n\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/core_features/test_new_account_opening.py\", line 84, in test_new_savings_account_opening\n    open_new_account_page.from_account_dropdown.select_by_index(0)\n  File \"/usr/workspace/src/base/base_element.py\", line 46, in select_by_index\n    select.select_by_index(index)\n  File \"/usr/local/lib/python3.11/site-packages/selenium/webdriver/support/select.py\", line 97, in select_by_index\n    if opt.get_attribute(\"index\") == match:\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py\", line 177, in get_attribute\n    attribute_value = self.parent.execute_script(\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py\", line 407, in execute_script\n    return self.execute(command, {\"script\": script, \"args\": converted_args})[\"value\"]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py\", line 347, in execute\n    self.error_handler.check_response(response)\n  File \"/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py\", line 229, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705747083974,
+      "stop" : 1705747084031,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705747083974,
+        "stop" : 1705747084031,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PARA-15241: Account operations"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15252: New account opening"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_account_opening"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNewAccountOpening"
+  }, {
+    "name" : "host",
+    "value" : "96264ae6ff2c"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_new_account_opening"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "553c5abc782b3067.json",
+  "parameterValues" : [ ]
+}

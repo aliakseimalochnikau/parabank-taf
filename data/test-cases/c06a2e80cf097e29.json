@@ -1,0 +1,312 @@
+{
+  "uid" : "c06a2e80cf097e29",
+  "name" : "User can't successfully register by leaving one of the fields empty",
+  "fullName" : "tests.core_features.test_registration.TestRegistration#test_registration_with_empty_random_field",
+  "historyId" : "a53e328d1c660705e13abf734d6c3301",
+  "time" : {
+    "start" : 1705747096641,
+    "stop" : 1705747098351,
+    "duration" : 1710
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL reason: Execution blocked by Cloudflare\n\n_pytest.outcomes.XFailed: Execution blocked by Cloudflare",
+  "statusTrace" : "tests/core_features/test_registration.py:76: in test_registration_with_empty_random_field\n    block_checker(driver)\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d840f68074840d5bfc1e5929ab1e774b\")>\n        form_fields = {1: (<src.base.base_element.BaseElement object at 0x7f46ff0d0f50>, 'Ernest'), 2: (<src.base.base_element.BaseElement o...Suite 294\\nNorth Becky, NE 52870'), 4: (<src.base.base_element.BaseElement object at 0x7f46ff0d2b10>, 'Leeburgh'), ...}\n        new_user   = NewUser(first_name='Ernest', last_name='Brown', address='20923 Christina Mountains Suite 294\\nNorth Becky, NE 52870', ...e_number='4233101906', ssn='377-45-8715', username='michael88', password='T&2*3ArJ16', email='nealanthony@example.net')\n        no_fill_num = 2\n        register_page = <src.pages.register_page.RegisterPage object at 0x7f46ff0d1a10>\n        self       = <test_registration.TestRegistration object at 0x7f46fd795650>\nsrc/utils/block_checker.py:8: in block_checker\n    pytest.xfail(reason=\"Execution blocked by Cloudflare\")\nE   _pytest.outcomes.XFailed: Execution blocked by Cloudflare\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d840f68074840d5bfc1e5929ab1e774b\")>",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705747095801,
+      "stop" : 1705747096641,
+      "duration" : 840
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705746993376,
+      "stop" : 1705746994076,
+      "duration" : 700
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705746993355,
+      "stop" : 1705746993376,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL reason: Execution blocked by Cloudflare\n\n_pytest.outcomes.XFailed: Execution blocked by Cloudflare",
+    "statusTrace" : "tests/core_features/test_registration.py:76: in test_registration_with_empty_random_field\n    block_checker(driver)\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d840f68074840d5bfc1e5929ab1e774b\")>\n        form_fields = {1: (<src.base.base_element.BaseElement object at 0x7f46ff0d0f50>, 'Ernest'), 2: (<src.base.base_element.BaseElement o...Suite 294\\nNorth Becky, NE 52870'), 4: (<src.base.base_element.BaseElement object at 0x7f46ff0d2b10>, 'Leeburgh'), ...}\n        new_user   = NewUser(first_name='Ernest', last_name='Brown', address='20923 Christina Mountains Suite 294\\nNorth Becky, NE 52870', ...e_number='4233101906', ssn='377-45-8715', username='michael88', password='T&2*3ArJ16', email='nealanthony@example.net')\n        no_fill_num = 2\n        register_page = <src.pages.register_page.RegisterPage object at 0x7f46ff0d1a10>\n        self       = <test_registration.TestRegistration object at 0x7f46fd795650>\nsrc/utils/block_checker.py:8: in block_checker\n    pytest.xfail(reason=\"Execution blocked by Cloudflare\")\nE   _pytest.outcomes.XFailed: Execution blocked by Cloudflare\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d840f68074840d5bfc1e5929ab1e774b\")>",
+    "steps" : [ {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1705747096641,
+        "stop" : 1705747097299,
+        "duration" : 658
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Fill in all the required fields but one",
+      "time" : {
+        "start" : 1705747097299,
+        "stop" : 1705747098350,
+        "duration" : 1051
+      },
+      "status" : "failed",
+      "statusMessage" : "_pytest.outcomes.XFailed: Execution blocked by Cloudflare\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/core_features/test_registration.py\", line 76, in test_registration_with_empty_random_field\n    block_checker(driver)\n  File \"/usr/workspace/src/utils/block_checker.py\", line 8, in block_checker\n    pytest.xfail(reason=\"Execution blocked by Cloudflare\")\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/outcomes.py\", line 256, in xfail\n    raise XFailed(reason)\n",
+      "steps" : [ {
+        "name" : "Submit the form with one empty field",
+        "time" : {
+          "start" : 1705747098212,
+          "stop" : 1705747098350,
+          "duration" : 138
+        },
+        "status" : "failed",
+        "statusMessage" : "_pytest.outcomes.XFailed: Execution blocked by Cloudflare\n",
+        "statusTrace" : "  File \"/usr/workspace/tests/core_features/test_registration.py\", line 76, in test_registration_with_empty_random_field\n    block_checker(driver)\n  File \"/usr/workspace/src/utils/block_checker.py\", line 8, in block_checker\n    pytest.xfail(reason=\"Execution blocked by Cloudflare\")\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/outcomes.py\", line 256, in xfail\n    raise XFailed(reason)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705747098354,
+      "stop" : 1705747098411,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705747098354,
+        "stop" : 1705747098411,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PARA-15240: User registration and authentication"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15260: User registration"
+  }, {
+    "name" : "severity",
+    "value" : "Minor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegistration"
+  }, {
+    "name" : "host",
+    "value" : "96264ae6ff2c"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "eb827722604b0734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596743798,
+          "stop" : 1705596745615,
+          "duration" : 1817
+        }
+      }, {
+        "uid" : "f0ce0f56ed913a9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440592328,
+          "stop" : 1705440594175,
+          "duration" : 1847
+        }
+      }, {
+        "uid" : "2ce432c856f14e33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392776066,
+          "stop" : 1705392777831,
+          "duration" : 1765
+        }
+      }, {
+        "uid" : "d8c80aa6896265c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147761216,
+          "stop" : 1705147763340,
+          "duration" : 2124
+        }
+      }, {
+        "uid" : "14a9bc0dec7ff11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016502188,
+          "stop" : 1705016504008,
+          "duration" : 1820
+        }
+      }, {
+        "uid" : "23ce1ee3ce476a44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913024279,
+          "stop" : 1704913025556,
+          "duration" : 1277
+        }
+      }, {
+        "uid" : "35906ad4fc829d60",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682746,
+          "stop" : 1704908682746,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ad692ab86cb1fc33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874995138,
+          "stop" : 1704874997161,
+          "duration" : 2023
+        }
+      }, {
+        "uid" : "ae3756425e1e71f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839570734,
+          "stop" : 1704839572410,
+          "duration" : 1676
+        }
+      }, {
+        "uid" : "fd6e6d76bbca0414",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Execution blocked by Cloudflare\n\n_pytest.outcomes.XFailed: Execution blocked by Cloudflare",
+        "time" : {
+          "start" : 1704789378491,
+          "stop" : 1704789379905,
+          "duration" : 1414
+        }
+      }, {
+        "uid" : "f73a000a6193f2f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759045537,
+          "stop" : 1704759046800,
+          "duration" : 1263
+        }
+      }, {
+        "uid" : "1f14c26f442b32e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756593569,
+          "stop" : 1704756595367,
+          "duration" : 1798
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c06a2e80cf097e29.json",
+  "parameterValues" : [ ]
+}
