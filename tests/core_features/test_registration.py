@@ -71,26 +71,26 @@ class TestRegistration:
             }
             no_fill_num = fill_form_with_empty_random_field(form_fields, number_of_fields=10)
 
-            with allure.step("Submit the form with one empty field"):
-                register_page.register_button.click()
-                block_checker(driver)
+        with allure.step("Submit the form with one empty field"):
+            register_page.register_button.click()
+            block_checker(driver)
 
-            with allure.step("Check error message is displayed"):
-                field_errors = {
-                    1: (register_page.first_name_error, "First name is required."),
-                    2: (register_page.last_name_error, "Last name is required."),
-                    3: (register_page.address_error, "Address is required."),
-                    4: (register_page.city_error, "City is required."),
-                    5: (register_page.state_error, "State is required."),
-                    6: (register_page.zip_code_error, "Zip Code is required."),
-                    7: (register_page.ssn_error, "Social Security Number is required."),
-                    8: (register_page.username_error, "Username is required."),
-                    9: (register_page.password_error, "Password is required."),
-                    10: (register_page.confirm_password_error, "Password confirmation is required.")
-                }
+        with allure.step("Check error message is displayed"):
+            field_errors = {
+                1: (register_page.first_name_error, "First name is required."),
+                2: (register_page.last_name_error, "Last name is required."),
+                3: (register_page.address_error, "Address is required."),
+                4: (register_page.city_error, "City is required."),
+                5: (register_page.state_error, "State is required."),
+                6: (register_page.zip_code_error, "Zip Code is required."),
+                7: (register_page.ssn_error, "Social Security Number is required."),
+                8: (register_page.username_error, "Username is required."),
+                9: (register_page.password_error, "Password is required."),
+                10: (register_page.confirm_password_error, "Password confirmation is required.")
+            }
 
-                error_locator, error_text = field_errors[no_fill_num]
-                error_locator.assert_error(error_text)
+            error_locator, error_text = field_errors[no_fill_num]
+            error_locator.assert_error(error_text)
 
     @allure.severity("Minor")
     @allure.title("User can't successfully register by providing mismatched passwords")

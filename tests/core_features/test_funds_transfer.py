@@ -117,7 +117,7 @@ class TestFundsTransfer:
             open_new_account_page.is_opened()
 
         with allure.step("Open new account"):
-            # time.sleep(.5)
+            time.sleep(.5)
             open_new_account_page.account_type_dropdown.select_by_index(0)
             open_new_account_page.from_account_dropdown.select_by_index(0)
             time.sleep(.5)
