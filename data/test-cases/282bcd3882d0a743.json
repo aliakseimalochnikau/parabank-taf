@@ -1,0 +1,440 @@
+{
+  "uid" : "282bcd3882d0a743",
+  "name" : "User can successfully open a new account of 'Checking' type.",
+  "fullName" : "tests.core_features.test_new_account_opening.TestNewAccountOpening#test_new_checking_account_opening",
+  "historyId" : "595505eab70eb0d9ff6d35befc70f62b",
+  "time" : {
+    "start" : 1705842802665,
+    "stop" : 1705842806221,
+    "duration" : 3556
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705842674470,
+      "stop" : 1705842674491,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705842674491,
+      "stop" : 1705842674944,
+      "duration" : 453
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705842801821,
+      "stop" : 1705842802665,
+      "duration" : 844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705842802666,
+        "stop" : 1705842803443,
+        "duration" : 777
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in valid username and password",
+      "time" : {
+        "start" : 1705842803443,
+        "stop" : 1705842803603,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Log in",
+      "time" : {
+        "start" : 1705842803603,
+        "stop" : 1705842804048,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Open New Account page",
+      "time" : {
+        "start" : 1705842804048,
+        "stop" : 1705842804232,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Select account of 'Checking' type",
+      "time" : {
+        "start" : 1705842804232,
+        "stop" : 1705842804277,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Select source account",
+      "time" : {
+        "start" : 1705842804277,
+        "stop" : 1705842804312,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Open new account",
+      "time" : {
+        "start" : 1705842804312,
+        "stop" : 1705842805621,
+        "duration" : 1309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check user is redirected to Account Activity page",
+      "time" : {
+        "start" : 1705842805621,
+        "stop" : 1705842805627,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check valid account information is displayed",
+      "time" : {
+        "start" : 1705842805627,
+        "stop" : 1705842806221,
+        "duration" : 594
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705842806222,
+      "stop" : 1705842806280,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705842806222,
+        "stop" : 1705842806280,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "PARA-15252: New account opening"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15241: Account operations"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_account_opening"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNewAccountOpening"
+  }, {
+    "name" : "host",
+    "value" : "63e198265aea"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_new_account_opening"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "4da4c5764231e2bd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+      "time" : {
+        "start" : 1705842800403,
+        "stop" : 1705842801733,
+        "duration" : 1330
+      }
+    }, {
+      "uid" : "1c0a56de1af89bc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+      "time" : {
+        "start" : 1705842798117,
+        "stop" : 1705842799479,
+        "duration" : 1362
+      }
+    }, {
+      "uid" : "257647aecab4bea2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+      "time" : {
+        "start" : 1705842795859,
+        "stop" : 1705842797197,
+        "duration" : 1338
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 1,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "88d843adb33e605f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705837905347,
+          "stop" : 1705837907575,
+          "duration" : 2228
+        }
+      }, {
+        "uid" : "46cd01bba383f1ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705747077981,
+          "stop" : 1705747081467,
+          "duration" : 3486
+        }
+      }, {
+        "uid" : "309567ac6a43544d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596724170,
+          "stop" : 1705596728234,
+          "duration" : 4064
+        }
+      }, {
+        "uid" : "d3cb31774969a6b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440561037,
+          "stop" : 1705440564503,
+          "duration" : 3466
+        }
+      }, {
+        "uid" : "53d2400b519ca106",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392761709,
+          "stop" : 1705392765155,
+          "duration" : 3446
+        }
+      }, {
+        "uid" : "2bd88be458491d49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147744399,
+          "stop" : 1705147749185,
+          "duration" : 4786
+        }
+      }, {
+        "uid" : "cd168bd73d6dfaf4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016488760,
+          "stop" : 1705016492159,
+          "duration" : 3399
+        }
+      }, {
+        "uid" : "c3494073b797ca22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913013539,
+          "stop" : 1704913015853,
+          "duration" : 2314
+        }
+      }, {
+        "uid" : "9eb001e083d3b82b",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682735,
+          "stop" : 1704908682735,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "34fefa46f5c85c16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874979092,
+          "stop" : 1704874982507,
+          "duration" : 3415
+        }
+      }, {
+        "uid" : "212f754996594779",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+        "time" : {
+          "start" : 1704839559752,
+          "stop" : 1704839561102,
+          "duration" : 1350
+        }
+      }, {
+        "uid" : "111037e6b742de6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789365766,
+          "stop" : 1704789368995,
+          "duration" : 3229
+        }
+      }, {
+        "uid" : "5696e0eefcbe5142",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759035209,
+          "stop" : 1704759037548,
+          "duration" : 2339
+        }
+      }, {
+        "uid" : "170975122fabee2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756577227,
+          "stop" : 1704756580678,
+          "duration" : 3451
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "282bcd3882d0a743.json",
+  "parameterValues" : [ ]
+}

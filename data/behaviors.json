@@ -6,26 +6,26 @@
       "name" : "PARA-15250: Account data consistency",
       "children" : [ {
         "name" : "Sum of accounts' balances match total",
-        "uid" : "29f8528b43e7953a",
+        "uid" : "32c1a99b5e32105",
         "parentUid" : "14461992833fb9252867885599a79057",
         "status" : "passed",
         "time" : {
-          "start" : 1705837827798,
-          "stop" : 1705837829654,
-          "duration" : 1856
+          "start" : 1705842675854,
+          "stop" : 1705842678554,
+          "duration" : 2700
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Balance and amount are consistent across Accounts Overview and Account Details pages",
-        "uid" : "156bb945f80ec282",
+        "uid" : "5b5001fb0d5a868a",
         "parentUid" : "14461992833fb9252867885599a79057",
         "status" : "passed",
         "time" : {
-          "start" : 1705837830552,
-          "stop" : 1705837832654,
-          "duration" : 2102
+          "start" : 1705842679454,
+          "stop" : 1705842682723,
+          "duration" : 3269
         },
         "flaky" : false,
         "newFailed" : false,
@@ -36,26 +36,26 @@
       "name" : "PARA-15251: Account display in Accounts Overview table",
       "children" : [ {
         "name" : "Default account is displayed in the table for a new user",
-        "uid" : "b9faafd8968a52e4",
+        "uid" : "570737f2832e0f12",
         "parentUid" : "0a5b50bda1b4217bf4d4cce285d3449a",
         "status" : "passed",
         "time" : {
-          "start" : 1705837833547,
-          "stop" : 1705837835918,
-          "duration" : 2371
+          "start" : 1705842683623,
+          "stop" : 1705842686566,
+          "duration" : 2943
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Newly created account is displayed in the table",
-        "uid" : "63b6887a0e9cfc65",
+        "uid" : "a10d0149d82b354a",
         "parentUid" : "0a5b50bda1b4217bf4d4cce285d3449a",
         "status" : "passed",
         "time" : {
-          "start" : 1705837836815,
-          "stop" : 1705837839796,
-          "duration" : 2981
+          "start" : 1705842687468,
+          "stop" : 1705842691808,
+          "duration" : 4340
         },
         "flaky" : false,
         "newFailed" : false,
@@ -66,26 +66,26 @@
       "name" : "PARA-15252: New account opening",
       "children" : [ {
         "name" : "User can successfully open a new account of 'Checking' type.",
-        "uid" : "88d843adb33e605f",
+        "uid" : "282bcd3882d0a743",
         "parentUid" : "a47607326ae6d6db03370aca243720a2",
         "status" : "passed",
         "time" : {
-          "start" : 1705837905347,
-          "stop" : 1705837907575,
-          "duration" : 2228
+          "start" : 1705842802665,
+          "stop" : 1705842806221,
+          "duration" : 3556
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can successfully open a new account of 'Savings' type.",
-        "uid" : "dc31a0f77830447c",
+        "uid" : "4291b9cfa749bec5",
         "parentUid" : "a47607326ae6d6db03370aca243720a2",
         "status" : "passed",
         "time" : {
-          "start" : 1705837908467,
-          "stop" : 1705837910708,
-          "duration" : 2241
+          "start" : 1705842807119,
+          "stop" : 1705842810653,
+          "duration" : 3534
         },
         "flaky" : false,
         "newFailed" : false,
@@ -96,143 +96,143 @@
       "name" : "PARA-15253: Accounts Overview page navigation",
       "children" : [ {
         "name" : "User can proceed from Accounts Overview page to Account Activity page",
-        "uid" : "f7cbea7c05ca0f21",
+        "uid" : "3c9aaa4319cc0f7c",
         "parentUid" : "c40f9c02c958d8876a67b1bdb8ae2afe",
         "status" : "passed",
         "time" : {
-          "start" : 1705837923338,
-          "stop" : 1705837924717,
-          "duration" : 1379
+          "start" : 1705842825893,
+          "stop" : 1705842827669,
+          "duration" : 1776
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Accounts Overview page to Contact page",
-        "uid" : "3f165998089c4c8",
+        "uid" : "c762c2ec94d07c8",
         "parentUid" : "c40f9c02c958d8876a67b1bdb8ae2afe",
         "status" : "passed",
         "time" : {
-          "start" : 1705837925619,
-          "stop" : 1705837926433,
-          "duration" : 814
+          "start" : 1705842828575,
+          "stop" : 1705842829862,
+          "duration" : 1287
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Accounts Overview page to About Us page",
-        "uid" : "ef1d7b1fc7c12e64",
+        "uid" : "1d38c99f3f70458a",
         "parentUid" : "c40f9c02c958d8876a67b1bdb8ae2afe",
         "status" : "passed",
         "time" : {
-          "start" : 1705837927335,
-          "stop" : 1705837928153,
-          "duration" : 818
+          "start" : 1705842830762,
+          "stop" : 1705842832052,
+          "duration" : 1290
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Accounts Overview page to Home page",
-        "uid" : "f3af85d5bb56aae5",
+        "uid" : "6128f019bfe68cc8",
         "parentUid" : "c40f9c02c958d8876a67b1bdb8ae2afe",
         "status" : "passed",
         "time" : {
-          "start" : 1705837929047,
-          "stop" : 1705837929877,
-          "duration" : 830
+          "start" : 1705842832956,
+          "stop" : 1705842834204,
+          "duration" : 1248
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Accounts Overview page to Open New Account page",
-        "uid" : "fe2244b769aaaef8",
+        "uid" : "74f80c4552051012",
         "parentUid" : "c40f9c02c958d8876a67b1bdb8ae2afe",
         "status" : "passed",
         "time" : {
-          "start" : 1705837930770,
-          "stop" : 1705837931601,
-          "duration" : 831
+          "start" : 1705842835104,
+          "stop" : 1705842836391,
+          "duration" : 1287
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Accounts Overview page to Transfer Funds page",
-        "uid" : "afc4a22fa1c6a48",
+        "uid" : "e5728868212bfb6f",
         "parentUid" : "c40f9c02c958d8876a67b1bdb8ae2afe",
         "status" : "passed",
         "time" : {
-          "start" : 1705837932495,
-          "stop" : 1705837933339,
-          "duration" : 844
+          "start" : 1705842837290,
+          "stop" : 1705842838590,
+          "duration" : 1300
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Accounts Overview page to Bill Pay page",
-        "uid" : "7e4d7d8b8faad3d5",
+        "uid" : "ed55f49bfe25f8bb",
         "parentUid" : "c40f9c02c958d8876a67b1bdb8ae2afe",
         "status" : "passed",
         "time" : {
-          "start" : 1705837934235,
-          "stop" : 1705837935047,
-          "duration" : 812
+          "start" : 1705842839492,
+          "stop" : 1705842840798,
+          "duration" : 1306
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Accounts Overview page to Find Transactions page",
-        "uid" : "a4790933e86946ad",
+        "uid" : "5173e176e30586f7",
         "parentUid" : "c40f9c02c958d8876a67b1bdb8ae2afe",
         "status" : "passed",
         "time" : {
-          "start" : 1705837935945,
-          "stop" : 1705837936841,
-          "duration" : 896
+          "start" : 1705842841702,
+          "stop" : 1705842842991,
+          "duration" : 1289
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Accounts Overview page to Update Profile page",
-        "uid" : "45784194b729f6e4",
+        "uid" : "755d51fce0e9e1f9",
         "parentUid" : "c40f9c02c958d8876a67b1bdb8ae2afe",
         "status" : "passed",
         "time" : {
-          "start" : 1705837937734,
-          "stop" : 1705837938612,
-          "duration" : 878
+          "start" : 1705842843891,
+          "stop" : 1705842845163,
+          "duration" : 1272
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Accounts Overview page to Request Loan page",
-        "uid" : "4c9b9a63695091e4",
+        "uid" : "f27673296cc9d1cc",
         "parentUid" : "c40f9c02c958d8876a67b1bdb8ae2afe",
         "status" : "passed",
         "time" : {
-          "start" : 1705837939509,
-          "stop" : 1705837940318,
-          "duration" : 809
+          "start" : 1705842846060,
+          "stop" : 1705842847295,
+          "duration" : 1235
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can log out from Accounts Overview page",
-        "uid" : "5fcd77d1bcb31d6a",
+        "uid" : "2e929760c97bd872",
         "parentUid" : "c40f9c02c958d8876a67b1bdb8ae2afe",
         "status" : "passed",
         "time" : {
-          "start" : 1705837941213,
-          "stop" : 1705837942094,
-          "duration" : 881
+          "start" : 1705842848195,
+          "stop" : 1705842849517,
+          "duration" : 1322
         },
         "flaky" : false,
         "newFailed" : false,
@@ -243,130 +243,130 @@
       "name" : "PARA-15254: Open New Account page navigation",
       "children" : [ {
         "name" : "User can proceed from Open New Account page to Contact page",
-        "uid" : "f10b9785461c6e98",
+        "uid" : "a3de97dbd9d9a366",
         "parentUid" : "7bd43449aafbaeea187c2ba996e2631b",
         "status" : "passed",
         "time" : {
-          "start" : 1705837988907,
-          "stop" : 1705837989821,
-          "duration" : 914
+          "start" : 1705842908073,
+          "stop" : 1705842909508,
+          "duration" : 1435
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Open New Account page to About Us page",
-        "uid" : "2823bcf7719fbaef",
+        "uid" : "f4683cbb2e3d9999",
         "parentUid" : "7bd43449aafbaeea187c2ba996e2631b",
         "status" : "passed",
         "time" : {
-          "start" : 1705837990712,
-          "stop" : 1705837991666,
-          "duration" : 954
+          "start" : 1705842910410,
+          "stop" : 1705842911874,
+          "duration" : 1464
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Open New Account page to Home page",
-        "uid" : "bdd4637b1e5bb81b",
+        "uid" : "5e2e24a285f3aae2",
         "parentUid" : "7bd43449aafbaeea187c2ba996e2631b",
         "status" : "passed",
         "time" : {
-          "start" : 1705837992564,
-          "stop" : 1705837993468,
-          "duration" : 904
+          "start" : 1705842912782,
+          "stop" : 1705842914170,
+          "duration" : 1388
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Open New Account page to Accounts Overview page",
-        "uid" : "bef0c123d19bf1f3",
+        "uid" : "9f4fcbae1a650504",
         "parentUid" : "7bd43449aafbaeea187c2ba996e2631b",
         "status" : "passed",
         "time" : {
-          "start" : 1705837994367,
-          "stop" : 1705837995301,
-          "duration" : 934
+          "start" : 1705842915072,
+          "stop" : 1705842916442,
+          "duration" : 1370
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Open New Account page to Transfer Funds page",
-        "uid" : "f6a89bbb3af2953a",
+        "uid" : "588bbebddfd3e0b0",
         "parentUid" : "7bd43449aafbaeea187c2ba996e2631b",
         "status" : "passed",
         "time" : {
-          "start" : 1705837996193,
-          "stop" : 1705837997134,
-          "duration" : 941
+          "start" : 1705842917343,
+          "stop" : 1705842918832,
+          "duration" : 1489
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Open New Account page to Bill Pay page",
-        "uid" : "c8a4c9fcb7aa731f",
+        "uid" : "ac9cda8d7a4680d1",
         "parentUid" : "7bd43449aafbaeea187c2ba996e2631b",
         "status" : "passed",
         "time" : {
-          "start" : 1705837998030,
-          "stop" : 1705837998966,
-          "duration" : 936
+          "start" : 1705842919733,
+          "stop" : 1705842921200,
+          "duration" : 1467
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Open New Account page to Find Transactions page",
-        "uid" : "1618e02f1d3bb327",
+        "uid" : "c86ec2d20f68c72f",
         "parentUid" : "7bd43449aafbaeea187c2ba996e2631b",
         "status" : "passed",
         "time" : {
-          "start" : 1705837999859,
-          "stop" : 1705838000812,
-          "duration" : 953
+          "start" : 1705842922097,
+          "stop" : 1705842923611,
+          "duration" : 1514
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Open New Account page to Update Profile page",
-        "uid" : "266d52a3d36513cb",
+        "uid" : "d3253927c6bf2788",
         "parentUid" : "7bd43449aafbaeea187c2ba996e2631b",
         "status" : "passed",
         "time" : {
-          "start" : 1705838001706,
-          "stop" : 1705838002624,
-          "duration" : 918
+          "start" : 1705842924510,
+          "stop" : 1705842925911,
+          "duration" : 1401
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Open New Account page to Request Loan page",
-        "uid" : "6f70b95a497237fd",
+        "uid" : "e55a331434e4d1bf",
         "parentUid" : "7bd43449aafbaeea187c2ba996e2631b",
         "status" : "passed",
         "time" : {
-          "start" : 1705838003522,
-          "stop" : 1705838004446,
-          "duration" : 924
+          "start" : 1705842926813,
+          "stop" : 1705842928236,
+          "duration" : 1423
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can log out from Open New Account page",
-        "uid" : "74096938f77ba615",
+        "uid" : "b1e34995643f051",
         "parentUid" : "7bd43449aafbaeea187c2ba996e2631b",
         "status" : "passed",
         "time" : {
-          "start" : 1705838005341,
-          "stop" : 1705838006345,
-          "duration" : 1004
+          "start" : 1705842929145,
+          "stop" : 1705842930641,
+          "duration" : 1496
         },
         "flaky" : false,
         "newFailed" : false,
@@ -381,65 +381,65 @@
       "name" : "PARA-15290: Bill payment",
       "children" : [ {
         "name" : "User can make payment to a certain payee",
-        "uid" : "8c1d83e7f1ab7195",
+        "uid" : "f7234d5f4ebdfc5",
         "parentUid" : "065d825f7c326ed3a2e4179d9620dfed",
         "status" : "passed",
         "time" : {
-          "start" : 1705837840688,
-          "stop" : 1705837845015,
-          "duration" : 4327
+          "start" : 1705842692715,
+          "stop" : 1705842698909,
+          "duration" : 6194
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't make a payment by submitting an empty payee info form",
-        "uid" : "197c9a90f570b9d",
+        "uid" : "f507158411500ddc",
         "parentUid" : "065d825f7c326ed3a2e4179d9620dfed",
         "status" : "passed",
         "time" : {
-          "start" : 1705837845911,
-          "stop" : 1705837847145,
-          "duration" : 1234
+          "start" : 1705842699809,
+          "stop" : 1705842701393,
+          "duration" : 1584
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't make a payment by leaving one of the payee info fields empty",
-        "uid" : "1b92ca461804b52c",
+        "uid" : "394db56c1fde584a",
         "parentUid" : "065d825f7c326ed3a2e4179d9620dfed",
         "status" : "passed",
         "time" : {
-          "start" : 1705837848042,
-          "stop" : 1705837849701,
-          "duration" : 1659
+          "start" : 1705842702292,
+          "stop" : 1705842704354,
+          "duration" : 2062
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't make a payment by providing mismatched accounts",
-        "uid" : "4d8e1a6c17ac375f",
+        "uid" : "b8cad57686989e13",
         "parentUid" : "065d825f7c326ed3a2e4179d9620dfed",
         "status" : "passed",
         "time" : {
-          "start" : 1705837850599,
-          "stop" : 1705837852294,
-          "duration" : 1695
+          "start" : 1705842705255,
+          "stop" : 1705842707493,
+          "duration" : 2238
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't make a payment with empty amount",
-        "uid" : "47f66afd4123d172",
+        "uid" : "652403116b395299",
         "parentUid" : "065d825f7c326ed3a2e4179d9620dfed",
         "status" : "passed",
         "time" : {
-          "start" : 1705837853193,
-          "stop" : 1705837854806,
-          "duration" : 1613
+          "start" : 1705842708398,
+          "stop" : 1705842711404,
+          "duration" : 3006
         },
         "flaky" : false,
         "newFailed" : false,
@@ -454,39 +454,39 @@
       "name" : "PARA-15262: Customer lookup",
       "children" : [ {
         "name" : "User can successfully lookup for credentials by providing valid data",
-        "uid" : "b3e908bcb1bafc6c",
+        "uid" : "f2fbad54e435eec5",
         "parentUid" : "0f6987b8566022081d4dc0bc90b1cb6d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837855700,
-          "stop" : 1705837874906,
-          "duration" : 19206
+          "start" : 1705842712301,
+          "stop" : 1705842715479,
+          "duration" : 3178
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully lookup for credentials by submitting an empty form.",
-        "uid" : "74b1dfaa3feb478f",
+        "uid" : "57bc55a42d7e43f6",
         "parentUid" : "0f6987b8566022081d4dc0bc90b1cb6d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837875796,
-          "stop" : 1705837876307,
-          "duration" : 511
+          "start" : 1705842716382,
+          "stop" : 1705842717373,
+          "duration" : 991
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully lookup for credentials by leaving one of the fields empty.",
-        "uid" : "b86d8a8a86ea2881",
+        "uid" : "230033ab807bccff",
         "parentUid" : "0f6987b8566022081d4dc0bc90b1cb6d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837877201,
-          "stop" : 1705837879644,
-          "duration" : 2443
+          "start" : 1705842718273,
+          "stop" : 1705842721497,
+          "duration" : 3224
         },
         "flaky" : false,
         "newFailed" : false,
@@ -497,65 +497,65 @@
       "name" : "PARA-15261: User login",
       "children" : [ {
         "name" : "User can successfully log in with valid credentials.",
-        "uid" : "7697e2c81814669f",
+        "uid" : "a805161739dd2aab",
         "parentUid" : "9eb73e4602cd820ef0455e9c78bde931",
         "status" : "passed",
         "time" : {
-          "start" : 1705837897475,
-          "stop" : 1705837898216,
-          "duration" : 741
+          "start" : 1705842786136,
+          "stop" : 1705842787263,
+          "duration" : 1127
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully log in with invalid password.",
-        "uid" : "4576648759524969",
+        "uid" : "f4e417fbf9192ee5",
         "parentUid" : "9eb73e4602cd820ef0455e9c78bde931",
         "status" : "skipped",
         "time" : {
-          "start" : 1705837899111,
-          "stop" : 1705837899797,
-          "duration" : 686
+          "start" : 1705842788163,
+          "stop" : 1705842789237,
+          "duration" : 1074
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully log in with invalid username.",
-        "uid" : "ab30c089dc99a09b",
+        "uid" : "9c82fa2ee3c2c02d",
         "parentUid" : "9eb73e4602cd820ef0455e9c78bde931",
         "status" : "skipped",
         "time" : {
-          "start" : 1705837900724,
-          "stop" : 1705837901642,
-          "duration" : 918
+          "start" : 1705842790144,
+          "stop" : 1705842791372,
+          "duration" : 1228
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully log in with empty username.",
-        "uid" : "30d5184ffd54baeb",
+        "uid" : "54205f94339a0977",
         "parentUid" : "9eb73e4602cd820ef0455e9c78bde931",
         "status" : "passed",
         "time" : {
-          "start" : 1705837902542,
-          "stop" : 1705837903054,
-          "duration" : 512
+          "start" : 1705842792279,
+          "stop" : 1705842793191,
+          "duration" : 912
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully log in with empty password.",
-        "uid" : "e876e09fef5dadc5",
+        "uid" : "decf51e8e1442acf",
         "parentUid" : "9eb73e4602cd820ef0455e9c78bde931",
         "status" : "passed",
         "time" : {
-          "start" : 1705837903950,
-          "stop" : 1705837904449,
-          "duration" : 499
+          "start" : 1705842794096,
+          "stop" : 1705842794962,
+          "duration" : 866
         },
         "flaky" : false,
         "newFailed" : false,
@@ -566,65 +566,65 @@
       "name" : "PARA-15260: User registration",
       "children" : [ {
         "name" : "User can successfully register by filling in all the fields",
-        "uid" : "28593dcda269da36",
+        "uid" : "ab9550a221e282e6",
         "parentUid" : "16ff81a35b7f903e1ae2ab4e3a5d788e",
         "status" : "passed",
         "time" : {
-          "start" : 1705837911608,
-          "stop" : 1705837913010,
-          "duration" : 1402
+          "start" : 1705842811552,
+          "stop" : 1705842813391,
+          "duration" : 1839
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully register by submitting an empty form",
-        "uid" : "13be8bb82a0ca09b",
+        "uid" : "b3f39a4346482291",
         "parentUid" : "16ff81a35b7f903e1ae2ab4e3a5d788e",
         "status" : "passed",
         "time" : {
-          "start" : 1705837913906,
-          "stop" : 1705837914413,
-          "duration" : 507
+          "start" : 1705842814292,
+          "stop" : 1705842815130,
+          "duration" : 838
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully register by leaving one of the fields empty",
-        "uid" : "3d266710e19e46da",
+        "uid" : "45caf09f0fe6ec78",
         "parentUid" : "16ff81a35b7f903e1ae2ab4e3a5d788e",
-        "status" : "skipped",
+        "status" : "passed",
         "time" : {
-          "start" : 1705837915310,
-          "stop" : 1705837916533,
-          "duration" : 1223
+          "start" : 1705842816025,
+          "stop" : 1705842817781,
+          "duration" : 1756
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully register by providing mismatched passwords",
-        "uid" : "8eb5772756d1df32",
+        "uid" : "e10db3b210deebb0",
         "parentUid" : "16ff81a35b7f903e1ae2ab4e3a5d788e",
         "status" : "passed",
         "time" : {
-          "start" : 1705837917431,
-          "stop" : 1705837918844,
-          "duration" : 1413
+          "start" : 1705842818683,
+          "stop" : 1705842820708,
+          "duration" : 2025
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully register with existing username.",
-        "uid" : "4304ae33662afd6e",
+        "uid" : "63c3acc0583da3ec",
         "parentUid" : "16ff81a35b7f903e1ae2ab4e3a5d788e",
         "status" : "passed",
         "time" : {
-          "start" : 1705837919737,
-          "stop" : 1705837922443,
-          "duration" : 2706
+          "start" : 1705842821607,
+          "stop" : 1705842824993,
+          "duration" : 3386
         },
         "flaky" : false,
         "newFailed" : false,
@@ -635,156 +635,156 @@
       "name" : "PARA-15264: Home page navigation",
       "children" : [ {
         "name" : "User can proceed from Home page to Customer Lookup page",
-        "uid" : "fdbc6cbc4d0e6a80",
+        "uid" : "122d89727963800",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837962994,
-          "stop" : 1705837963380,
-          "duration" : 386
+          "start" : 1705842876110,
+          "stop" : 1705842876826,
+          "duration" : 716
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Home page to Register page",
-        "uid" : "52a29bfb5a3e7d15",
+        "uid" : "71434ab6235949be",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837964279,
-          "stop" : 1705837964660,
-          "duration" : 381
+          "start" : 1705842877724,
+          "stop" : 1705842878442,
+          "duration" : 718
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Home page to Contact page",
-        "uid" : "b6abdf49447f066e",
+        "uid" : "d40b560cc617f142",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837965560,
-          "stop" : 1705837965943,
-          "duration" : 383
+          "start" : 1705842879343,
+          "stop" : 1705842880094,
+          "duration" : 751
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Home page to About Us page",
-        "uid" : "5890bf16999b711e",
+        "uid" : "35d932187dc2077c",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837966838,
-          "stop" : 1705837967216,
-          "duration" : 378
+          "start" : 1705842881001,
+          "stop" : 1705842881706,
+          "duration" : 705
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Home page to Open New Account page",
-        "uid" : "5f1372a21c4a0f29",
+        "uid" : "615127d101aeaaf4",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837968111,
-          "stop" : 1705837969080,
-          "duration" : 969
+          "start" : 1705842882605,
+          "stop" : 1705842884078,
+          "duration" : 1473
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Home page to Accounts Overview page",
-        "uid" : "5b9176e98b33fbc5",
+        "uid" : "34ff3cb27c5b1857",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837969974,
-          "stop" : 1705837970908,
-          "duration" : 934
+          "start" : 1705842884979,
+          "stop" : 1705842886375,
+          "duration" : 1396
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Home page to Transfer Funds page",
-        "uid" : "feb10c4304721653",
+        "uid" : "98da0c9783ff4a84",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837971803,
-          "stop" : 1705837972751,
-          "duration" : 948
+          "start" : 1705842887278,
+          "stop" : 1705842888782,
+          "duration" : 1504
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Home page to Bill Pay page",
-        "uid" : "b29609eccec3f08e",
+        "uid" : "78e0fd205035de62",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837973639,
-          "stop" : 1705837974585,
-          "duration" : 946
+          "start" : 1705842889682,
+          "stop" : 1705842891153,
+          "duration" : 1471
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Home page to Find Transactions page",
-        "uid" : "7533afb51e50d638",
+        "uid" : "eb4ac91d55024b9e",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837975481,
-          "stop" : 1705837976420,
-          "duration" : 939
+          "start" : 1705842892052,
+          "stop" : 1705842893497,
+          "duration" : 1445
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Home page to Update Profile page",
-        "uid" : "72eb38e611a5be7",
+        "uid" : "a42f7441d140715d",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837977319,
-          "stop" : 1705837978264,
-          "duration" : 945
+          "start" : 1705842894394,
+          "stop" : 1705842895900,
+          "duration" : 1506
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Home page to Request Loan page",
-        "uid" : "ed020e946c04727a",
+        "uid" : "6a5a9e77b9a7f566",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837979154,
-          "stop" : 1705837980082,
-          "duration" : 928
+          "start" : 1705842896797,
+          "stop" : 1705842898267,
+          "duration" : 1470
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can log out from Home page",
-        "uid" : "245bef9bde5c9489",
+        "uid" : "64f689ce4a7a937e",
         "parentUid" : "c4c77aaa0c5bb07adf52057cb7b8f771",
         "status" : "passed",
         "time" : {
-          "start" : 1705837980968,
-          "stop" : 1705837981968,
-          "duration" : 1000
+          "start" : 1705842899167,
+          "stop" : 1705842900648,
+          "duration" : 1481
         },
         "flaky" : false,
         "newFailed" : false,
@@ -795,52 +795,52 @@
       "name" : "PARA-15265: Customer Lookup page navigation",
       "children" : [ {
         "name" : "User can proceed from Customer Lookup page to Register page",
-        "uid" : "cea8eeb1fe1e0007",
+        "uid" : "c38428140192eeeb",
         "parentUid" : "666736a3aceb7ccc25de8cc723114324",
         "status" : "passed",
         "time" : {
-          "start" : 1705837982861,
-          "stop" : 1705837983232,
-          "duration" : 371
+          "start" : 1705842901547,
+          "stop" : 1705842902280,
+          "duration" : 733
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Customer Lookup page to Contact page",
-        "uid" : "dac8d7d3a3764f57",
+        "uid" : "72fb12bfef123e7c",
         "parentUid" : "666736a3aceb7ccc25de8cc723114324",
         "status" : "passed",
         "time" : {
-          "start" : 1705837984122,
-          "stop" : 1705837984490,
-          "duration" : 368
+          "start" : 1705842903187,
+          "stop" : 1705842903975,
+          "duration" : 788
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Customer Lookup page to About Us page",
-        "uid" : "7c4ac2193714f9cf",
+        "uid" : "64d9213da48f34b2",
         "parentUid" : "666736a3aceb7ccc25de8cc723114324",
         "status" : "passed",
         "time" : {
-          "start" : 1705837985385,
-          "stop" : 1705837985762,
-          "duration" : 377
+          "start" : 1705842904875,
+          "stop" : 1705842905566,
+          "duration" : 691
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Customer Lookup page to Home page",
-        "uid" : "9bf4ea5b8e96b1f",
+        "uid" : "6446d27de72bac8b",
         "parentUid" : "666736a3aceb7ccc25de8cc723114324",
         "status" : "passed",
         "time" : {
-          "start" : 1705837987652,
-          "stop" : 1705837988019,
-          "duration" : 367
+          "start" : 1705842906466,
+          "stop" : 1705842907171,
+          "duration" : 705
         },
         "flaky" : false,
         "newFailed" : false,
@@ -851,52 +851,52 @@
       "name" : "PARA-15263: Register page navigation",
       "children" : [ {
         "name" : "User can proceed from Register page to Customer Lookup page",
-        "uid" : "98150bc02be9319f",
+        "uid" : "de6732159192edc3",
         "parentUid" : "a5e3235f3493bfe1909a5845170781b5",
         "status" : "passed",
         "time" : {
-          "start" : 1705838007241,
-          "stop" : 1705838007614,
-          "duration" : 373
+          "start" : 1705842931540,
+          "stop" : 1705842932301,
+          "duration" : 761
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Register page to Contact page",
-        "uid" : "9f5794147510b197",
+        "uid" : "1b10a83cd7105327",
         "parentUid" : "a5e3235f3493bfe1909a5845170781b5",
         "status" : "passed",
         "time" : {
-          "start" : 1705838008504,
-          "stop" : 1705838008904,
-          "duration" : 400
+          "start" : 1705842933204,
+          "stop" : 1705842934159,
+          "duration" : 955
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Register page to About Us page",
-        "uid" : "e5b017b88058b6d1",
+        "uid" : "951086b1745b9884",
         "parentUid" : "a5e3235f3493bfe1909a5845170781b5",
         "status" : "passed",
         "time" : {
-          "start" : 1705838009794,
-          "stop" : 1705838010175,
-          "duration" : 381
+          "start" : 1705842935062,
+          "stop" : 1705842935829,
+          "duration" : 767
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Register page to Home page",
-        "uid" : "55fbaa9517bdb607",
+        "uid" : "e4f229990eeadd96",
         "parentUid" : "a5e3235f3493bfe1909a5845170781b5",
         "status" : "passed",
         "time" : {
-          "start" : 1705838011070,
-          "stop" : 1705838011503,
-          "duration" : 433
+          "start" : 1705842936727,
+          "stop" : 1705842937435,
+          "duration" : 708
         },
         "flaky" : false,
         "newFailed" : false,
@@ -911,39 +911,39 @@
       "name" : "PARA-15280: Email support request",
       "children" : [ {
         "name" : "User can successfully send email support request.",
-        "uid" : "b983bd8a4f41689",
+        "uid" : "b648791571db1086",
         "parentUid" : "b370959062c50e22089190a0e5a45f6e",
         "status" : "passed",
         "time" : {
-          "start" : 1705837880538,
-          "stop" : 1705837881293,
-          "duration" : 755
+          "start" : 1705842722396,
+          "stop" : 1705842723493,
+          "duration" : 1097
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully send email support request by submitting an empty form.",
-        "uid" : "1c7e573b3c873292",
+        "uid" : "11e037ad962961b8",
         "parentUid" : "b370959062c50e22089190a0e5a45f6e",
         "status" : "passed",
         "time" : {
-          "start" : 1705837882187,
-          "stop" : 1705837882667,
-          "duration" : 480
+          "start" : 1705842724396,
+          "stop" : 1705842725237,
+          "duration" : 841
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't successfully send email support request by leaving one of the fields empty.",
-        "uid" : "86bd6721b6b1bd46",
+        "uid" : "abf84c34339ef90c",
         "parentUid" : "b370959062c50e22089190a0e5a45f6e",
         "status" : "passed",
         "time" : {
-          "start" : 1705837883563,
-          "stop" : 1705837884243,
-          "duration" : 680
+          "start" : 1705842726136,
+          "stop" : 1705842727282,
+          "duration" : 1146
         },
         "flaky" : false,
         "newFailed" : false,
@@ -954,156 +954,156 @@
       "name" : "PARA-15281: Contact page navigation",
       "children" : [ {
         "name" : "User can proceed from Contact page to Customer Lookup page",
-        "uid" : "25e33c589fc140a7",
+        "uid" : "285cc518b340fb6d",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837942984,
-          "stop" : 1705837943353,
-          "duration" : 369
+          "start" : 1705842850418,
+          "stop" : 1705842851130,
+          "duration" : 712
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Contact page to Register page",
-        "uid" : "77665117587c9233",
+        "uid" : "3b443ed5612a95ec",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837944244,
-          "stop" : 1705837944655,
-          "duration" : 411
+          "start" : 1705842852038,
+          "stop" : 1705842852880,
+          "duration" : 842
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Contact page to About Us page",
-        "uid" : "da6ee0e4a3239fc8",
+        "uid" : "258a2b438cfe61e1",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837945556,
-          "stop" : 1705837945932,
-          "duration" : 376
+          "start" : 1705842853780,
+          "stop" : 1705842854493,
+          "duration" : 713
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Contact page to Home page",
-        "uid" : "d4629bc38eb52bd0",
+        "uid" : "8f25034a6de3deb6",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837946821,
-          "stop" : 1705837947218,
-          "duration" : 397
+          "start" : 1705842855392,
+          "stop" : 1705842856124,
+          "duration" : 732
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Contact page to Open New Account page",
-        "uid" : "2388438d1cffa988",
+        "uid" : "e20afe509721ecd7",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837948108,
-          "stop" : 1705837949048,
-          "duration" : 940
+          "start" : 1705842857027,
+          "stop" : 1705842858453,
+          "duration" : 1426
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Contact page to Accounts Overview page",
-        "uid" : "98e8df6ca9776bcb",
+        "uid" : "ccc7971355e0562a",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837949944,
-          "stop" : 1705837950890,
-          "duration" : 946
+          "start" : 1705842859349,
+          "stop" : 1705842860774,
+          "duration" : 1425
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Contact page to Transfer Funds page",
-        "uid" : "dbadd6d92abcf875",
+        "uid" : "d24a6ed18afd87c9",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837951785,
-          "stop" : 1705837952734,
-          "duration" : 949
+          "start" : 1705842861678,
+          "stop" : 1705842863389,
+          "duration" : 1711
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Contact page to Bill Pay page",
-        "uid" : "112e5ec1e62a6677",
+        "uid" : "c2e73bc712cffd7c",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837953626,
-          "stop" : 1705837954593,
-          "duration" : 967
+          "start" : 1705842864288,
+          "stop" : 1705842865725,
+          "duration" : 1437
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Contact page to Find Transactions page",
-        "uid" : "fb3191b34791e699",
+        "uid" : "4a98a52ec5b8eb77",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837955487,
-          "stop" : 1705837956431,
-          "duration" : 944
+          "start" : 1705842866625,
+          "stop" : 1705842868109,
+          "duration" : 1484
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Contact page to Update Profile page",
-        "uid" : "fb174343d77bb878",
+        "uid" : "7b3496b2f798642a",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837957322,
-          "stop" : 1705837958409,
-          "duration" : 1087
+          "start" : 1705842869011,
+          "stop" : 1705842870436,
+          "duration" : 1425
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can proceed from Contact page to Request Loan page",
-        "uid" : "33ada13d2814aa2c",
+        "uid" : "cab28beaa5f17f6",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837959302,
-          "stop" : 1705837960224,
-          "duration" : 922
+          "start" : 1705842871338,
+          "stop" : 1705842872775,
+          "duration" : 1437
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Logged in user can log out from Contact page",
-        "uid" : "b685ce56169ea25",
+        "uid" : "647d53e1696526d5",
         "parentUid" : "7f1e86003f335572dc0b6ece72f1160d",
         "status" : "passed",
         "time" : {
-          "start" : 1705837961119,
-          "stop" : 1705837962102,
-          "duration" : 983
+          "start" : 1705842873678,
+          "stop" : 1705842875213,
+          "duration" : 1535
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1118,26 +1118,26 @@
       "name" : "PARA-15270: Funds transfer",
       "children" : [ {
         "name" : "User can transfer funds between accounts",
-        "uid" : "aa8ed74aaffaf2c3",
+        "uid" : "a0994c9c10b396b7",
         "parentUid" : "583746839235b66fa10e48831bf7360d",
-        "status" : "passed",
+        "status" : "skipped",
         "time" : {
-          "start" : 1705837885137,
-          "stop" : 1705837891160,
-          "duration" : 6023
+          "start" : 1705842737280,
+          "stop" : 1705842739203,
+          "duration" : 1923
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can't transfer funds leaving amount field empty",
-        "uid" : "2a99a4c2f0c54b80",
+        "uid" : "5fdec12c8695e595",
         "parentUid" : "583746839235b66fa10e48831bf7360d",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1705837892058,
-          "stop" : 1705837896580,
-          "duration" : 4522
+          "start" : 1705842782626,
+          "stop" : 1705842785214,
+          "duration" : 2588
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1148,117 +1148,117 @@
       "name" : "PARA-15271: Transfer Funds page navigation",
       "children" : [ {
         "name" : "User can proceed from Transfer Funds page to Contact page",
-        "uid" : "b05300d7482247ac",
+        "uid" : "f46b58f25c65a782",
         "parentUid" : "f3df8e10edd51e46e7a0aba6d375e28a",
         "status" : "passed",
         "time" : {
-          "start" : 1705838012393,
-          "stop" : 1705838013351,
-          "duration" : 958
+          "start" : 1705842938334,
+          "stop" : 1705842939729,
+          "duration" : 1395
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Transfer Funds page to About Us page",
-        "uid" : "86aeb017a5bf0c2c",
+        "uid" : "ab10386b607c2d4c",
         "parentUid" : "f3df8e10edd51e46e7a0aba6d375e28a",
         "status" : "passed",
         "time" : {
-          "start" : 1705838014247,
-          "stop" : 1705838015167,
-          "duration" : 920
+          "start" : 1705842940631,
+          "stop" : 1705842942040,
+          "duration" : 1409
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Transfer Funds page to Home page",
-        "uid" : "285a0b1615917d5f",
+        "uid" : "c5ecbc967faeeee0",
         "parentUid" : "f3df8e10edd51e46e7a0aba6d375e28a",
         "status" : "passed",
         "time" : {
-          "start" : 1705838016072,
-          "stop" : 1705838017025,
-          "duration" : 953
+          "start" : 1705842942939,
+          "stop" : 1705842944406,
+          "duration" : 1467
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Transfer Funds page to Open New Account page",
-        "uid" : "dc078f6f97c41673",
+        "uid" : "c26637d055710dad",
         "parentUid" : "f3df8e10edd51e46e7a0aba6d375e28a",
         "status" : "passed",
         "time" : {
-          "start" : 1705838017928,
-          "stop" : 1705838018918,
-          "duration" : 990
+          "start" : 1705842945305,
+          "stop" : 1705842946696,
+          "duration" : 1391
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Transfer Funds page to Bill Pay page",
-        "uid" : "61b86eaac30ce027",
+        "uid" : "fc109f8364be0e83",
         "parentUid" : "f3df8e10edd51e46e7a0aba6d375e28a",
         "status" : "passed",
         "time" : {
-          "start" : 1705838019810,
-          "stop" : 1705838020759,
-          "duration" : 949
+          "start" : 1705842947592,
+          "stop" : 1705842949065,
+          "duration" : 1473
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Transfer Funds page to Find Transactions page",
-        "uid" : "8618835153cbdb63",
+        "uid" : "f1d436789b653945",
         "parentUid" : "f3df8e10edd51e46e7a0aba6d375e28a",
         "status" : "passed",
         "time" : {
-          "start" : 1705838021657,
-          "stop" : 1705838022587,
-          "duration" : 930
+          "start" : 1705842949965,
+          "stop" : 1705842951390,
+          "duration" : 1425
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Transfer Funds page to Update Profile page",
-        "uid" : "a12bc182e228eeed",
+        "uid" : "b2cbadc102ec6c21",
         "parentUid" : "f3df8e10edd51e46e7a0aba6d375e28a",
         "status" : "passed",
         "time" : {
-          "start" : 1705838023478,
-          "stop" : 1705838024468,
-          "duration" : 990
+          "start" : 1705842952293,
+          "stop" : 1705842953771,
+          "duration" : 1478
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can proceed from Transfer Funds page to Request Loan page",
-        "uid" : "bf6f82fbff224735",
+        "uid" : "dce4c399153eee9a",
         "parentUid" : "f3df8e10edd51e46e7a0aba6d375e28a",
         "status" : "passed",
         "time" : {
-          "start" : 1705838025367,
-          "stop" : 1705838026319,
-          "duration" : 952
+          "start" : 1705842954675,
+          "stop" : 1705842956108,
+          "duration" : 1433
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User can log out from Transfer Funds page",
-        "uid" : "1dec19987a2e6335",
+        "uid" : "1b258d53d59d1f39",
         "parentUid" : "f3df8e10edd51e46e7a0aba6d375e28a",
         "status" : "passed",
         "time" : {
-          "start" : 1705838027212,
-          "stop" : 1705838028232,
-          "duration" : 1020
+          "start" : 1705842957009,
+          "stop" : 1705842958566,
+          "duration" : 1557
         },
         "flaky" : false,
         "newFailed" : false,

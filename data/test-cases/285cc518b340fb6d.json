@@ -1,0 +1,319 @@
+{
+  "uid" : "285cc518b340fb6d",
+  "name" : "User can proceed from Contact page to Customer Lookup page",
+  "fullName" : "tests.navigation.test_contact_page_navigation.TestContactPageNavigation#test_navigation_contact_to_customer_lookup",
+  "historyId" : "2fa013ff4aaee4a7104c61954c0940c1",
+  "time" : {
+    "start" : 1705842850418,
+    "stop" : 1705842851130,
+    "duration" : 712
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705842674470,
+      "stop" : 1705842674491,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705842674491,
+      "stop" : 1705842674944,
+      "duration" : 453
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705842849576,
+      "stop" : 1705842850418,
+      "duration" : 842
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Contact page",
+      "time" : {
+        "start" : 1705842850418,
+        "stop" : 1705842850916,
+        "duration" : 498
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Proceed to Customer Lookup page via link",
+      "time" : {
+        "start" : 1705842850916,
+        "stop" : 1705842851127,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check user is redirected to Customer Lookup page",
+      "time" : {
+        "start" : 1705842851127,
+        "stop" : 1705842851130,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705842851130,
+      "stop" : 1705842851187,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705842851131,
+        "stop" : 1705842851186,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PARA-15243: User support"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15281: Contact page navigation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.navigation"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact_page_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContactPageNavigation"
+  }, {
+    "name" : "host",
+    "value" : "63e198265aea"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.navigation.test_contact_page_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "25e33c589fc140a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705837942984,
+          "stop" : 1705837943353,
+          "duration" : 369
+        }
+      }, {
+        "uid" : "97bcb5f24e3bc8d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705747134309,
+          "stop" : 1705747136164,
+          "duration" : 1855
+        }
+      }, {
+        "uid" : "353e08e0716393a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596781766,
+          "stop" : 1705596782709,
+          "duration" : 943
+        }
+      }, {
+        "uid" : "bb8e4041ab6664e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440631864,
+          "stop" : 1705440632819,
+          "duration" : 955
+        }
+      }, {
+        "uid" : "435fa119267b0a33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392812807,
+          "stop" : 1705392813661,
+          "duration" : 854
+        }
+      }, {
+        "uid" : "35a88342bb1b9641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147823253,
+          "stop" : 1705147824223,
+          "duration" : 970
+        }
+      }, {
+        "uid" : "98c96d170f6c36b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016539840,
+          "stop" : 1705016540895,
+          "duration" : 1055
+        }
+      }, {
+        "uid" : "3904560c750a3a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913052581,
+          "stop" : 1704913052977,
+          "duration" : 396
+        }
+      }, {
+        "uid" : "2d354e0f4d94e266",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682784,
+          "stop" : 1704908682784,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "71290844aa1961ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704875033192,
+          "stop" : 1704875034118,
+          "duration" : 926
+        }
+      }, {
+        "uid" : "5423bbbdc3cf6dc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839625793,
+          "stop" : 1704839626574,
+          "duration" : 781
+        }
+      }, {
+        "uid" : "e7d90d2f2550db4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789413893,
+          "stop" : 1704789414659,
+          "duration" : 766
+        }
+      }, {
+        "uid" : "16546fa57242f5c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759074301,
+          "stop" : 1704759074713,
+          "duration" : 412
+        }
+      }, {
+        "uid" : "9bafb4157aa5b7e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756632671,
+          "stop" : 1704756633628,
+          "duration" : 957
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "285cc518b340fb6d.json",
+  "parameterValues" : [ ]
+}

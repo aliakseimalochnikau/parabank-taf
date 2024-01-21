@@ -1,0 +1,319 @@
+{
+  "uid" : "64d9213da48f34b2",
+  "name" : "User can proceed from Customer Lookup page to About Us page",
+  "fullName" : "tests.navigation.test_lookup_page_navigation.TestCustomerLookupPageNavigation#test_navigation_customer_lookup_to_about_us",
+  "historyId" : "26c98073ec1f43ace049e4dbf3675c73",
+  "time" : {
+    "start" : 1705842904875,
+    "stop" : 1705842905566,
+    "duration" : 691
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705842674470,
+      "stop" : 1705842674491,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705842904034,
+      "stop" : 1705842904875,
+      "duration" : 841
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705842674491,
+      "stop" : 1705842674944,
+      "duration" : 453
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open Customer Lookup page",
+      "time" : {
+        "start" : 1705842904875,
+        "stop" : 1705842905360,
+        "duration" : 485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to About Us page via button",
+      "time" : {
+        "start" : 1705842905360,
+        "stop" : 1705842905562,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check user is redirected to About Us page",
+      "time" : {
+        "start" : 1705842905562,
+        "stop" : 1705842905566,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705842905566,
+      "stop" : 1705842905622,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705842905566,
+        "stop" : 1705842905622,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15265: Customer Lookup page navigation"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15240: User registration and authentication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.navigation"
+  }, {
+    "name" : "suite",
+    "value" : "test_lookup_page_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCustomerLookupPageNavigation"
+  }, {
+    "name" : "host",
+    "value" : "63e198265aea"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.navigation.test_lookup_page_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "7c4ac2193714f9cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705837985385,
+          "stop" : 1705837985762,
+          "duration" : 377
+        }
+      }, {
+        "uid" : "3e450fa365af7fd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705747195190,
+          "stop" : 1705747196088,
+          "duration" : 898
+        }
+      }, {
+        "uid" : "79546d7beb2b3cc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596844255,
+          "stop" : 1705596845409,
+          "duration" : 1154
+        }
+      }, {
+        "uid" : "abfb7a54b90626fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440693391,
+          "stop" : 1705440694283,
+          "duration" : 892
+        }
+      }, {
+        "uid" : "2967d33ff1c97085",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392871809,
+          "stop" : 1705392872669,
+          "duration" : 860
+        }
+      }, {
+        "uid" : "a51049b650925b73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147893456,
+          "stop" : 1705147894348,
+          "duration" : 892
+        }
+      }, {
+        "uid" : "433be8474f8cd210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016599332,
+          "stop" : 1705016600289,
+          "duration" : 957
+        }
+      }, {
+        "uid" : "2647f3174b61db17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913095954,
+          "stop" : 1704913096362,
+          "duration" : 408
+        }
+      }, {
+        "uid" : "f1fd06bcc040a00",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682857,
+          "stop" : 1704908682857,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "312bbce800b665b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704875093606,
+          "stop" : 1704875094500,
+          "duration" : 894
+        }
+      }, {
+        "uid" : "716712a9e6406cbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839681886,
+          "stop" : 1704839682689,
+          "duration" : 803
+        }
+      }, {
+        "uid" : "11e16601b834efb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789469564,
+          "stop" : 1704789470270,
+          "duration" : 706
+        }
+      }, {
+        "uid" : "8be7e9b14d24ae70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759118571,
+          "stop" : 1704759119066,
+          "duration" : 495
+        }
+      }, {
+        "uid" : "b76c4fcad8504426",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756693517,
+          "stop" : 1704756694513,
+          "duration" : 996
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "64d9213da48f34b2.json",
+  "parameterValues" : [ ]
+}
