@@ -1,0 +1,391 @@
+{
+  "uid" : "10426e84750df68e",
+  "name" : "User can't transfer funds leaving amount field empty",
+  "fullName" : "tests.core_features.test_funds_transfer.TestFundsTransfer#test_funds_transfer_with_empty_amount",
+  "historyId" : "5d72f60001d4c80e4581c8fae63d198e",
+  "time" : {
+    "start" : 1705843976755,
+    "stop" : 1705843981845,
+    "duration" : 5090
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705843975918,
+      "stop" : 1705843976755,
+      "duration" : 837
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705843911523,
+      "stop" : 1705843911768,
+      "duration" : 245
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705843911502,
+      "stop" : 1705843911523,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1705843976756,
+        "stop" : 1705843976959,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Register a new user",
+      "time" : {
+        "start" : 1705843976959,
+        "stop" : 1705843978141,
+        "duration" : 1182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check registration is successful",
+      "time" : {
+        "start" : 1705843978141,
+        "stop" : 1705843978177,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Proceed to Open New Account page",
+      "time" : {
+        "start" : 1705843978177,
+        "stop" : 1705843978312,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Open new account",
+      "time" : {
+        "start" : 1705843978312,
+        "stop" : 1705843980001,
+        "duration" : 1689
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Proceed to Transfer Funds page",
+      "time" : {
+        "start" : 1705843980001,
+        "stop" : 1705843980135,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Try transfer funds leaving 'Amount' field empty",
+      "time" : {
+        "start" : 1705843980135,
+        "stop" : 1705843981845,
+        "duration" : 1710
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705843981846,
+      "stop" : 1705843981903,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705843981846,
+        "stop" : 1705843981903,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PARA-15242: Funds operations"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15270: Funds transfer"
+  }, {
+    "name" : "severity",
+    "value" : "Minor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_funds_transfer"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFundsTransfer"
+  }, {
+    "name" : "host",
+    "value" : "20da206941a6"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_funds_transfer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 3,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "5fdec12c8695e595",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+        "time" : {
+          "start" : 1705842782626,
+          "stop" : 1705842785214,
+          "duration" : 2588
+        }
+      }, {
+        "uid" : "2a99a4c2f0c54b80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705837892058,
+          "stop" : 1705837896580,
+          "duration" : 4522
+        }
+      }, {
+        "uid" : "6c7919a6fd498ca3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705747061189,
+          "stop" : 1705747066462,
+          "duration" : 5273
+        }
+      }, {
+        "uid" : "aa53b6c3f5b3ae0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596707124,
+          "stop" : 1705596712468,
+          "duration" : 5344
+        }
+      }, {
+        "uid" : "dde59b66e3485a6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440543750,
+          "stop" : 1705440548974,
+          "duration" : 5224
+        }
+      }, {
+        "uid" : "cdbf4aaf2b3c59a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392744591,
+          "stop" : 1705392749810,
+          "duration" : 5219
+        }
+      }, {
+        "uid" : "f8ceac5316ae1f64",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Execution blocked by Cloudflare\n\n_pytest.outcomes.XFailed: Execution blocked by Cloudflare",
+        "time" : {
+          "start" : 1705147590341,
+          "stop" : 1705147592208,
+          "duration" : 1867
+        }
+      }, {
+        "uid" : "aa38cce94a05a879",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Execution blocked by Cloudflare\n\n_pytest.outcomes.XFailed: Execution blocked by Cloudflare",
+        "time" : {
+          "start" : 1705016475540,
+          "stop" : 1705016477396,
+          "duration" : 1856
+        }
+      }, {
+        "uid" : "1c103e82e2643cb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704912999971,
+          "stop" : 1704913004539,
+          "duration" : 4568
+        }
+      }, {
+        "uid" : "38cf0b32c6a7a8e1",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682718,
+          "stop" : 1704908682718,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2be7a4e3452ef000",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874961761,
+          "stop" : 1704874967148,
+          "duration" : 5387
+        }
+      }, {
+        "uid" : "22c7579b3adc13f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839519492,
+          "stop" : 1704839541356,
+          "duration" : 21864
+        }
+      }, {
+        "uid" : "8d53e8b31d6fe83f",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+        "time" : {
+          "start" : 1704789353115,
+          "stop" : 1704789355175,
+          "duration" : 2060
+        }
+      }, {
+        "uid" : "90268d5bbc49fc93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759021274,
+          "stop" : 1704759025947,
+          "duration" : 4673
+        }
+      }, {
+        "uid" : "117c3fb2cbcbf3db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756560139,
+          "stop" : 1704756565432,
+          "duration" : 5293
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "10426e84750df68e.json",
+  "parameterValues" : [ ]
+}

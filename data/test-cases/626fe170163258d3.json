@@ -1,0 +1,345 @@
+{
+  "uid" : "626fe170163258d3",
+  "name" : "User can successfully log in with valid credentials.",
+  "fullName" : "tests.core_features.test_login.TestLogin#test_login_with_valid_credentials",
+  "historyId" : "7f6227ff97d5697b49ef705a96a8e669",
+  "time" : {
+    "start" : 1705843982748,
+    "stop" : 1705843983516,
+    "duration" : 768
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705843981905,
+      "stop" : 1705843982747,
+      "duration" : 842
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705843911523,
+      "stop" : 1705843911768,
+      "duration" : 245
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705843911502,
+      "stop" : 1705843911523,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705843982748,
+        "stop" : 1705843982948,
+        "duration" : 200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in valid username and password",
+      "time" : {
+        "start" : 1705843982948,
+        "stop" : 1705843983115,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Log in",
+      "time" : {
+        "start" : 1705843983115,
+        "stop" : 1705843983468,
+        "duration" : 353
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check user is logged in",
+      "time" : {
+        "start" : 1705843983468,
+        "stop" : 1705843983516,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705843983516,
+      "stop" : 1705843983573,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705843983516,
+        "stop" : 1705843983573,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PARA-15240: User registration and authentication"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15261: User login"
+  }, {
+    "name" : "severity",
+    "value" : "Blocker"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "20da206941a6"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "a805161739dd2aab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705842786136,
+          "stop" : 1705842787263,
+          "duration" : 1127
+        }
+      }, {
+        "uid" : "7697e2c81814669f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705837897475,
+          "stop" : 1705837898216,
+          "duration" : 741
+        }
+      }, {
+        "uid" : "3b46641c84a1815f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705747067362,
+          "stop" : 1705747068713,
+          "duration" : 1351
+        }
+      }, {
+        "uid" : "61b2dcb7c6e5902d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596713366,
+          "stop" : 1705596714790,
+          "duration" : 1424
+        }
+      }, {
+        "uid" : "bcf19ccbaee141d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440549865,
+          "stop" : 1705440551153,
+          "duration" : 1288
+        }
+      }, {
+        "uid" : "f4b2bf002f6434e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392750707,
+          "stop" : 1705392751995,
+          "duration" : 1288
+        }
+      }, {
+        "uid" : "22c16ff29c2a9fe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147593108,
+          "stop" : 1705147594920,
+          "duration" : 1812
+        }
+      }, {
+        "uid" : "756a6da1d4ef934d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016478295,
+          "stop" : 1705016479585,
+          "duration" : 1290
+        }
+      }, {
+        "uid" : "80f099d171b4b8ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913005441,
+          "stop" : 1704913006187,
+          "duration" : 746
+        }
+      }, {
+        "uid" : "6ec01e39c7e332ee",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682721,
+          "stop" : 1704908682721,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "74239f211e025a3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874968040,
+          "stop" : 1704874969287,
+          "duration" : 1247
+        }
+      }, {
+        "uid" : "5f4cc8620ba016a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839542254,
+          "stop" : 1704839543525,
+          "duration" : 1271
+        }
+      }, {
+        "uid" : "6196ca0abfbd8de8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789356100,
+          "stop" : 1704789357201,
+          "duration" : 1101
+        }
+      }, {
+        "uid" : "a999f6e0d8ba967e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759026850,
+          "stop" : 1704759027616,
+          "duration" : 766
+        }
+      }, {
+        "uid" : "67c91bf8c84c0b36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756566335,
+          "stop" : 1704756567796,
+          "duration" : 1461
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "626fe170163258d3.json",
+  "parameterValues" : [ ]
+}
