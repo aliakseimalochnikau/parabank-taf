@@ -1,0 +1,380 @@
+{
+  "uid" : "9d6bf90169e66b63",
+  "name" : "User can proceed from Open New Account page to Update Profile page",
+  "fullName" : "tests.navigation.test_open_new_account_page_navigation.TestOpenNewAccountPageNavigation#test_navigation_open_new_account_to_update_profile",
+  "historyId" : "c7dcfddae7abcf8473fbdc93ea94b527",
+  "time" : {
+    "start" : 1705932114504,
+    "stop" : 1705932116224,
+    "duration" : 1720
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705932113667,
+      "stop" : 1705932114504,
+      "duration" : 837
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705931782868,
+      "stop" : 1705931783453,
+      "duration" : 585
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705931782847,
+      "stop" : 1705931782867,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705932114505,
+        "stop" : 1705932115161,
+        "duration" : 656
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in valid username and password",
+      "time" : {
+        "start" : 1705932115161,
+        "stop" : 1705932115314,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Log in",
+      "time" : {
+        "start" : 1705932115315,
+        "stop" : 1705932115824,
+        "duration" : 509
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Navigate to Open New Account page",
+      "time" : {
+        "start" : 1705932115824,
+        "stop" : 1705932116019,
+        "duration" : 195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Proceed to Update Profile page via link",
+      "time" : {
+        "start" : 1705932116019,
+        "stop" : 1705932116219,
+        "duration" : 200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check user is redirected to Update Profile page",
+      "time" : {
+        "start" : 1705932116219,
+        "stop" : 1705932116224,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705932116224,
+      "stop" : 1705932116281,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705932116224,
+        "stop" : 1705932116281,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PARA-15241: Account operations"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15254: Open New Account page navigation"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.navigation"
+  }, {
+    "name" : "suite",
+    "value" : "test_open_new_account_page_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOpenNewAccountPageNavigation"
+  }, {
+    "name" : "host",
+    "value" : "79368dec8273"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.navigation.test_open_new_account_page_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 16,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "e3d1ebe633bcda63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705844086795,
+          "stop" : 1705844087777,
+          "duration" : 982
+        }
+      }, {
+        "uid" : "d3253927c6bf2788",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705842924510,
+          "stop" : 1705842925911,
+          "duration" : 1401
+        }
+      }, {
+        "uid" : "266d52a3d36513cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705838001706,
+          "stop" : 1705838002624,
+          "duration" : 918
+        }
+      }, {
+        "uid" : "abe754ca6c08d66a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705747217006,
+          "stop" : 1705747218673,
+          "duration" : 1667
+        }
+      }, {
+        "uid" : "d1b8f4dc2edfc16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596867291,
+          "stop" : 1705596869037,
+          "duration" : 1746
+        }
+      }, {
+        "uid" : "d9dac06c912ca480",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440715557,
+          "stop" : 1705440717259,
+          "duration" : 1702
+        }
+      }, {
+        "uid" : "b91bcdf09449af14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392893235,
+          "stop" : 1705392894817,
+          "duration" : 1582
+        }
+      }, {
+        "uid" : "7c70d9b66f5e3b29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147920550,
+          "stop" : 1705147923031,
+          "duration" : 2481
+        }
+      }, {
+        "uid" : "4bc3547f3fa052",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016621047,
+          "stop" : 1705016622655,
+          "duration" : 1608
+        }
+      }, {
+        "uid" : "87eca1b95f21795e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913111791,
+          "stop" : 1704913112784,
+          "duration" : 993
+        }
+      }, {
+        "uid" : "5308276f48b16ebe",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682881,
+          "stop" : 1704908682881,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3bbcf61e48d61352",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704875115560,
+          "stop" : 1704875117251,
+          "duration" : 1691
+        }
+      }, {
+        "uid" : "2535a066e139f249",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839702963,
+          "stop" : 1704839704584,
+          "duration" : 1621
+        }
+      }, {
+        "uid" : "8da509f3ca0a68fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789489562,
+          "stop" : 1704789490999,
+          "duration" : 1437
+        }
+      }, {
+        "uid" : "30d0add44182a005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759134804,
+          "stop" : 1704759135855,
+          "duration" : 1051
+        }
+      }, {
+        "uid" : "e1f43b54f90cba7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756715587,
+          "stop" : 1704756717371,
+          "duration" : 1784
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9d6bf90169e66b63.json",
+  "parameterValues" : [ ]
+}
