@@ -1,0 +1,388 @@
+{
+  "uid" : "8faddef543769e2a",
+  "name" : "Logged in user can proceed from Contact page to Bill Pay page",
+  "fullName" : "tests.navigation.test_contact_page_navigation.TestContactPageNavigation#test_navigation_contact_to_bill_pay",
+  "historyId" : "f42e8fe9cfe08c6e2b19a0dba111de54",
+  "time" : {
+    "start" : 1705942863624,
+    "stop" : 1705942865386,
+    "duration" : 1762
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705942717768,
+      "stop" : 1705942717788,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705942717788,
+      "stop" : 1705942718349,
+      "duration" : 561
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705942862787,
+      "stop" : 1705942863623,
+      "duration" : 836
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705942863624,
+        "stop" : 1705942864348,
+        "duration" : 724
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Fill in valid username and password",
+      "time" : {
+        "start" : 1705942864348,
+        "stop" : 1705942864502,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Log in",
+      "time" : {
+        "start" : 1705942864502,
+        "stop" : 1705942864974,
+        "duration" : 472
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to Contact page",
+      "time" : {
+        "start" : 1705942864974,
+        "stop" : 1705942865170,
+        "duration" : 196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Proceed to Bill Pay page via link",
+      "time" : {
+        "start" : 1705942865170,
+        "stop" : 1705942865383,
+        "duration" : 213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check user is redirected to Bill Pay page",
+      "time" : {
+        "start" : 1705942865383,
+        "stop" : 1705942865386,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705942865386,
+      "stop" : 1705942865443,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705942865386,
+        "stop" : 1705942865443,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PARA-15243: User support"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15281: Contact page navigation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.navigation"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact_page_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContactPageNavigation"
+  }, {
+    "name" : "host",
+    "value" : "e453c1ce4e7c"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.navigation.test_contact_page_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 17,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "69c10380474dd5e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705931987417,
+          "stop" : 1705931989132,
+          "duration" : 1715
+        }
+      }, {
+        "uid" : "9c382e0523ed7dc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705844039100,
+          "stop" : 1705844040060,
+          "duration" : 960
+        }
+      }, {
+        "uid" : "c2e73bc712cffd7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705842864288,
+          "stop" : 1705842865725,
+          "duration" : 1437
+        }
+      }, {
+        "uid" : "112e5ec1e62a6677",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705837953626,
+          "stop" : 1705837954593,
+          "duration" : 967
+        }
+      }, {
+        "uid" : "3fbe52edcfee76e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705747150695,
+          "stop" : 1705747152330,
+          "duration" : 1635
+        }
+      }, {
+        "uid" : "b82aae5e736ab002",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596797250,
+          "stop" : 1705596798932,
+          "duration" : 1682
+        }
+      }, {
+        "uid" : "f8df62cd2ce22bca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440647872,
+          "stop" : 1705440649705,
+          "duration" : 1833
+        }
+      }, {
+        "uid" : "9a05f792db766286",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392827683,
+          "stop" : 1705392829371,
+          "duration" : 1688
+        }
+      }, {
+        "uid" : "8c3605b86b91597b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147840254,
+          "stop" : 1705147842542,
+          "duration" : 2288
+        }
+      }, {
+        "uid" : "7f53e7ac1b5ecdd7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016554971,
+          "stop" : 1705016556606,
+          "duration" : 1635
+        }
+      }, {
+        "uid" : "f9f588692cc8ad26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913063383,
+          "stop" : 1704913064382,
+          "duration" : 999
+        }
+      }, {
+        "uid" : "77b3196ab67f26af",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682803,
+          "stop" : 1704908682803,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8fe46f0f09bcc59d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704875048614,
+          "stop" : 1704875050401,
+          "duration" : 1787
+        }
+      }, {
+        "uid" : "eecb6da393b29606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839639901,
+          "stop" : 1704839641337,
+          "duration" : 1436
+        }
+      }, {
+        "uid" : "a4cd460537df8e76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789428431,
+          "stop" : 1704789429844,
+          "duration" : 1413
+        }
+      }, {
+        "uid" : "b35f16d5ddaa00c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759085270,
+          "stop" : 1704759086319,
+          "duration" : 1049
+        }
+      }, {
+        "uid" : "28d44de6e9b551e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756647847,
+          "stop" : 1704756649574,
+          "duration" : 1727
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8faddef543769e2a.json",
+  "parameterValues" : [ ]
+}

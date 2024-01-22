@@ -1,0 +1,467 @@
+{
+  "uid" : "665cd77dbd0df3f7",
+  "name" : "User can make payment to a certain payee",
+  "fullName" : "tests.core_features.test_bill_payment.TestBillPayment#test_successful_bill_payment",
+  "historyId" : "1b889808ff50e993bda8f74186c6518b",
+  "time" : {
+    "start" : 1705942736632,
+    "stop" : 1705942742265,
+    "duration" : 5633
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705942717768,
+      "stop" : 1705942717788,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705942735799,
+      "stop" : 1705942736631,
+      "duration" : 832
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705942717788,
+      "stop" : 1705942718349,
+      "duration" : 561
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1705942736632,
+        "stop" : 1705942737538,
+        "duration" : 906
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Register a new user",
+      "time" : {
+        "start" : 1705942737538,
+        "stop" : 1705942739077,
+        "duration" : 1539
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check registration is successful",
+      "time" : {
+        "start" : 1705942739077,
+        "stop" : 1705942739112,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to Accounts Overview page",
+      "time" : {
+        "start" : 1705942739112,
+        "stop" : 1705942739346,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get account initial balance",
+      "time" : {
+        "start" : 1705942739346,
+        "stop" : 1705942739910,
+        "duration" : 564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to Bill Pay page",
+      "time" : {
+        "start" : 1705942739910,
+        "stop" : 1705942740186,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter payee information and payment amount",
+      "time" : {
+        "start" : 1705942740186,
+        "stop" : 1705942740900,
+        "duration" : 714
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send payment",
+      "time" : {
+        "start" : 1705942740900,
+        "stop" : 1705942740972,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check payment is complete",
+      "time" : {
+        "start" : 1705942740972,
+        "stop" : 1705942741518,
+        "duration" : 546
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Return to Accounts Overview page",
+      "time" : {
+        "start" : 1705942741518,
+        "stop" : 1705942741706,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check payment amount was deducted from the account",
+      "time" : {
+        "start" : 1705942741706,
+        "stop" : 1705942742265,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705942742265,
+      "stop" : 1705942742321,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705942742265,
+        "stop" : 1705942742321,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "PARA-15290: Bill payment"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15244: Payment operations"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_bill_payment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBillPayment"
+  }, {
+    "name" : "host",
+    "value" : "e453c1ce4e7c"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_bill_payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 16,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "9f42376205bcaf11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705931804964,
+          "stop" : 1705931810339,
+          "duration" : 5375
+        }
+      }, {
+        "uid" : "3d348de5cfea4203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705843925012,
+          "stop" : 1705843946067,
+          "duration" : 21055
+        }
+      }, {
+        "uid" : "f7234d5f4ebdfc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705842692715,
+          "stop" : 1705842698909,
+          "duration" : 6194
+        }
+      }, {
+        "uid" : "8c1d83e7f1ab7195",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705837840688,
+          "stop" : 1705837845015,
+          "duration" : 4327
+        }
+      }, {
+        "uid" : "23f6a4cec6a396bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705747016926,
+          "stop" : 1705747022325,
+          "duration" : 5399
+        }
+      }, {
+        "uid" : "c2c5538be724d00b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596659741,
+          "stop" : 1705596665461,
+          "duration" : 5720
+        }
+      }, {
+        "uid" : "aff239bd3dd166fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440481119,
+          "stop" : 1705440486263,
+          "duration" : 5144
+        }
+      }, {
+        "uid" : "187c363b05351fc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392700940,
+          "stop" : 1705392706035,
+          "duration" : 5095
+        }
+      }, {
+        "uid" : "605b66a37b83c927",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Execution blocked by Cloudflare\n\n_pytest.outcomes.XFailed: Execution blocked by Cloudflare",
+        "time" : {
+          "start" : 1705147546003,
+          "stop" : 1705147548764,
+          "duration" : 2761
+        }
+      }, {
+        "uid" : "47da7fc05c0a78e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016414433,
+          "stop" : 1705016436409,
+          "duration" : 21976
+        }
+      }, {
+        "uid" : "e92e7dfe84f687a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704912963335,
+          "stop" : 1704912967756,
+          "duration" : 4421
+        }
+      }, {
+        "uid" : "f9e610216a7418f5",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682684,
+          "stop" : 1704908682684,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3c16d3b509cda0f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874915170,
+          "stop" : 1704874921721,
+          "duration" : 6551
+        }
+      }, {
+        "uid" : "5c40de90a7bdc36c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839478853,
+          "stop" : 1704839484960,
+          "duration" : 6107
+        }
+      }, {
+        "uid" : "8c35db96a26f4ec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789286323,
+          "stop" : 1704789292193,
+          "duration" : 5870
+        }
+      }, {
+        "uid" : "34b5a615de3d388b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704758985481,
+          "stop" : 1704758989945,
+          "duration" : 4464
+        }
+      }, {
+        "uid" : "9ddfffbde942f70c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756519061,
+          "stop" : 1704756524276,
+          "duration" : 5215
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "665cd77dbd0df3f7.json",
+  "parameterValues" : [ ]
+}

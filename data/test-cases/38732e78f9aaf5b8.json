@@ -1,0 +1,343 @@
+{
+  "uid" : "38732e78f9aaf5b8",
+  "name" : "User can proceed from Contact page to Home page",
+  "fullName" : "tests.navigation.test_contact_page_navigation.TestContactPageNavigation#test_navigation_contact_to_home",
+  "historyId" : "97b1575a7995f5fcf1cdf9bf580df3a1",
+  "time" : {
+    "start" : 1705942852982,
+    "stop" : 1705942854690,
+    "duration" : 1708
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705942717768,
+      "stop" : 1705942717788,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705942717788,
+      "stop" : 1705942718349,
+      "duration" : 561
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705942852151,
+      "stop" : 1705942852982,
+      "duration" : 831
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Contact page",
+      "time" : {
+        "start" : 1705942852983,
+        "stop" : 1705942854157,
+        "duration" : 1174
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Proceed to Home page via button",
+      "time" : {
+        "start" : 1705942854157,
+        "stop" : 1705942854683,
+        "duration" : 526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check user is redirected to Home page",
+      "time" : {
+        "start" : 1705942854683,
+        "stop" : 1705942854690,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705942854690,
+      "stop" : 1705942854746,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705942854690,
+        "stop" : 1705942854746,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PARA-15243: User support"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15281: Contact page navigation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.navigation"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact_page_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContactPageNavigation"
+  }, {
+    "name" : "host",
+    "value" : "e453c1ce4e7c"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.navigation.test_contact_page_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 17,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "554c42e2e2a22507",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705931977211,
+          "stop" : 1705931978103,
+          "duration" : 892
+        }
+      }, {
+        "uid" : "95d3ade933728e97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705844032304,
+          "stop" : 1705844032685,
+          "duration" : 381
+        }
+      }, {
+        "uid" : "8f25034a6de3deb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705842855392,
+          "stop" : 1705842856124,
+          "duration" : 732
+        }
+      }, {
+        "uid" : "d4629bc38eb52bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705837946821,
+          "stop" : 1705837947218,
+          "duration" : 397
+        }
+      }, {
+        "uid" : "5017dbae9947eb23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705747140687,
+          "stop" : 1705747141626,
+          "duration" : 939
+        }
+      }, {
+        "uid" : "79acb93f39da31ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596787205,
+          "stop" : 1705596788121,
+          "duration" : 916
+        }
+      }, {
+        "uid" : "6f3933a8971216ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440637773,
+          "stop" : 1705440638692,
+          "duration" : 919
+        }
+      }, {
+        "uid" : "d798742411b0b0b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392818146,
+          "stop" : 1705392819086,
+          "duration" : 940
+        }
+      }, {
+        "uid" : "ea1ea071019bbdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147828796,
+          "stop" : 1705147829714,
+          "duration" : 918
+        }
+      }, {
+        "uid" : "e9dd81749dc4d3ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016545324,
+          "stop" : 1705016546299,
+          "duration" : 975
+        }
+      }, {
+        "uid" : "a588fa7c39c8b0c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913056492,
+          "stop" : 1704913056889,
+          "duration" : 397
+        }
+      }, {
+        "uid" : "f4bed2073652c64f",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682792,
+          "stop" : 1704908682792,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "930a1f7a334f79ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704875038768,
+          "stop" : 1704875039867,
+          "duration" : 1099
+        }
+      }, {
+        "uid" : "adbbbb3aaa5b6b3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839630826,
+          "stop" : 1704839631737,
+          "duration" : 911
+        }
+      }, {
+        "uid" : "a80865c4d6ab96c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789419047,
+          "stop" : 1704789419781,
+          "duration" : 734
+        }
+      }, {
+        "uid" : "d07ec4b50f0e94e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759078237,
+          "stop" : 1704759078650,
+          "duration" : 413
+        }
+      }, {
+        "uid" : "d6b0542a95fa7b6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756638138,
+          "stop" : 1704756639016,
+          "duration" : 878
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "38732e78f9aaf5b8.json",
+  "parameterValues" : [ ]
+}

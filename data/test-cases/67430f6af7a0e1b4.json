@@ -1,0 +1,379 @@
+{
+  "uid" : "67430f6af7a0e1b4",
+  "name" : "User can't successfully log in with invalid password.",
+  "fullName" : "tests.core_features.test_login.TestLogin#test_login_with_invalid_password",
+  "historyId" : "0ca18d8bd97e96e2fad3ec13e04117a8",
+  "time" : {
+    "start" : 1705942786009,
+    "stop" : 1705942787321,
+    "duration" : 1312
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+  "statusTrace" : "tests/core_features/test_login.py:50: in test_login_with_invalid_password\n    login_page.error_text.assert_error(\"The username and password could not be verified.\")\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1a1126f1f7b8f81e69c74477a0ceded3\")>\n        home_page  = <src.pages.home_page.HomePage object at 0x7fdb48be76d0>\n        login_page = <src.pages.login_page.LoginPage object at 0x7fdb48bafad0>\n        self       = <test_login.TestLogin object at 0x7fdb4743f990>\nsrc/base/base_element.py:71: in assert_error\n    pytest.xfail(reason=\"Known server-side issue\")\nE   _pytest.outcomes.XFailed: Known server-side issue\n        current_error = 'An internal error has occurred and has been logged.'\n        expected_error = 'The username and password could not be verified.'\n        self       = <src.base.base_element.BaseElement object at 0x7fdb48be5ad0>\n        server_error = 'An internal error has occurred and has been logged.'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705942717768,
+      "stop" : 1705942717788,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705942717788,
+      "stop" : 1705942718349,
+      "duration" : 561
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705942785173,
+      "stop" : 1705942786009,
+      "duration" : 836
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+    "statusTrace" : "tests/core_features/test_login.py:50: in test_login_with_invalid_password\n    login_page.error_text.assert_error(\"The username and password could not be verified.\")\n        driver     = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1a1126f1f7b8f81e69c74477a0ceded3\")>\n        home_page  = <src.pages.home_page.HomePage object at 0x7fdb48be76d0>\n        login_page = <src.pages.login_page.LoginPage object at 0x7fdb48bafad0>\n        self       = <test_login.TestLogin object at 0x7fdb4743f990>\nsrc/base/base_element.py:71: in assert_error\n    pytest.xfail(reason=\"Known server-side issue\")\nE   _pytest.outcomes.XFailed: Known server-side issue\n        current_error = 'An internal error has occurred and has been logged.'\n        expected_error = 'The username and password could not be verified.'\n        self       = <src.base.base_element.BaseElement object at 0x7fdb48be5ad0>\n        server_error = 'An internal error has occurred and has been logged.'",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705942786009,
+        "stop" : 1705942786743,
+        "duration" : 734
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Fill in valid username, but invalid password",
+      "time" : {
+        "start" : 1705942786743,
+        "stop" : 1705942786899,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Log in",
+      "time" : {
+        "start" : 1705942786899,
+        "stop" : 1705942787224,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check error message is displayed",
+      "time" : {
+        "start" : 1705942787224,
+        "stop" : 1705942787320,
+        "duration" : 96
+      },
+      "status" : "failed",
+      "statusMessage" : "_pytest.outcomes.XFailed: Known server-side issue\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/core_features/test_login.py\", line 50, in test_login_with_invalid_password\n    login_page.error_text.assert_error(\"The username and password could not be verified.\")\n  File \"/usr/workspace/src/base/base_element.py\", line 71, in assert_error\n    pytest.xfail(reason=\"Known server-side issue\")\n  File \"/usr/local/lib/python3.11/site-packages/_pytest/outcomes.py\", line 256, in xfail\n    raise XFailed(reason)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705942787325,
+      "stop" : 1705942787381,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705942787325,
+        "stop" : 1705942787381,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Minor"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15240: User registration and authentication"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15261: User login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "e453c1ce4e7c"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 16,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "8444a39d482f6d82",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1705931874968,
+          "stop" : 1705931876294,
+          "duration" : 1326
+        }
+      }, {
+        "uid" : "6e1ebae96d4d0bb7",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1705843984417,
+          "stop" : 1705843985116,
+          "duration" : 699
+        }
+      }, {
+        "uid" : "f4e417fbf9192ee5",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1705842788163,
+          "stop" : 1705842789237,
+          "duration" : 1074
+        }
+      }, {
+        "uid" : "4576648759524969",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1705837899111,
+          "stop" : 1705837899797,
+          "duration" : 686
+        }
+      }, {
+        "uid" : "6dc893fdcf2f4eb5",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1705747069608,
+          "stop" : 1705747071053,
+          "duration" : 1445
+        }
+      }, {
+        "uid" : "4608a489bcfb025d",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1705596715686,
+          "stop" : 1705596717004,
+          "duration" : 1318
+        }
+      }, {
+        "uid" : "5a13d5b54c2b6c58",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1705440552045,
+          "stop" : 1705440553379,
+          "duration" : 1334
+        }
+      }, {
+        "uid" : "f83d04c6b769b97a",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1705392752889,
+          "stop" : 1705392754079,
+          "duration" : 1190
+        }
+      }, {
+        "uid" : "5e7dcbff4cf558ab",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1705147649692,
+          "stop" : 1705147666962,
+          "duration" : 17270
+        }
+      }, {
+        "uid" : "e190f26f7214f7d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016480476,
+          "stop" : 1705016481711,
+          "duration" : 1235
+        }
+      }, {
+        "uid" : "e04b62efc34bb97d",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1704913007085,
+          "stop" : 1704913007821,
+          "duration" : 736
+        }
+      }, {
+        "uid" : "34036144644cbdca",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682724,
+          "stop" : 1704908682724,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bf6294b63c28caed",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1704874970180,
+          "stop" : 1704874971491,
+          "duration" : 1311
+        }
+      }, {
+        "uid" : "d87ec95d2bd7a1d7",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1704839544422,
+          "stop" : 1704839545491,
+          "duration" : 1069
+        }
+      }, {
+        "uid" : "ceab7a397b75762c",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1704789358098,
+          "stop" : 1704789359199,
+          "duration" : 1101
+        }
+      }, {
+        "uid" : "bb142fe10b5e53ec",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1704759028518,
+          "stop" : 1704759029330,
+          "duration" : 812
+        }
+      }, {
+        "uid" : "cce9cde06874d2bf",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Known server-side issue\n\n_pytest.outcomes.XFailed: Known server-side issue",
+        "time" : {
+          "start" : 1704756568705,
+          "stop" : 1704756570047,
+          "duration" : 1342
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "67430f6af7a0e1b4.json",
+  "parameterValues" : [ ]
+}

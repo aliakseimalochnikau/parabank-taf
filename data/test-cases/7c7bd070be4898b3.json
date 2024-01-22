@@ -1,0 +1,437 @@
+{
+  "uid" : "7c7bd070be4898b3",
+  "name" : "User can successfully open a new account of 'Checking' type.",
+  "fullName" : "tests.core_features.test_new_account_opening.TestNewAccountOpening#test_new_checking_account_opening",
+  "historyId" : "595505eab70eb0d9ff6d35befc70f62b",
+  "time" : {
+    "start" : 1705942794626,
+    "stop" : 1705942798222,
+    "duration" : 3596
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705942717768,
+      "stop" : 1705942717788,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705942717788,
+      "stop" : 1705942718349,
+      "duration" : 561
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705942793794,
+      "stop" : 1705942794626,
+      "duration" : 832
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Home page",
+      "time" : {
+        "start" : 1705942794626,
+        "stop" : 1705942795346,
+        "duration" : 720
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Fill in valid username and password",
+      "time" : {
+        "start" : 1705942795346,
+        "stop" : 1705942795500,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Log in",
+      "time" : {
+        "start" : 1705942795500,
+        "stop" : 1705942796010,
+        "duration" : 510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to Open New Account page",
+      "time" : {
+        "start" : 1705942796010,
+        "stop" : 1705942796215,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Select account of 'Checking' type",
+      "time" : {
+        "start" : 1705942796215,
+        "stop" : 1705942796259,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Select source account",
+      "time" : {
+        "start" : 1705942796259,
+        "stop" : 1705942796292,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Open new account",
+      "time" : {
+        "start" : 1705942796292,
+        "stop" : 1705942797620,
+        "duration" : 1328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check user is redirected to Account Activity page",
+      "time" : {
+        "start" : 1705942797620,
+        "stop" : 1705942797625,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check valid account information is displayed",
+      "time" : {
+        "start" : 1705942797625,
+        "stop" : 1705942798222,
+        "duration" : 597
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705942798222,
+      "stop" : 1705942798278,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705942798222,
+        "stop" : 1705942798278,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "PARA-15252: New account opening"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15241: Account operations"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_account_opening"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNewAccountOpening"
+  }, {
+    "name" : "host",
+    "value" : "e453c1ce4e7c"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_new_account_opening"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 1,
+        "passed" : 16,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "9c34628f47bd3cfa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705931883892,
+          "stop" : 1705931887474,
+          "duration" : 3582
+        }
+      }, {
+        "uid" : "715672445f2ab6ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705843990762,
+          "stop" : 1705843993000,
+          "duration" : 2238
+        }
+      }, {
+        "uid" : "282bcd3882d0a743",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705842802665,
+          "stop" : 1705842806221,
+          "duration" : 3556
+        }
+      }, {
+        "uid" : "88d843adb33e605f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705837905347,
+          "stop" : 1705837907575,
+          "duration" : 2228
+        }
+      }, {
+        "uid" : "46cd01bba383f1ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705747077981,
+          "stop" : 1705747081467,
+          "duration" : 3486
+        }
+      }, {
+        "uid" : "309567ac6a43544d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596724170,
+          "stop" : 1705596728234,
+          "duration" : 4064
+        }
+      }, {
+        "uid" : "d3cb31774969a6b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440561037,
+          "stop" : 1705440564503,
+          "duration" : 3466
+        }
+      }, {
+        "uid" : "53d2400b519ca106",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392761709,
+          "stop" : 1705392765155,
+          "duration" : 3446
+        }
+      }, {
+        "uid" : "2bd88be458491d49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147744399,
+          "stop" : 1705147749185,
+          "duration" : 4786
+        }
+      }, {
+        "uid" : "cd168bd73d6dfaf4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705016488760,
+          "stop" : 1705016492159,
+          "duration" : 3399
+        }
+      }, {
+        "uid" : "c3494073b797ca22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704913013539,
+          "stop" : 1704913015853,
+          "duration" : 2314
+        }
+      }, {
+        "uid" : "9eb001e083d3b82b",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682735,
+          "stop" : 1704908682735,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "34fefa46f5c85c16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874979092,
+          "stop" : 1704874982507,
+          "duration" : 3415
+        }
+      }, {
+        "uid" : "212f754996594779",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\n  (Session info: headless chrome=119.0.6045.159); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+        "time" : {
+          "start" : 1704839559752,
+          "stop" : 1704839561102,
+          "duration" : 1350
+        }
+      }, {
+        "uid" : "111037e6b742de6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789365766,
+          "stop" : 1704789368995,
+          "duration" : 3229
+        }
+      }, {
+        "uid" : "5696e0eefcbe5142",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704759035209,
+          "stop" : 1704759037548,
+          "duration" : 2339
+        }
+      }, {
+        "uid" : "170975122fabee2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756577227,
+          "stop" : 1704756580678,
+          "duration" : 3451
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "7c7bd070be4898b3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,393 @@
+{
+  "uid" : "f2ba0531ef0d1d1d",
+  "name" : "Default account is displayed in the table for a new user",
+  "fullName" : "tests.core_features.test_account_display.TestAccountDisplay#test_default_account_display",
+  "historyId" : "b2aef2d523bc69c3f081e97da53206fd",
+  "time" : {
+    "start" : 1705942726385,
+    "stop" : 1705942730663,
+    "duration" : 4278
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Initialize driver",
+    "time" : {
+      "start" : 1705942725549,
+      "stop" : 1705942726384,
+      "duration" : 835
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1705942717768,
+      "stop" : 1705942717788,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Health check request",
+    "time" : {
+      "start" : 1705942717788,
+      "stop" : 1705942718349,
+      "duration" : 561
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to Register page",
+      "time" : {
+        "start" : 1705942726385,
+        "stop" : 1705942727749,
+        "duration" : 1364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Fill in the fields",
+      "time" : {
+        "start" : 1705942727749,
+        "stop" : 1705942729344,
+        "duration" : 1595
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Submit the form",
+      "time" : {
+        "start" : 1705942729345,
+        "stop" : 1705942729609,
+        "duration" : 264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check registration is successful",
+      "time" : {
+        "start" : 1705942729609,
+        "stop" : 1705942729644,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Proceed to Accounts Overview page",
+      "time" : {
+        "start" : 1705942729644,
+        "stop" : 1705942730111,
+        "duration" : 467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check one default account is displayed in the table",
+      "time" : {
+        "start" : 1705942730111,
+        "stop" : 1705942730663,
+        "duration" : 552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Initialize driver::0",
+    "time" : {
+      "start" : 1705942730663,
+      "stop" : 1705942730720,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Terminate driver",
+      "time" : {
+        "start" : 1705942730663,
+        "stop" : 1705942730720,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "PARA-15251: Account display in Accounts Overview table"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "epic",
+    "value" : "PARA-15241: Account operations"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.core_features"
+  }, {
+    "name" : "suite",
+    "value" : "test_account_display"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAccountDisplay"
+  }, {
+    "name" : "host",
+    "value" : "e453c1ce4e7c"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.core_features.test_account_display"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "205b608be7554934",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Execution blocked by Cloudflare\n\n_pytest.outcomes.XFailed: Execution blocked by Cloudflare",
+        "time" : {
+          "start" : 1705931792301,
+          "stop" : 1705931795105,
+          "duration" : 2804
+        }
+      }, {
+        "uid" : "50000ca9d6207690",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705843918120,
+          "stop" : 1705843920350,
+          "duration" : 2230
+        }
+      }, {
+        "uid" : "570737f2832e0f12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705842683623,
+          "stop" : 1705842686566,
+          "duration" : 2943
+        }
+      }, {
+        "uid" : "b9faafd8968a52e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705837833547,
+          "stop" : 1705837835918,
+          "duration" : 2371
+        }
+      }, {
+        "uid" : "2242357ddc1a48cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705747003300,
+          "stop" : 1705747007428,
+          "duration" : 4128
+        }
+      }, {
+        "uid" : "6db5edde850d2c29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705596646048,
+          "stop" : 1705596650609,
+          "duration" : 4561
+        }
+      }, {
+        "uid" : "a6679b65926d7e23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705440470931,
+          "stop" : 1705440474977,
+          "duration" : 4046
+        }
+      }, {
+        "uid" : "4fa34f6627359fa6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705392691697,
+          "stop" : 1705392694775,
+          "duration" : 3078
+        }
+      }, {
+        "uid" : "2b6e53623b6cf843",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705147528455,
+          "stop" : 1705147532848,
+          "duration" : 4393
+        }
+      }, {
+        "uid" : "d52b4ad8dd0aaf39",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Execution blocked by Cloudflare\n\n_pytest.outcomes.XFailed: Execution blocked by Cloudflare",
+        "time" : {
+          "start" : 1705016406023,
+          "stop" : 1705016408595,
+          "duration" : 2572
+        }
+      }, {
+        "uid" : "777c0fc49c52a09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704912939323,
+          "stop" : 1704912958711,
+          "duration" : 19388
+        }
+      }, {
+        "uid" : "421ddc0f55f079ef",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: Health check failed with status code 502\n\n_pytest.outcomes.XFailed: Health check failed with status code 502",
+        "time" : {
+          "start" : 1704908682678,
+          "stop" : 1704908682678,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5672351082ec53b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704874905631,
+          "stop" : 1704874909644,
+          "duration" : 4013
+        }
+      }, {
+        "uid" : "c4baf8de236fc07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704839469932,
+          "stop" : 1704839472939,
+          "duration" : 3007
+        }
+      }, {
+        "uid" : "ee0750e45db1c26e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704789278573,
+          "stop" : 1704789281323,
+          "duration" : 2750
+        }
+      }, {
+        "uid" : "9998e1f0d03985e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704758978109,
+          "stop" : 1704758980380,
+          "duration" : 2271
+        }
+      }, {
+        "uid" : "8e18d4b71470f8a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704756500411,
+          "stop" : 1704756503766,
+          "duration" : 3355
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "f2ba0531ef0d1d1d.json",
+  "parameterValues" : [ ]
+}
